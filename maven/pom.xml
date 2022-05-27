@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <!--maven模型版本 -->
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.yuanjiaoc</groupId>
+  <artifactId>maven</artifactId>
+  <packaging>pom</packaging>
+  <version>1.0-SNAPSHOT</version>
+
+  <!--聚合多模块-->
+  <modules>
+    <module>sub_maven</module>
+  </modules>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <project.build.outputEncoding>UTF-8</project.build.outputEncoding>
+    <maven.compiler.source>8</maven.compiler.source>
+    <maven.compiler.target>8</maven.compiler.target>
+    <java.version>1.8</java.version>
+    <junit.version>4.11</junit.version>
+  </properties>
+
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>junit</groupId>
+        <artifactId>junit</artifactId>
+        <version>${junit.version}</version>
+        <!--compile 默认值，在工程的生命周期的各个阶段都有效-->
+        <!--test 仅在测试阶段有效-->
+        <!--provided 表示在生产环境中会提供，不需要打包此插件或依赖。-->
+        <scope>test</scope>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+
+  <profiles>
+    <profile>
+      <!--开发环境-->
+      <id>dev</id>
+      <properties>
+        <host>192.168.100.100</host>
+        <build.profile.id>dev</build.profile.id>
+        <spring.cloud.nacos.namespace>e21c931c-8ddb-4914-afca-3234697263cd</spring.cloud.nacos.namespace>
+      </properties>
+    </profile>
+    <profile>
+      <!--测试环境-->
+      <id>test</id>
+      <properties>
+        <build.profile.id>test</build.profile.id>
+        <spring.cloud.nacos.namespace>e21c931c-8ddb-4914-afca-3234697263cd</spring.cloud.nacos.namespace>
+      </properties>
+    </profile>
+    <profile>
+      <!--生产环境-->
+      <id>pro</id>
+      <properties>
+        <build.profile.id>pro</build.profile.id>
+        <spring.cloud.nacos.namespace>e21c931c-8ddb-4914-afca-3234697263cd</spring.cloud.nacos.namespace>
+      </properties>
+    </profile>
+  </profiles>
+
+  <build>
+    <resources>
+      <resource>
+        <!--表示 src/main/resources 下所有资源时，执行 ${} 占位符的替换操作-->
+        <directory>src/main/resources</directory>
+        <filtering>true</filtering>
+        <includes>
+          <include>META-INF/**</include>
+          <include>**/*.xml</include>
+          <include>**/spring.factories</include>
+          <include>*.yaml</include>
+          <include>*.yml</include>
+          <include>static/**</include>
+          <include>templates/**</include>
+          <include>mybatis/mapper/**</include>
+          <include>mapper/**</include>
+        </includes>
+      </resource>
+    </resources>
+    <pluginManagement>
+      <plugins>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-compiler-plugin</artifactId>
+          <configuration>
+            <source>${java.version}</source>
+            <target>${java.version}</target>
+            <encoding>UTF-8</encoding>
+          </configuration>
+        </plugin>
+      </plugins>
+    </pluginManagement>
+  </build>
+
+</project>
