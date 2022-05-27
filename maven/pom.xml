@@ -34,6 +34,13 @@
         <!--test 仅在测试阶段有效-->
         <!--provided 表示在生产环境中会提供，不需要打包此插件或依赖。-->
         <scope>test</scope>
+        <!-- 配置排除依赖 -->
+        <exclusions>
+          <exclusion>
+            <groupId>org.hamcrest</groupId>
+            <artifactId>hamcrest-core</artifactId>
+          </exclusion>
+        </exclusions>
       </dependency>
     </dependencies>
   </dependencyManagement>
