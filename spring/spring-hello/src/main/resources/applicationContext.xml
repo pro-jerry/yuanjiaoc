@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+  <bean id="teacher" class="com.yuanjiaoc.ioc.Teacher"/>
+  <bean id="getBeanTest" class="com.yuanjiaoc.ioc.GetBeanTest">
+    <lookup-method name="getBean" bean="student"/>
+  </bean>
+  <bean id="student" class="com.yuanjiaoc.ioc.Student"/>
+  <bean id="replacer" class="com.yuanjiaoc.ioc.TestMethodReplacer"/>
+  <bean id="testChangeMethod" class="com.yuanjiaoc.ioc.TestChangeMethod">
+    <replaced-method name="changeMe" replacer="replacer"/>
+  </bean>
+</beans>
