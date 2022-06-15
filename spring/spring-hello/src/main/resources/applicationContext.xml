@@ -12,4 +12,9 @@
   <bean id="testChangeMethod" class="com.yuanjiaoc.ioc.TestChangeMethod">
     <replaced-method name="changeMe" replacer="replacer"/>
   </bean>
+  <bean id="userService" class="com.yuanjiaoc.entry.UserService">
+    <property name="mailService" ref="mailService"/>
+  </bean>
+  <bean id="mailService" class="com.yuanjiaoc.entry.MailService"/>
+  <bean id="mailService2" class="com.yuanjiaoc.entry.MailService" scope="prototype"/>
 </beans>
