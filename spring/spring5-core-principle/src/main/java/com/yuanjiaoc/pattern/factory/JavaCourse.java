@@ -1,0 +1,14 @@
+package com.yuanjiaoc.pattern.factory;
+
+/**
+ * @author 何二白
+ * @version 1.0
+ * @since 2022年06月15日
+ */
+public class JavaCourse implements ICourse {
+
+  @Override
+  public void record() {
+    System.out.println("录制Java课程");
+  }
+}
