@@ -22,6 +22,7 @@
     <slf4j.version>1.7.2</slf4j.version>
     <cglib.version>2.2</cglib.version>
     <servlet.api.version>2.4</servlet.api.version>
+    <mybatis.version>3.4.1</mybatis.version>
   </properties>
 
   <dependencyManagement>
