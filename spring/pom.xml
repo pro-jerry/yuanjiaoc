@@ -25,6 +25,7 @@
     <mybatis.version>3.4.1</mybatis.version>
     <persistence.version>1.0</persistence.version>
     <spring.data.version>2.1.5.RELEASE</spring.data.version>
+    <guava.version>20.0</guava.version>
   </properties>
 
   <dependencyManagement>
@@ -110,6 +111,11 @@
         <groupId>javax.persistence</groupId>
         <artifactId>persistence-api</artifactId>
         <version>${persistence.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.google.guava</groupId>
+        <artifactId>guava</artifactId>
+        <version>${guava.version}</version>
       </dependency>
     </dependencies>
   </dependencyManagement>
