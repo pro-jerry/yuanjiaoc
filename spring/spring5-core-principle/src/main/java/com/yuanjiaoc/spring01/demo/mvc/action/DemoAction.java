@@ -31,4 +31,21 @@ public class DemoAction {
       e.printStackTrace();
     }
   }
+
+  @GPRequestMapping("/add")
+  public void add(
+      HttpServletRequest req,
+      HttpServletResponse resp,
+      @GPRequestParam("a") Integer a,
+      @GPRequestParam("b") Integer b) {
+    try {
+      resp.getWriter().write(a + "+" + b + "=" + (a + b));
+    } catch (IOException e) {
+      e.printStackTrace();
+    }
+  }
+
+  @GPRequestMapping("/remove")
+  public void remove(
+      HttpServletRequest req, HttpServletResponse resp, @GPRequestParam("id") Integer id) {}
 }
