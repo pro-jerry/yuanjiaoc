@@ -5,6 +5,7 @@ import com.yuanjiaoc.bean.Employee;
 import com.yuanjiaoc.bean.Person;
 import com.yuanjiaoc.condition.LinuxCondition;
 import com.yuanjiaoc.condition.WindowsCondition;
+import com.yuanjiaoc.selector.MyImportSelector;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Conditional;
 import org.springframework.context.annotation.Configuration;
@@ -17,7 +18,7 @@ import org.springframework.context.annotation.Lazy;
  * @since 2022年06月22日
  */
 @Configuration
-@Import({Department.class, Employee.class})
+@Import({Department.class, Employee.class, MyImportSelector.class})
 public class PersonConfig2 {
 
   @Lazy
