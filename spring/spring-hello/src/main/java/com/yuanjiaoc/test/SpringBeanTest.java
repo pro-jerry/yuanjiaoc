@@ -6,12 +6,14 @@ import com.yuanjiaoc.config.PersonConfig2;
 import com.yuanjiaoc.config.PersonConfig3;
 import com.yuanjiaoc.config.ThreadScope;
 import java.util.Arrays;
+import java.util.Map;
 import java.util.concurrent.TimeUnit;
 import org.junit.Test;
 import org.springframework.beans.factory.config.Scope;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
+import org.springframework.core.env.Environment;
 
 /**
  * @author 何二白
@@ -90,5 +92,35 @@ public class SpringBeanTest {
         e.printStackTrace();
       }
     }
+  }
+
+  @Test
+  public void testAnnotationConfig5() {
+    ApplicationContext context = new AnnotationConfigApplicationContext(PersonConfig2.class);
+    System.out.println("IOC容器创建完成");
+    Person person1 = (Person) context.getBean("person");
+    Person person2 = (Person) context.getBean("person");
+    System.out.println(person1 == person2);
+  }
+
+  @Test
+  public void testAnnotationConfig6() {
+    ApplicationContext context = new AnnotationConfigApplicationContext(PersonConfig2.class);
+    Environment environment = context.getEnvironment();
+    String osName = environment.getProperty("os.name");
+    System.out.println(osName);
+
+    String[] names = context.getBeanNamesForType(Person.class);
+    Arrays.stream(names).forEach(System.out::println);
+
+    Map<String, Person> beans = context.getBeansOfType(Person.class);
+    System.out.println(beans);
+  }
+
+  @Test
+  public void testAnnotationConfig7() {
+    ApplicationContext context = new AnnotationConfigApplicationContext(PersonConfig2.class);
+    String[] names = context.getBeanDefinitionNames();
+    Arrays.stream(names).forEach(System.out::println);
   }
 }

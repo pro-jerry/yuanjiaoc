@@ -1,9 +1,15 @@
 package com.yuanjiaoc.config;
 
+import com.yuanjiaoc.bean.Department;
+import com.yuanjiaoc.bean.Employee;
 import com.yuanjiaoc.bean.Person;
+import com.yuanjiaoc.condition.LinuxCondition;
+import com.yuanjiaoc.condition.WindowsCondition;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Conditional;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.context.annotation.Scope;
+import org.springframework.context.annotation.Import;
+import org.springframework.context.annotation.Lazy;
 
 /**
  * @author 何二白
@@ -11,12 +17,26 @@ import org.springframework.context.annotation.Scope;
  * @since 2022年06月22日
  */
 @Configuration
+@Import({Department.class, Employee.class})
 public class PersonConfig2 {
 
+  @Lazy
   @Bean("person")
-  @Scope("prototype")
+  //  @Scope("prototype")
   public Person person() {
     System.out.println("给容器中添加Person....");
-    return new Person("yuan002", 21);
+    return new Person("yuan000", 21);
+  }
+
+  @Conditional({WindowsCondition.class})
+  @Bean("yuan001")
+  public Person person01() {
+    return new Person("yuan001", 18);
+  }
+
+  @Conditional({LinuxCondition.class})
+  @Bean("yuan002")
+  public Person person02() {
+    return new Person("yuan002", 20);
   }
 }
