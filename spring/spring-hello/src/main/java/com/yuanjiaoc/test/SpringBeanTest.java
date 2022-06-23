@@ -2,8 +2,13 @@ package com.yuanjiaoc.test;
 
 import com.yuanjiaoc.bean.Person;
 import com.yuanjiaoc.config.PersonConfig;
+import com.yuanjiaoc.config.PersonConfig2;
+import com.yuanjiaoc.config.PersonConfig3;
+import com.yuanjiaoc.config.ThreadScope;
 import java.util.Arrays;
+import java.util.concurrent.TimeUnit;
 import org.junit.Test;
+import org.springframework.beans.factory.config.Scope;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
@@ -46,5 +51,44 @@ public class SpringBeanTest {
     ApplicationContext context = new AnnotationConfigApplicationContext(PersonConfig.class);
     String[] names = context.getBeanDefinitionNames();
     Arrays.stream(names).forEach(System.out::println);
+  }
+
+  @Test
+  public void testAnnotationConfig2() {
+
+    ApplicationContext context = new AnnotationConfigApplicationContext(PersonConfig2.class);
+    // 从Spring容器中获取到的对象默认是单实例的
+    Object person1 = context.getBean(Person.class);
+    Object person2 = context.getBean(Person.class);
+    System.out.println(person1 == person2);
+  }
+
+  @Test
+  public void testAnnotationConfig3() {
+    ApplicationContext context = new AnnotationConfigApplicationContext(PersonConfig2.class);
+    Object person1 = context.getBean("person");
+    Object person2 = context.getBean("person");
+    System.out.println(person1 == person2);
+  }
+
+  @Test
+  public void testAnnotationConfig4() {
+    AnnotationConfigApplicationContext context =
+        new AnnotationConfigApplicationContext(PersonConfig3.class);
+    // 向容器中注册自定义的scope
+    context.getBeanFactory().registerScope(ThreadScope.THREAD_SCOPE, (Scope) new ThreadScope());
+    for (int i = 0; i < 2; i++) {
+      new Thread(
+              () -> {
+                System.out.println(Thread.currentThread() + "," + context.getBean("person"));
+                System.out.println(Thread.currentThread() + "," + context.getBean("person"));
+              })
+          .start();
+      try {
+        TimeUnit.SECONDS.sleep(1);
+      } catch (InterruptedException e) {
+        e.printStackTrace();
+      }
+    }
   }
 }
