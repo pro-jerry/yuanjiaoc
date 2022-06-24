@@ -3,6 +3,7 @@ package com.yuanjiaoc.config;
 import com.yuanjiaoc.bean.Department;
 import com.yuanjiaoc.bean.Employee;
 import com.yuanjiaoc.bean.Person;
+import com.yuanjiaoc.bean.PersonFactoryBean;
 import com.yuanjiaoc.condition.LinuxCondition;
 import com.yuanjiaoc.condition.WindowsCondition;
 import com.yuanjiaoc.selector.MyImportSelector;
@@ -39,5 +40,10 @@ public class PersonConfig2 {
   @Bean("yuan002")
   public Person person02() {
     return new Person("yuan002", 20);
+  }
+
+  @Bean
+  public PersonFactoryBean personFactoryBean() {
+    return new PersonFactoryBean();
   }
 }
