@@ -27,19 +27,19 @@ public class PersonConfig2 {
   //  @Scope("prototype")
   public Person person() {
     System.out.println("给容器中添加Person....");
-    return new Person("yuan000", 21);
+    return new Person("yuan000", 21, "");
   }
 
   @Conditional({WindowsCondition.class})
   @Bean("yuan001")
   public Person person01() {
-    return new Person("yuan001", 18);
+    return new Person("yuan001", 18, "");
   }
 
   @Conditional({LinuxCondition.class})
   @Bean("yuan002")
   public Person person02() {
-    return new Person("yuan002", 20);
+    return new Person("yuan002", 20, "");
   }
 
   @Bean

@@ -27,6 +27,7 @@
     <spring.data.version>2.1.5.RELEASE</spring.data.version>
     <guava.version>20.0</guava.version>
     <junit.version>4.13.1</junit.version>
+    <inject.version>1</inject.version>
   </properties>
 
   <dependencyManagement>
@@ -122,6 +123,11 @@
         <groupId>junit</groupId>
         <artifactId>junit</artifactId>
         <version>${junit.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>javax.inject</groupId>
+        <artifactId>javax.inject</artifactId>
+        <version>${inject.version}</version>
       </dependency>
     </dependencies>
   </dependencyManagement>

@@ -26,6 +26,6 @@ public class PersonConfig {
 
   @Bean("person")
   public Person person01() {
-    return new Person("yuan", 12);
+    return new Person("yuan", 12, "");
   }
 }

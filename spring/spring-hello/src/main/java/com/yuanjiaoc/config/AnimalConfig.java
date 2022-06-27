@@ -1,10 +1,10 @@
 package com.yuanjiaoc.config;
 
 import com.yuanjiaoc.bean.Animal;
+import com.yuanjiaoc.bean.Cat;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.context.annotation.Scope;
 
 /**
  * @author 何二白
@@ -16,9 +16,14 @@ import org.springframework.context.annotation.Scope;
 public class AnimalConfig {
 
   @Bean
-  @Scope("prototype")
+  //  @Scope("prototype")
   public Animal animal() {
 
     return new Animal();
+  }
+
+  @Bean(initMethod = "init", destroyMethod = "destroy")
+  public Cat cat() {
+    return new Cat();
   }
 }

@@ -3,20 +3,21 @@ package com.yuanjiaoc.config;
 import com.yuanjiaoc.bean.Person;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.context.annotation.Scope;
+import org.springframework.context.annotation.PropertySource;
 
 /**
+ * 测试属性赋值.
+ *
  * @author 何二白
  * @version 1.0
- * @since 2022年06月23日
+ * @since 2022年06月26日
  */
+@PropertySource(value = {"classpath:person.properties"})
 @Configuration
-public class PersonConfig3 {
+public class PropertyValueConfig {
 
-  @Scope("thread")
-  @Bean("person")
+  @Bean
   public Person person() {
-    System.out.println("给容器中添加Person....");
-    return new Person("binghe002", 18, "");
+    return new Person();
   }
 }

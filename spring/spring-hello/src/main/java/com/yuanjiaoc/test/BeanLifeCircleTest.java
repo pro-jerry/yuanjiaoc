@@ -49,4 +49,12 @@ public class BeanLifeCircleTest {
     // 关闭IOC容器
     ctx.close();
   }
+
+  @Test
+  public void testBeanLifeCircle04() {
+    // 创建IOC容器
+    AnnotationConfigApplicationContext context =
+        new AnnotationConfigApplicationContext(AnimalConfig.class);
+    context.close();
+  }
 }
