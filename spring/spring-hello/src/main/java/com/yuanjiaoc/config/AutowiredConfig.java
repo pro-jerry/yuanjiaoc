@@ -12,7 +12,13 @@ import org.springframework.context.annotation.Primary;
  * @since 2022年06月27日
  */
 @Configuration
-@ComponentScan(value = {"com.yuanjiaoc.dao", "com.yuanjiaoc.service", "com.yuanjiaoc.controller"})
+@ComponentScan(
+    value = {
+      "com.yuanjiaoc.dao",
+      "com.yuanjiaoc.service",
+      "com.yuanjiaoc.controller",
+      "com.yuanjiaoc.bean"
+    })
 public class AutowiredConfig {
 
   @Primary

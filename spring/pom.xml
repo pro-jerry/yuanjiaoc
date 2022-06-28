@@ -28,6 +28,8 @@
     <guava.version>20.0</guava.version>
     <junit.version>4.13.1</junit.version>
     <inject.version>1</inject.version>
+    <c3p0.version>0.9.1.2</c3p0.version>
+    <mysql.connector.version>5.1.44</mysql.connector.version>
   </properties>
 
   <dependencyManagement>
@@ -40,6 +42,11 @@
       <dependency>
         <groupId>org.springframework</groupId>
         <artifactId>spring-context</artifactId>
+        <version>${spring.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.springframework</groupId>
+        <artifactId>spring-aspects</artifactId>
         <version>${spring.version}</version>
       </dependency>
       <dependency>
@@ -128,6 +135,16 @@
         <groupId>javax.inject</groupId>
         <artifactId>javax.inject</artifactId>
         <version>${inject.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>c3p0</groupId>
+        <artifactId>c3p0</artifactId>
+        <version>${c3p0.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>mysql</groupId>
+        <artifactId>mysql-connector-java</artifactId>
+        <version>${mysql.connector.version}</version>
       </dependency>
     </dependencies>
   </dependencyManagement>

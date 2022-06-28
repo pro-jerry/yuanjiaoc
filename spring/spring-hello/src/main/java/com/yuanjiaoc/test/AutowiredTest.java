@@ -1,7 +1,8 @@
 package com.yuanjiaoc.test;
 
+import com.yuanjiaoc.bean.Blue;
+import com.yuanjiaoc.bean.Deg;
 import com.yuanjiaoc.config.AutowiredConfig;
-import com.yuanjiaoc.service.PersonService;
 import org.junit.Test;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
@@ -17,10 +18,21 @@ public class AutowiredTest {
     // 创建IOC容器
     AnnotationConfigApplicationContext context =
         new AnnotationConfigApplicationContext(AutowiredConfig.class);
-    PersonService personService = context.getBean(PersonService.class);
-    System.out.println(personService);
+    //    PersonService personService = context.getBean(PersonService.class);
+    //    System.out.println(personService);
     //    PersonDao personDao = context.getBean(PersonDao.class);
     //    System.out.println(personDao);
+    Deg deg = context.getBean(Deg.class);
+    System.out.println(deg);
+    context.close();
+  }
+
+  @Test
+  public void testAutowired02() {
+    // 创建IOC容器
+    AnnotationConfigApplicationContext context =
+        new AnnotationConfigApplicationContext(AutowiredConfig.class);
+    Blue blue = context.getBean(Blue.class);
     context.close();
   }
 }
