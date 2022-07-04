@@ -1,8 +1,10 @@
 package com.yuanjiaoc.test;
 
+import com.yuanjiaoc.aop.AopConfig;
 import com.yuanjiaoc.aop.MathCalculator;
 import com.yuanjiaoc.aop.MathHandler;
-import com.yuanjiaoc.config.AopConfig;
+import com.yuanjiaoc.aop.MyClass0;
+import com.yuanjiaoc.aop.Pen;
 import org.junit.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
@@ -31,5 +33,14 @@ public class AopTest {
         new AnnotationConfigApplicationContext(com.yuanjiaoc.aop.AopConfig.class);
     MathCalculator mathCalculator = acx.getBean(MathCalculator.class);
     mathCalculator.div(2, 1);
+  }
+
+  @Test
+  public void testAop03() {
+    ApplicationContext acx = new AnnotationConfigApplicationContext(AopConfig.class);
+    MyClass0 myClass = acx.getBean(MyClass0.class);
+    Pen pen = acx.getBean(Pen.class);
+    myClass.write(pen);
+    myClass.div(10, 1);
   }
 }
