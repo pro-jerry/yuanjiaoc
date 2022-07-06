@@ -23,6 +23,13 @@ public class BeanFactoryPostProcessorBean implements BeanFactoryPostProcessor {
 
     ((DefaultListableBeanFactory) beanFactory)
         .registerBeanDefinition("myBeanName", genericBeanDefinition);
+
+    beanFactory
+        .getBeanNamesIterator()
+        .forEachRemaining(
+            x -> {
+              System.out.println("---->" + x);
+            });
   }
 
   public static class MyBean {
