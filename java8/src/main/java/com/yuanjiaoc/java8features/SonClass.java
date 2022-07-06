@@ -1,4 +1,4 @@
-package com.yuanjiaoc;
+package com.yuanjiaoc.java8features;
 
 /**
  * @author 何二白

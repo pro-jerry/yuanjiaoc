@@ -1,4 +1,4 @@
-package com.yuanjiaoc;
+package com.yuanjiaoc.java8features;
 
 import java.util.Arrays;
 import java.util.Collections;

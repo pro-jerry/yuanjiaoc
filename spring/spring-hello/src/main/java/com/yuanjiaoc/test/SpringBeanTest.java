@@ -1,6 +1,8 @@
 package com.yuanjiaoc.test;
 
+import com.yuanjiaoc.bean.BeanFactoryPostProcessorBean.MyBean;
 import com.yuanjiaoc.bean.Person;
+import com.yuanjiaoc.config.BeanFactoryPostProcessorConfig;
 import com.yuanjiaoc.config.PersonConfig;
 import com.yuanjiaoc.config.PersonConfig2;
 import com.yuanjiaoc.config.PersonConfig3;
@@ -134,5 +136,13 @@ public class SpringBeanTest {
 
     Object personFactoryBean3 = context.getBean("&personFactoryBean");
     System.out.println("personFactoryBean3类型：" + personFactoryBean3.getClass());
+  }
+
+  @Test
+  public void testBeanFactoryPostProcessorBean() {
+    AnnotationConfigApplicationContext context =
+        new AnnotationConfigApplicationContext(BeanFactoryPostProcessorConfig.class);
+    MyBean bean = context.getBean(MyBean.class);
+    bean.doSomething();
   }
 }

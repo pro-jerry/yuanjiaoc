@@ -1,4 +1,4 @@
-package com.yuanjiaoc;
+package com.yuanjiaoc.java8features;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;

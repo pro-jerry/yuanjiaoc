@@ -1,4 +1,4 @@
-package com.yuanjiaoc;
+package com.yuanjiaoc.java8features;
 
 /**
  * @author 何二白
@@ -6,7 +6,7 @@ package com.yuanjiaoc;
  * @since 2022年06月30日
  */
 @FunctionalInterface
-public interface MyFuncTR<T, R> {
+public interface MyFunc<T> {
 
-  R getValue(T t1, T t2);
+  T getValue(T t);
 }
