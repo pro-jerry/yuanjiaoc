@@ -7,11 +7,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="sub_maven" />
         <module name="spring5-core-principle" />
-        <module name="art_concurrent" />
         <module name="spring-hello" />
         <module name="java8" />
+        <module name="sub_maven" />
+        <module name="spring-bean" />
+        <module name="art_concurrent" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -19,7 +20,9 @@
       <module name="java8" target="8" />
       <module name="maven" target="8" />
       <module name="spring" target="8" />
+      <module name="spring-bean" target="8" />
       <module name="spring-hello" target="8" />
+      <module name="spring-in-deep" target="8" />
       <module name="spring5-core-principle" target="1.6" />
       <module name="sub_maven" target="1.8" />
     </bytecodeTargetLevel>

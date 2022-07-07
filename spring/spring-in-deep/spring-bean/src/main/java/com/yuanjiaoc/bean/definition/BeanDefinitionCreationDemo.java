@@ -15,5 +15,7 @@ public class BeanDefinitionCreationDemo {
     // 1.通过 BeanDefinitionBuilder 构建
     BeanDefinitionBuilder beanDefinitionBuilder =
         BeanDefinitionBuilder.genericBeanDefinition(User.class);
+    // 通过属性设置
+    beanDefinitionBuilder.addPropertyValue("id", 1L).addPropertyValue("name", "yuanjiaoc");
   }
 }

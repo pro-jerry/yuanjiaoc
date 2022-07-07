@@ -6,6 +6,8 @@ import lombok.Data;
 import org.springframework.core.io.Resource;
 
 /**
+ * 用户类.
+ *
  * @author 何二白
  * @version 1.0
  * @since 2022年07月07日
