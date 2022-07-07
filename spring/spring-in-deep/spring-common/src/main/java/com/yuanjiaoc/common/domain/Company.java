@@ -1,4 +1,4 @@
-package com.yuanjiaoc.domain;
+package com.yuanjiaoc.common.domain;
 
 /**
  * 公司类.

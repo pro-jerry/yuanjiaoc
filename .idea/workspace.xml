@@ -5,8 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b787db2-72c4-48b1-92ff-3a56d734a981" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/spring/spring-in-deep/spring-bean/src/main/java/com/yuanjiaoc/bean/definition/BeanDefinitionCreationDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/spring-in-deep/spring-bean/src/main/java/com/yuanjiaoc/bean/definition/BeanDefinitionCreationDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/spring-in-deep/spring-bean/src/main/java/com/yuanjiaoc/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/spring-in-deep/spring-bean/src/main/java/com/yuanjiaoc/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring-in-deep/spring-common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring-in-deep/srping-bean/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring-in-deep/srping-bean/src/main/java/com/yuanjiaoc/bean/AbstractBeanDefinitionCreationDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/spring-in-deep/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring/spring-in-deep/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/spring-in-deep/spring-bean/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/spring-in-deep/spring-bean/src/main/java/com/yuanjiaoc/bean/definition/BeanDefinitionCreationDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/spring-in-deep/srping-bean/src/main/java/com/yuanjiaoc/bean/BeanDefinitionCreationDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/spring-in-deep/spring-bean/src/main/java/com/yuanjiaoc/domain/City.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/spring-in-deep/spring-common/src/main/java/com/yuanjiaoc/common/domain/City.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/spring-in-deep/spring-bean/src/main/java/com/yuanjiaoc/domain/Company.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/spring-in-deep/spring-common/src/main/java/com/yuanjiaoc/common/domain/Company.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/spring-in-deep/spring-bean/src/main/java/com/yuanjiaoc/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/spring-in-deep/spring-common/src/main/java/com/yuanjiaoc/common/domain/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +71,9 @@
       </list>
     </option>
   </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
   <component name="ProjectId" id="29PLjhP5BBqMabKWfg2w7ESCYMo" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -79,44 +90,70 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring/spring-hello/src/main/java/com/yuanjiaoc/aop" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring/spring-in-deep/srping-bean/src/main/java/com/yuanjiaoc/bean" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.ignored.files" />
   </component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ideaProject02\yuanjiaoc\spring\spring-in-deep\srping-bean\src\main\java\com\yuanjiaoc\bean" />
+      <recent name="D:\ideaProject02\yuanjiaoc\spring\spring-in-deep\spring-common\src\main\java\com\yuanjiaoc\common\domain" />
       <recent name="D:\ideaProject02\yuanjiaoc\spring\spring-hello\src\main\java\com\yuanjiaoc\aop" />
       <recent name="D:\ideaProject02\yuanjiaoc\spring\spring5-core-principle\src\main\resources\webapp\WEB-INF" />
       <recent name="D:\ideaProject02\yuanjiaoc\spring\spring5-core-principle\src\main\resources" />
-      <recent name="D:\ideaProject02\yuanjiaoc\mysql" />
-      <recent name="D:\ideaProject02\yuanjiaoc\spring\spring5-core-principle\src\main\java\com\yuanjiaoc\pattern\delegate\mvc" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\ideaProject02\yuanjiaoc\spring\spring-in-deep" />
       <recent name="D:\ideaProject02\yuanjiaoc" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SpringBeanTest.testBeanPostProcessor">
-    <configuration name="SpringBeanTest.testAnnotationConfig" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-hello" />
+  <component name="RunManager" selected="Application.BeanDefinitionCreationDemo (1)">
+    <configuration name="AbstractBeanDefinitionCreationDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yuanjiaoc.bean.AbstractBeanDefinitionCreationDemo" />
+      <module name="srping-bean" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yuanjiaoc.test.*" />
+          <option name="PATTERN" value="com.yuanjiaoc.bean.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.yuanjiaoc.test" />
-      <option name="MAIN_CLASS_NAME" value="com.yuanjiaoc.test.SpringBeanTest" />
-      <option name="METHOD_NAME" value="testAnnotationConfig" />
-      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BeanDefinitionCreationDemo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yuanjiaoc.bean.BeanDefinitionCreationDemo" />
+      <module name="srping-bean" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yuanjiaoc.bean.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BeanDefinitionCreationDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.yuanjiaoc.bean.definition.BeanDefinitionCreationDemo" />
+      <module name="spring-bean" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yuanjiaoc.bean.definition.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -132,22 +169,6 @@
       <option name="PACKAGE_NAME" value="com.yuanjiaoc.test" />
       <option name="MAIN_CLASS_NAME" value="com.yuanjiaoc.test.SpringBeanTest" />
       <option name="METHOD_NAME" value="testBeanDefinitionRegistryPostProcessor" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SpringBeanTest.testBeanFactoryPostProcessorBean" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-hello" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.yuanjiaoc.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.yuanjiaoc.test" />
-      <option name="MAIN_CLASS_NAME" value="com.yuanjiaoc.test.SpringBeanTest" />
-      <option name="METHOD_NAME" value="testBeanFactoryPostProcessorBean" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -169,29 +190,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestReflect.test02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java8" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.yuanjiaoc.reflect.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.yuanjiaoc.reflect" />
-      <option name="MAIN_CLASS_NAME" value="com.yuanjiaoc.reflect.TestReflect" />
-      <option name="METHOD_NAME" value="test02" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+    <list>
+      <item itemvalue="Application.BeanDefinitionCreationDemo" />
+      <item itemvalue="JUnit.SpringBeanTest.testBeanDefinitionRegistryPostProcessor" />
+      <item itemvalue="JUnit.SpringBeanTest.testBeanPostProcessor" />
+      <item itemvalue="Application.AbstractBeanDefinitionCreationDemo" />
+      <item itemvalue="Application.BeanDefinitionCreationDemo (1)" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BeanDefinitionCreationDemo (1)" />
+        <item itemvalue="Application.AbstractBeanDefinitionCreationDemo" />
+        <item itemvalue="Application.BeanDefinitionCreationDemo" />
         <item itemvalue="JUnit.SpringBeanTest.testBeanPostProcessor" />
         <item itemvalue="JUnit.SpringBeanTest.testBeanDefinitionRegistryPostProcessor" />
-        <item itemvalue="JUnit.SpringBeanTest.testBeanFactoryPostProcessorBean" />
-        <item itemvalue="JUnit.SpringBeanTest.testAnnotationConfig" />
-        <item itemvalue="JUnit.TestReflect.test02" />
       </list>
     </recent_temporary>
   </component>
@@ -244,7 +256,8 @@
       <workItem from="1656987540023" duration="10189000" />
       <workItem from="1657069024123" duration="1898000" />
       <workItem from="1657074241393" duration="11455000" />
-      <workItem from="1657156903488" duration="2751000" />
+      <workItem from="1657156903488" duration="3459000" />
+      <workItem from="1657161119799" duration="2012000" />
     </task>
     <task id="LOCAL-00003" summary="Counter">
       <created>1653190009677</created>

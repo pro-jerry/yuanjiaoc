@@ -11,7 +11,8 @@
         <module name="spring-hello" />
         <module name="java8" />
         <module name="sub_maven" />
-        <module name="spring-bean" />
+        <module name="spring-common" />
+        <module name="srping-bean" />
         <module name="art_concurrent" />
       </profile>
     </annotationProcessing>
@@ -21,9 +22,11 @@
       <module name="maven" target="8" />
       <module name="spring" target="8" />
       <module name="spring-bean" target="8" />
+      <module name="spring-common" target="8" />
       <module name="spring-hello" target="8" />
       <module name="spring-in-deep" target="8" />
       <module name="spring5-core-principle" target="1.6" />
+      <module name="srping-bean" target="8" />
       <module name="sub_maven" target="1.8" />
     </bytecodeTargetLevel>
   </component>

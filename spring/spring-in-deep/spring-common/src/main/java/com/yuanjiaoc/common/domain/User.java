@@ -1,4 +1,4 @@
-package com.yuanjiaoc.domain;
+package com.yuanjiaoc.common.domain;
 
 import java.util.List;
 import java.util.Properties;

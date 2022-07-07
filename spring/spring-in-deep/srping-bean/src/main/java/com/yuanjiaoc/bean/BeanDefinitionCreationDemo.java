@@ -1,6 +1,6 @@
-package com.yuanjiaoc.bean.definition;
+package com.yuanjiaoc.bean;
 
-import com.yuanjiaoc.domain.User;
+import com.yuanjiaoc.common.domain.User;
 import org.springframework.beans.factory.support.BeanDefinitionBuilder;
 
 /**
