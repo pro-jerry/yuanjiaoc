@@ -1,6 +1,6 @@
 package com.yuanjiaoc.config;
 
-import com.yuanjiaoc.bean.BeanFactoryPostProcessorBean;
+import com.yuanjiaoc.bean.MyBeanDefinitionRegistryPostProcessor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
@@ -12,9 +12,15 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class BeanFactoryPostProcessorConfig {
 
-  @Bean
-  public BeanFactoryPostProcessorBean beanFactoryPostProcessorBean() {
+  //  @Bean
+  //  public BeanFactoryPostProcessorBean beanFactoryPostProcessorBean() {
+  //
+  //    return new BeanFactoryPostProcessorBean();
+  //  }
 
-    return new BeanFactoryPostProcessorBean();
+  @Bean
+  public MyBeanDefinitionRegistryPostProcessor myBeanDefinitionRegistryPostProcessor() {
+
+    return new MyBeanDefinitionRegistryPostProcessor();
   }
 }

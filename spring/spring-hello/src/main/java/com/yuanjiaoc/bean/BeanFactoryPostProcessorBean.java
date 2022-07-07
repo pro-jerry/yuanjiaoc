@@ -1,6 +1,8 @@
 package com.yuanjiaoc.bean;
 
+import java.util.Arrays;
 import org.springframework.beans.BeansException;
+import org.springframework.beans.factory.config.BeanDefinition;
 import org.springframework.beans.factory.config.BeanFactoryPostProcessor;
 import org.springframework.beans.factory.config.ConfigurableListableBeanFactory;
 import org.springframework.beans.factory.support.DefaultListableBeanFactory;
@@ -29,6 +31,19 @@ public class BeanFactoryPostProcessorBean implements BeanFactoryPostProcessor {
         .forEachRemaining(
             x -> {
               System.out.println("---->" + x);
+            });
+    Arrays.stream(beanFactory.getBeanDefinitionNames())
+        .forEach(
+            beanDefinition -> {
+              //              System.out.println("--beanDefinition--->" + beanDefinition);
+              if (beanDefinition.contains("internalConfigurationAnnotationProcessor")) {
+                System.out.println("--beanDefinition1--->" + beanDefinition);
+                BeanDefinition beanDefinition1 = beanFactory.getBeanDefinition(beanDefinition);
+                System.out.println(beanDefinition1.getBeanClassName());
+                System.out.println(beanDefinition1.getFactoryBeanName());
+                System.out.println(beanDefinition1.getPropertyValues());
+                System.out.println(beanDefinition1.getOriginatingBeanDefinition());
+              }
             });
   }
 

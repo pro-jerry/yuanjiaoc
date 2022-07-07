@@ -11,6 +11,7 @@
   <modules>
     <module>spring-hello</module>
     <module>spring5-core-principle</module>
+    <module>spring-in-deep</module>
   </modules>
 
   <properties>

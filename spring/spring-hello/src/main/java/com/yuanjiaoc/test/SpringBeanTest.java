@@ -7,6 +7,8 @@ import com.yuanjiaoc.config.PersonConfig;
 import com.yuanjiaoc.config.PersonConfig2;
 import com.yuanjiaoc.config.PersonConfig3;
 import com.yuanjiaoc.config.ThreadScope;
+import com.yuanjiaoc.processor.User;
+import com.yuanjiaoc.service.OrderService;
 import java.util.Arrays;
 import java.util.Map;
 import java.util.concurrent.TimeUnit;
@@ -144,5 +146,22 @@ public class SpringBeanTest {
         new AnnotationConfigApplicationContext(BeanFactoryPostProcessorConfig.class);
     MyBean bean = context.getBean(MyBean.class);
     bean.doSomething();
+  }
+
+  @Test
+  public void testBeanDefinitionRegistryPostProcessor() {
+    AnnotationConfigApplicationContext context =
+        new AnnotationConfigApplicationContext(BeanFactoryPostProcessorConfig.class);
+    // 能成功从容器中获取orderService,并成功调用orderService.query();方法
+    OrderService orderService = (OrderService) context.getBean(OrderService.class);
+    orderService.query();
+    context.close();
+  }
+
+  @Test
+  public void testBeanPostProcessor() {
+    AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(User.class);
+    User user = (User) context.getBean("user");
+    System.out.println(user.toString());
   }
 }
