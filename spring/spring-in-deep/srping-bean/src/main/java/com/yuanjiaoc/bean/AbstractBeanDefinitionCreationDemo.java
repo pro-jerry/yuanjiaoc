@@ -21,5 +21,8 @@ public class AbstractBeanDefinitionCreationDemo {
     genericBeanDefinition.setBeanClass(User.class);
     // 通过 MutablePropertyValues 批量操作属性
     MutablePropertyValues propertyValues = new MutablePropertyValues();
+    propertyValues.add("id", 2L).add("name", "yuanjiaoc");
+    // 通过 set MutablePropertyValues 批量操作属性
+    genericBeanDefinition.setPropertyValues(propertyValues);
   }
 }

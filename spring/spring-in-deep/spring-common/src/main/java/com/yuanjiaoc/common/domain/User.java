@@ -32,4 +32,11 @@ public class User {
   private Properties context;
 
   private String contextAsText;
+
+  public static User createUser() {
+    User user = new User();
+    user.setId(1L);
+    user.setName("三省");
+    return user;
+  }
 }
