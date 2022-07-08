@@ -12,6 +12,9 @@ import com.yuanjiaoc.common.domain.User;
 public interface UserFactory {
 
   default User createUser() {
-    return new User();
+    User user = new User();
+    user.setId(100L);
+    user.setName("yuan");
+    return user;
   }
 }
