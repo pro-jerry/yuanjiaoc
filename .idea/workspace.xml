@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b787db2-72c4-48b1-92ff-3a56d734a981" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/spring/spring-in-deep/srping-bean/src/main/java/com/yuanjiaoc/bean/BeanInitializationDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/spring-in-deep/srping-bean/src/main/java/com/yuanjiaoc/bean/BeanInitializationDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/spring-in-deep/srping-bean/src/main/java/com/yuanjiaoc/factory/DefaultUserFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/spring-in-deep/srping-bean/src/main/java/com/yuanjiaoc/factory/DefaultUserFactory.java" afterDir="false" />
-    </list>
+    <list default="true" id="3b787db2-72c4-48b1-92ff-3a56d734a981" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -242,7 +239,7 @@
       <workItem from="1657074241393" duration="11455000" />
       <workItem from="1657156903488" duration="3459000" />
       <workItem from="1657161119799" duration="14855000" />
-      <workItem from="1657244687447" duration="5768000" />
+      <workItem from="1657244687447" duration="5790000" />
     </task>
     <task id="LOCAL-00003" summary="Counter">
       <created>1653190009677</created>
