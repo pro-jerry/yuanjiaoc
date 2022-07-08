@@ -24,6 +24,8 @@ public class BeanInitializationDemo {
     applicationContext.register(BeanInitializationDemo.class);
     // 启动 Spring 应用上下文
     applicationContext.refresh();
+    // 非延迟初始化在 Spring 应用上下文启动完成后，被初始化
+    System.out.println("Spring 应用上下文已启动...");
     // 依赖查找 UserFactory
     DefaultUserFactory defaultUserFactory = applicationContext.getBean(DefaultUserFactory.class);
     System.out.println(defaultUserFactory);
@@ -32,7 +34,7 @@ public class BeanInitializationDemo {
     applicationContext.close();
   }
 
-  @Bean(initMethod = "initUserFactory")
+  @Bean(initMethod = "initUserFactory", destroyMethod = "doDestroy")
   @Lazy(value = false)
   public DefaultUserFactory defaultUserFactory() {
     return new DefaultUserFactory();
