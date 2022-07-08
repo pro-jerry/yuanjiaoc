@@ -3,6 +3,7 @@ package com.yuanjiaoc.test;
 import com.yuanjiaoc.bean.BeanFactoryPostProcessorBean.MyBean;
 import com.yuanjiaoc.bean.Person;
 import com.yuanjiaoc.config.BeanFactoryPostProcessorConfig;
+import com.yuanjiaoc.config.ExtConfig;
 import com.yuanjiaoc.config.PersonConfig;
 import com.yuanjiaoc.config.PersonConfig2;
 import com.yuanjiaoc.config.PersonConfig3;
@@ -15,6 +16,7 @@ import java.util.concurrent.TimeUnit;
 import org.junit.Test;
 import org.springframework.beans.factory.config.Scope;
 import org.springframework.context.ApplicationContext;
+import org.springframework.context.ApplicationEvent;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.core.env.Environment;
@@ -163,5 +165,24 @@ public class SpringBeanTest {
     AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(User.class);
     User user = (User) context.getBean("user");
     System.out.println(user.toString());
+  }
+
+  @Test
+  public void testMyBeanFactoryPostProcessor() {
+    AnnotationConfigApplicationContext acx = new AnnotationConfigApplicationContext();
+    acx.register(ExtConfig.class);
+    acx.refresh();
+    acx.close();
+  }
+
+  @Test
+  public void testMyApplicationListener() {
+    AnnotationConfigApplicationContext acx = new AnnotationConfigApplicationContext();
+    acx.register(ExtConfig.class);
+    acx.refresh();
+    acx.publishEvent(new ApplicationEvent(new String("wb发布的事件...")) {});
+    // 发布一个自定义事件.
+    // 容器关闭
+    acx.close();
   }
 }

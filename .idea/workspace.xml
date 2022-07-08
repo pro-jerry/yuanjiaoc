@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b787db2-72c4-48b1-92ff-3a56d734a981" name="Changes" comment="" />
+    <list default="true" id="3b787db2-72c4-48b1-92ff-3a56d734a981" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/spring/spring-hello/src/main/java/com/yuanjiaoc/bean/MyBeanFactoryPostProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring-hello/src/main/java/com/yuanjiaoc/config/ExtConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring-hello/src/main/java/com/yuanjiaoc/listener/MyApplicationListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/spring-hello/src/main/java/com/yuanjiaoc/test/SpringBeanTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/spring-hello/src/main/java/com/yuanjiaoc/test/SpringBeanTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -105,33 +110,7 @@
       <recent name="D:\ideaProject02\yuanjiaoc" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BeanInitializationDemo">
-    <configuration name="AbstractBeanDefinitionCreationDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yuanjiaoc.bean.AbstractBeanDefinitionCreationDemo" />
-      <module name="srping-bean" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.yuanjiaoc.bean.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BeanAliasDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yuanjiaoc.bean.BeanAliasDemo" />
-      <module name="srping-bean" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.yuanjiaoc.bean.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.SpringBeanTest.testMyApplicationListener">
     <configuration name="BeanInitializationDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.yuanjiaoc.bean.BeanInitializationDemo" />
       <module name="srping-bean" />
@@ -171,20 +150,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpringBeanTest.testMyApplicationListener" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-hello" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yuanjiaoc.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.yuanjiaoc.test" />
+      <option name="MAIN_CLASS_NAME" value="com.yuanjiaoc.test.SpringBeanTest" />
+      <option name="METHOD_NAME" value="testMyApplicationListener" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBeanTest.testMyBeanFactoryPostProcessor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-hello" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yuanjiaoc.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.yuanjiaoc.test" />
+      <option name="MAIN_CLASS_NAME" value="com.yuanjiaoc.test.SpringBeanTest" />
+      <option name="METHOD_NAME" value="testMyBeanFactoryPostProcessor" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.AbstractBeanDefinitionCreationDemo" />
-      <item itemvalue="Application.BeanAliasDemo" />
       <item itemvalue="Application.BeanInstantiationDemo" />
       <item itemvalue="Application.SpecialBeanInstantiationDemo" />
       <item itemvalue="Application.BeanInitializationDemo" />
+      <item itemvalue="JUnit.SpringBeanTest.testMyBeanFactoryPostProcessor" />
+      <item itemvalue="JUnit.SpringBeanTest.testMyApplicationListener" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SpringBeanTest.testMyApplicationListener" />
+        <item itemvalue="JUnit.SpringBeanTest.testMyBeanFactoryPostProcessor" />
         <item itemvalue="Application.BeanInitializationDemo" />
         <item itemvalue="Application.SpecialBeanInstantiationDemo" />
         <item itemvalue="Application.BeanInstantiationDemo" />
-        <item itemvalue="Application.BeanAliasDemo" />
-        <item itemvalue="Application.AbstractBeanDefinitionCreationDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -239,7 +250,7 @@
       <workItem from="1657074241393" duration="11455000" />
       <workItem from="1657156903488" duration="3459000" />
       <workItem from="1657161119799" duration="14855000" />
-      <workItem from="1657244687447" duration="5790000" />
+      <workItem from="1657244687447" duration="10431000" />
     </task>
     <task id="LOCAL-00003" summary="Counter">
       <created>1653190009677</created>
