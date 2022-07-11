@@ -15,4 +15,19 @@
     <property name="nickName" value="${person.nickName}"></property>
   </bean>
 
+  <bean id="person1" class="com.yuanjiaoc.bean.Person">
+    <property name="name" value="yuan"/>
+    <property name="age" value="13"/>
+    <property name="nickName" value="${person.nickName}"></property>
+  </bean>
+
+  <bean id="superUser" class="com.yuanjiaoc.dependency.lookup.SuperPerson" parent="person">
+    <property name="address" value="郑州"></property>
+  </bean>
+
+
+  <bean id="objectFactory" class="org.springframework.beans.factory.config.ObjectFactoryCreatingFactoryBean">
+    <property name="targetBeanName" value="person"/>
+  </bean>
+
 </beans>

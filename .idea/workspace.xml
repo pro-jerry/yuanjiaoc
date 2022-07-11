@@ -5,10 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b787db2-72c4-48b1-92ff-3a56d734a981" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/spring/spring-hello/src/main/java/com/yuanjiaoc/bean/MyBeanFactoryPostProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring-hello/src/main/java/com/yuanjiaoc/config/ExtConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring-hello/src/main/java/com/yuanjiaoc/listener/MyApplicationListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/spring-hello/src/main/java/com/yuanjiaoc/test/SpringBeanTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/spring-hello/src/main/java/com/yuanjiaoc/test/SpringBeanTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring-hello/src/main/java/com/yuanjiaoc/dependency/lookup/DependencyLookupDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring-hello/src/main/java/com/yuanjiaoc/dependency/lookup/Super.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring-hello/src/main/java/com/yuanjiaoc/dependency/lookup/SuperPerson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring-in-deep/spring-dependency-lookup/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring-in-deep/spring-dependency-lookup/src/main/java/com/yuanjiaoc/dependency/lookup/ObjectProviderDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/spring-hello/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring/spring-hello/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/spring-hello/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring/spring-hello/target/classes/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/spring-in-deep/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring/spring-in-deep/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +96,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.ignored.files" />
+    <property name="settings.editor.selected.configurable" value="google-java-format.settings" />
   </component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
@@ -110,7 +114,7 @@
       <recent name="D:\ideaProject02\yuanjiaoc" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SpringBeanTest.testMyApplicationListener">
+  <component name="RunManager" selected="Application.ObjectProviderDemo">
     <configuration name="BeanInitializationDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.yuanjiaoc.bean.BeanInitializationDemo" />
       <module name="srping-bean" />
@@ -124,12 +128,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BeanInstantiationDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yuanjiaoc.bean.BeanInstantiationDemo" />
-      <module name="srping-bean" />
+    <configuration name="DependencyLookupDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yuanjiaoc.dependency.lookup.DependencyLookupDemo" />
+      <module name="spring-hello" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yuanjiaoc.bean.*" />
+          <option name="PATTERN" value="com.yuanjiaoc.dependency.lookup.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,12 +141,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpecialBeanInstantiationDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yuanjiaoc.bean.SpecialBeanInstantiationDemo" />
-      <module name="srping-bean" />
+    <configuration name="ObjectProviderDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yuanjiaoc.dependency.lookup.ObjectProviderDemo" />
+      <module name="spring-dependency-lookup" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yuanjiaoc.bean.*" />
+          <option name="PATTERN" value="com.yuanjiaoc.dependency.lookup.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -183,19 +187,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.BeanInstantiationDemo" />
-      <item itemvalue="Application.SpecialBeanInstantiationDemo" />
       <item itemvalue="Application.BeanInitializationDemo" />
       <item itemvalue="JUnit.SpringBeanTest.testMyBeanFactoryPostProcessor" />
       <item itemvalue="JUnit.SpringBeanTest.testMyApplicationListener" />
+      <item itemvalue="Application.DependencyLookupDemo" />
+      <item itemvalue="Application.ObjectProviderDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ObjectProviderDemo" />
+        <item itemvalue="Application.DependencyLookupDemo" />
         <item itemvalue="JUnit.SpringBeanTest.testMyApplicationListener" />
         <item itemvalue="JUnit.SpringBeanTest.testMyBeanFactoryPostProcessor" />
         <item itemvalue="Application.BeanInitializationDemo" />
-        <item itemvalue="Application.SpecialBeanInstantiationDemo" />
-        <item itemvalue="Application.BeanInstantiationDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -251,6 +255,10 @@
       <workItem from="1657156903488" duration="3459000" />
       <workItem from="1657161119799" duration="14855000" />
       <workItem from="1657244687447" duration="10431000" />
+      <workItem from="1657284452127" duration="96000" />
+      <workItem from="1657286590196" duration="4701000" />
+      <workItem from="1657456792466" duration="620000" />
+      <workItem from="1657508108117" duration="6362000" />
     </task>
     <task id="LOCAL-00003" summary="Counter">
       <created>1653190009677</created>

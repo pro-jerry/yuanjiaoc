@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/maven/maven.iml" filepath="$PROJECT_DIR$/maven/maven.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring/spring.iml" filepath="$PROJECT_DIR$/spring/spring.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring/spring-in-deep/spring-common/spring-common.iml" filepath="$PROJECT_DIR$/spring/spring-in-deep/spring-common/spring-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring/spring-in-deep/spring-dependency-lookup/spring-dependency-lookup.iml" filepath="$PROJECT_DIR$/spring/spring-in-deep/spring-dependency-lookup/spring-dependency-lookup.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring/spring-hello/spring-hello.iml" filepath="$PROJECT_DIR$/spring/spring-hello/spring-hello.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring/spring-in-deep/spring-in-deep.iml" filepath="$PROJECT_DIR$/spring/spring-in-deep/spring-in-deep.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring/spring5-core-principle/spring5-core-principle.iml" filepath="$PROJECT_DIR$/spring/spring5-core-principle/spring5-core-principle.iml" />
