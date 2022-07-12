@@ -38,6 +38,7 @@ public class HierarchicalDependencyLookupDemo {
 
     displayContainsBean(beanFactory, "user");
     displayContainsBean(parentBeanFactory, "user");
+
     // 启动应用上下文
     applicationContext.refresh();
     // 关闭应用上下文
