@@ -12,8 +12,6 @@
     <module>spring-hello</module>
     <module>spring5-core-principle</module>
     <module>spring-in-deep</module>
-    <module>spring-common</module>
-    <module>spring-bean</module>
   </modules>
 
   <properties>
@@ -33,6 +31,7 @@
     <inject.version>1</inject.version>
     <c3p0.version>0.9.1.2</c3p0.version>
     <mysql.connector.version>5.1.44</mysql.connector.version>
+    <project.version>1.0-SNAPSHOT</project.version>
   </properties>
 
   <dependencyManagement>
@@ -40,6 +39,11 @@
       <dependency>
         <groupId>org.springframework</groupId>
         <artifactId>spring-core</artifactId>
+        <version>${spring.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.springframework</groupId>
+        <artifactId>spring-beans</artifactId>
         <version>${spring.version}</version>
       </dependency>
       <dependency>
@@ -149,6 +153,7 @@
         <artifactId>mysql-connector-java</artifactId>
         <version>${mysql.connector.version}</version>
       </dependency>
+
     </dependencies>
   </dependencyManagement>
 

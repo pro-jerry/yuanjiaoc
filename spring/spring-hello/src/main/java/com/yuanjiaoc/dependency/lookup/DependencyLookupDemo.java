@@ -1,6 +1,7 @@
 package com.yuanjiaoc.dependency.lookup;
 
 import com.yuanjiaoc.bean.Person;
+import java.util.Arrays;
 import java.util.Map;
 import org.springframework.beans.factory.BeanFactory;
 import org.springframework.beans.factory.ListableBeanFactory;
@@ -20,8 +21,8 @@ public class DependencyLookupDemo {
     //    lookupInRealTime(beanFactory);
     //    lookupInLazy(beanFactory);
     //    lookupByType(beanFactory);
-    //    lookupByCollectionType(beanFactory);
-    lookupByAnnotationType(beanFactory);
+    lookupByCollectionType(beanFactory);
+    //    lookupByAnnotationType(beanFactory);
   }
 
   private static void lookupInRealTime(BeanFactory beanFactory) {
@@ -47,6 +48,10 @@ public class DependencyLookupDemo {
       ListableBeanFactory listableBeanFactory = (ListableBeanFactory) beanFactory;
       Map<String, Person> users = listableBeanFactory.getBeansOfType(Person.class);
       System.out.println("查找到所有的User集合对象：" + users);
+      String[] beanNames = listableBeanFactory.getBeanNamesForType(Person.class);
+      for (String beaName : beanNames) {
+        System.out.println(beaName);
+      }
     }
   }
 
@@ -55,6 +60,8 @@ public class DependencyLookupDemo {
       ListableBeanFactory listableBeanFactory = (ListableBeanFactory) beanFactory;
       Map<String, Person> users = (Map) listableBeanFactory.getBeansWithAnnotation(Super.class);
       System.out.println("查找标注@Supper 的所有集合对象：" + users);
+      Arrays.stream(listableBeanFactory.getBeanNamesForAnnotation(Super.class))
+          .forEach(System.out::println);
     }
   }
 }

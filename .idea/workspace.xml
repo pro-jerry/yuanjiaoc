@@ -5,14 +5,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b787db2-72c4-48b1-92ff-3a56d734a981" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/spring/spring-hello/src/main/java/com/yuanjiaoc/dependency/lookup/DependencyLookupDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring-hello/src/main/java/com/yuanjiaoc/dependency/lookup/Super.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring-hello/src/main/java/com/yuanjiaoc/dependency/lookup/SuperPerson.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring-in-deep/spring-dependency-lookup/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring-in-deep/spring-dependency-lookup/src/main/java/com/yuanjiaoc/dependency/lookup/ObjectProviderDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/spring-hello/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring/spring-hello/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/spring-hello/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring/spring-hello/target/classes/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring-hello/src/main/java/com/yuanjiaoc/dependency/lookup/Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring-hello/src/main/java/com/yuanjiaoc/dependency/lookup/Config1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring-hello/src/main/java/com/yuanjiaoc/dependency/lookup/HierarchicalDependencyLookupDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring-hello/src/main/java/com/yuanjiaoc/dependency/lookup/Rumenz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring-hello/src/main/java/com/yuanjiaoc/dependency/lookup/SuperRumenz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring-in-deep/spring-common/src/main/java/com/yuanjiaoc/common/annotation/Super.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring-in-deep/spring-common/src/main/java/com/yuanjiaoc/common/domain/SuperUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring-in-deep/spring-dependency-lookup/src/main/java/com/yuanjiaoc/dependency/lookup/HierarchicalDependencyLookupDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring-in-deep/spring-dependency-lookup/src/main/resources/META-INF/hierarchical-dependency-lookup.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/spring-hello/src/main/java/com/yuanjiaoc/dependency/lookup/DependencyLookupDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/spring-hello/src/main/java/com/yuanjiaoc/dependency/lookup/DependencyLookupDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring/spring-in-deep/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring/spring-in-deep/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/spring-in-deep/spring-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring/spring-in-deep/spring-common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/spring-in-deep/spring-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/spring/spring-in-deep/spring-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/spring-in-deep/spring-dependency-lookup/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring/spring-in-deep/spring-dependency-lookup/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/spring-in-deep/srping-bean/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring/spring-in-deep/spring-bean/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/spring-in-deep/srping-bean/src/main/java/com/yuanjiaoc/bean/AbstractBeanDefinitionCreationDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/spring-in-deep/spring-bean/src/main/java/com/yuanjiaoc/bean/AbstractBeanDefinitionCreationDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/spring-in-deep/srping-bean/src/main/java/com/yuanjiaoc/bean/BeanAliasDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/spring-in-deep/spring-bean/src/main/java/com/yuanjiaoc/bean/BeanAliasDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/spring-in-deep/srping-bean/src/main/java/com/yuanjiaoc/bean/BeanDefinitionCreationDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/spring-in-deep/spring-bean/src/main/java/com/yuanjiaoc/bean/BeanDefinitionCreationDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/spring-in-deep/srping-bean/src/main/java/com/yuanjiaoc/bean/BeanInitializationDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/spring-in-deep/spring-bean/src/main/java/com/yuanjiaoc/bean/BeanInitializationDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/spring-in-deep/srping-bean/src/main/java/com/yuanjiaoc/bean/BeanInstantiationDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/spring-in-deep/spring-bean/src/main/java/com/yuanjiaoc/bean/BeanInstantiationDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/spring-in-deep/srping-bean/src/main/java/com/yuanjiaoc/bean/SpecialBeanInstantiationDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/spring-in-deep/spring-bean/src/main/java/com/yuanjiaoc/bean/SpecialBeanInstantiationDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/spring-in-deep/srping-bean/src/main/java/com/yuanjiaoc/factory/DefaultUserFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/spring-in-deep/spring-bean/src/main/java/com/yuanjiaoc/factory/DefaultUserFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/spring-in-deep/srping-bean/src/main/java/com/yuanjiaoc/factory/UserFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/spring-in-deep/spring-bean/src/main/java/com/yuanjiaoc/factory/UserFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/spring-in-deep/srping-bean/src/main/java/com/yuanjiaoc/factory/UserFactoryBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/spring-in-deep/spring-bean/src/main/java/com/yuanjiaoc/factory/UserFactoryBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/spring-in-deep/srping-bean/src/main/resources/META-INF/application-alias.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring/spring-in-deep/spring-bean/src/main/resources/META-INF/application-alias.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/spring-in-deep/srping-bean/src/main/resources/META-INF/application-bean-instantiation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring/spring-in-deep/spring-bean/src/main/resources/META-INF/application-bean-instantiation.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/spring-in-deep/srping-bean/src/main/resources/META-INF/application-special-bean-instantiation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring/spring-in-deep/spring-bean/src/main/resources/META-INF/application-special-bean-instantiation.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/spring-in-deep/srping-bean/target/classes/META-INF/application-alias.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/spring-in-deep/srping-bean/target/classes/META-INF/application-bean-instantiation.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/spring-in-deep/srping-bean/target/classes/META-INF/application-special-bean-instantiation.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +95,9 @@
   <component name="MavenRunner">
     <option name="skipTests" value="true" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="1" />
+  </component>
   <component name="ProjectId" id="29PLjhP5BBqMabKWfg2w7ESCYMo" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -89,35 +115,37 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring/spring-in-deep/spring-common/src/main/resources/META-INF" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring/spring-in-deep/spring-common/src/main/java/com/yuanjiaoc/common/annotation" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="google-java-format.settings" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ideaProject02\yuanjiaoc\spring\spring-in-deep\spring-common\src\main\java\com\yuanjiaoc\common\annotation" />
+      <recent name="D:\ideaProject02\yuanjiaoc\spring\spring-in-deep\spring-dependency-lookup\src\main\resources" />
       <recent name="D:\ideaProject02\yuanjiaoc\spring\spring-in-deep\spring-common\src\main\resources\META-INF" />
       <recent name="D:\ideaProject02\yuanjiaoc\spring\spring-in-deep\srping-bean\src\main\java\com\yuanjiaoc\bean" />
       <recent name="D:\ideaProject02\yuanjiaoc\spring\spring-in-deep\spring-common\src\main\java\com\yuanjiaoc\common\domain" />
-      <recent name="D:\ideaProject02\yuanjiaoc\spring\spring-hello\src\main\java\com\yuanjiaoc\aop" />
-      <recent name="D:\ideaProject02\yuanjiaoc\spring\spring5-core-principle\src\main\resources\webapp\WEB-INF" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\ideaProject02\yuanjiaoc\spring\spring-in-deep" />
+      <recent name="D:\ideaProject02\yuanjiaoc\spring" />
+      <recent name="D:\ideaProject02\yuanjiaoc\spring\spring-in-deep\spring-dependency-lookup\src\main\resources\META-INF" />
       <recent name="D:\ideaProject02\yuanjiaoc" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ObjectProviderDemo">
-    <configuration name="BeanInitializationDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yuanjiaoc.bean.BeanInitializationDemo" />
-      <module name="srping-bean" />
+  <component name="RunManager" selected="Application.HierarchicalDependencyLookupDemo (1)">
+    <configuration name="BeanAliasDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yuanjiaoc.bean.BeanAliasDemo" />
+      <module name="spring-bean" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.yuanjiaoc.bean.*" />
@@ -128,9 +156,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DependencyLookupDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yuanjiaoc.dependency.lookup.DependencyLookupDemo" />
-      <module name="spring-hello" />
+    <configuration name="BeanInitializationDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yuanjiaoc.bean.BeanInitializationDemo" />
+      <module name="spring-bean" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yuanjiaoc.bean.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HierarchicalDependencyLookupDemo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yuanjiaoc.dependency.lookup.HierarchicalDependencyLookupDemo" />
+      <module name="spring-dependency-lookup" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.yuanjiaoc.dependency.lookup.*" />
@@ -154,52 +195,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpringBeanTest.testMyApplicationListener" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-hello" />
+    <configuration name="SpecialBeanInstantiationDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yuanjiaoc.bean.SpecialBeanInstantiationDemo" />
+      <module name="spring-bean" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yuanjiaoc.test.*" />
+          <option name="PATTERN" value="com.yuanjiaoc.bean.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.yuanjiaoc.test" />
-      <option name="MAIN_CLASS_NAME" value="com.yuanjiaoc.test.SpringBeanTest" />
-      <option name="METHOD_NAME" value="testMyApplicationListener" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SpringBeanTest.testMyBeanFactoryPostProcessor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-hello" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.yuanjiaoc.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.yuanjiaoc.test" />
-      <option name="MAIN_CLASS_NAME" value="com.yuanjiaoc.test.SpringBeanTest" />
-      <option name="METHOD_NAME" value="testMyBeanFactoryPostProcessor" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.BeanInitializationDemo" />
-      <item itemvalue="JUnit.SpringBeanTest.testMyBeanFactoryPostProcessor" />
-      <item itemvalue="JUnit.SpringBeanTest.testMyApplicationListener" />
-      <item itemvalue="Application.DependencyLookupDemo" />
       <item itemvalue="Application.ObjectProviderDemo" />
+      <item itemvalue="Application.BeanAliasDemo" />
+      <item itemvalue="Application.SpecialBeanInstantiationDemo" />
+      <item itemvalue="Application.BeanInitializationDemo" />
+      <item itemvalue="Application.HierarchicalDependencyLookupDemo (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ObjectProviderDemo" />
-        <item itemvalue="Application.DependencyLookupDemo" />
-        <item itemvalue="JUnit.SpringBeanTest.testMyApplicationListener" />
-        <item itemvalue="JUnit.SpringBeanTest.testMyBeanFactoryPostProcessor" />
+        <item itemvalue="Application.HierarchicalDependencyLookupDemo (1)" />
+        <item itemvalue="Application.BeanAliasDemo" />
         <item itemvalue="Application.BeanInitializationDemo" />
+        <item itemvalue="Application.SpecialBeanInstantiationDemo" />
+        <item itemvalue="Application.ObjectProviderDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -258,7 +280,10 @@
       <workItem from="1657284452127" duration="96000" />
       <workItem from="1657286590196" duration="4701000" />
       <workItem from="1657456792466" duration="620000" />
-      <workItem from="1657508108117" duration="6362000" />
+      <workItem from="1657508108117" duration="13976000" />
+      <workItem from="1657532793330" duration="930000" />
+      <workItem from="1657533778469" duration="16819000" />
+      <workItem from="1657587576001" duration="4968000" />
     </task>
     <task id="LOCAL-00003" summary="Counter">
       <created>1653190009677</created>
