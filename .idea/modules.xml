@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/art_concurrent/art_concurrent.iml" filepath="$PROJECT_DIR$/art_concurrent/art_concurrent.iml" />
       <module fileurl="file://$PROJECT_DIR$/java8/java8.iml" filepath="$PROJECT_DIR$/java8/java8.iml" />
       <module fileurl="file://$PROJECT_DIR$/maven/maven.iml" filepath="$PROJECT_DIR$/maven/maven.iml" />
+      <module fileurl="file://$PROJECT_DIR$/redis/redis.iml" filepath="$PROJECT_DIR$/redis/redis.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring/spring.iml" filepath="$PROJECT_DIR$/spring/spring.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring/spring-in-deep/spring-bean/spring-bean.iml" filepath="$PROJECT_DIR$/spring/spring-in-deep/spring-bean/spring-bean.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring/spring-in-deep/spring-common/spring-common.iml" filepath="$PROJECT_DIR$/spring/spring-in-deep/spring-common/spring-common.iml" />
