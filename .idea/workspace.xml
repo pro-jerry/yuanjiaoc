@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b787db2-72c4-48b1-92ff-3a56d734a981" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/redis/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis/src/main/java/com/yuanjiaoc/redission/common/SomeObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis/src/main/java/com/yuanjiaoc/redission/config/RedissonConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis/src/main/java/com/yuanjiaoc/redission/distributedcollections/DistributedCollectionsDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis/src/main/java/com/yuanjiaoc/redission/distributedobjects/DistributedObjectsDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java8/src/main/java/com/yuanjiaoc/feature/ConsumerDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java8/src/main/java/com/yuanjiaoc/feature/OptionalDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java8/src/main/java/com/yuanjiaoc/feature/SupplierDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java8/src/main/java/com/yuanjiaoc/feature/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java8/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/java8/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,101 +119,101 @@
       <recent name="D:\ideaProject02\yuanjiaoc" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DistributedCollectionsDemo.testMap">
-    <configuration name="DistributedCollectionsDemo.testMap" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="redis" />
+  <component name="RunManager" selected="JUnit.SupplierDemo.test_Supplier2">
+    <configuration name="ConsumerDemo.testConsumer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yuanjiaoc.redission.distributedcollections.*" />
+          <option name="PATTERN" value="com.yuanjiaoc.feature.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.yuanjiaoc.redission.distributedcollections" />
-      <option name="MAIN_CLASS_NAME" value="com.yuanjiaoc.redission.distributedcollections.DistributedCollectionsDemo" />
-      <option name="METHOD_NAME" value="testMap" />
+      <option name="PACKAGE_NAME" value="com.yuanjiaoc.feature" />
+      <option name="MAIN_CLASS_NAME" value="com.yuanjiaoc.feature.ConsumerDemo" />
+      <option name="METHOD_NAME" value="testConsumer" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DistributedObjectsDemo.testBloomFilter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="redis" />
+    <configuration name="SupplierDemo.testSupplier (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yuanjiaoc.redission.distributedobjects.*" />
+          <option name="PATTERN" value="com.yuanjiaoc.feature.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.yuanjiaoc.redission.distributedobjects" />
-      <option name="MAIN_CLASS_NAME" value="com.yuanjiaoc.redission.distributedobjects.DistributedObjectsDemo" />
-      <option name="METHOD_NAME" value="testBloomFilter" />
+      <option name="PACKAGE_NAME" value="com.yuanjiaoc.feature" />
+      <option name="MAIN_CLASS_NAME" value="com.yuanjiaoc.feature.SupplierDemo" />
+      <option name="METHOD_NAME" value="testSupplier" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DistributedObjectsDemo.testHyperLogLog" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="redis" />
+    <configuration name="SupplierDemo.testSupplier (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yuanjiaoc.redission.distributedobjects.*" />
+          <option name="PATTERN" value="com.yuanjiaoc.feature.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.yuanjiaoc.redission.distributedobjects" />
-      <option name="MAIN_CLASS_NAME" value="com.yuanjiaoc.redission.distributedobjects.DistributedObjectsDemo" />
-      <option name="METHOD_NAME" value="testHyperLogLog" />
+      <option name="PACKAGE_NAME" value="com.yuanjiaoc.feature" />
+      <option name="MAIN_CLASS_NAME" value="com.yuanjiaoc.feature.SupplierDemo" />
+      <option name="METHOD_NAME" value="testSupplier" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DistributedObjectsDemo.testLongAdder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="redis" />
+    <configuration name="SupplierDemo.testSupplier" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yuanjiaoc.redission.distributedobjects.*" />
+          <option name="PATTERN" value="com.yuanjiaoc.feature.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.yuanjiaoc.redission.distributedobjects" />
-      <option name="MAIN_CLASS_NAME" value="com.yuanjiaoc.redission.distributedobjects.DistributedObjectsDemo" />
-      <option name="METHOD_NAME" value="testLongAdder" />
+      <option name="PACKAGE_NAME" value="com.yuanjiaoc.feature" />
+      <option name="MAIN_CLASS_NAME" value="com.yuanjiaoc.feature.SupplierDemo" />
+      <option name="METHOD_NAME" value="testSupplier" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DistributedObjectsDemo.testRateLimiter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="redis" />
+    <configuration name="SupplierDemo.test_Supplier2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yuanjiaoc.redission.distributedobjects.*" />
+          <option name="PATTERN" value="com.yuanjiaoc.feature.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.yuanjiaoc.redission.distributedobjects" />
-      <option name="MAIN_CLASS_NAME" value="com.yuanjiaoc.redission.distributedobjects.DistributedObjectsDemo" />
-      <option name="METHOD_NAME" value="testRateLimiter" />
+      <option name="PACKAGE_NAME" value="com.yuanjiaoc.feature" />
+      <option name="MAIN_CLASS_NAME" value="com.yuanjiaoc.feature.SupplierDemo" />
+      <option name="METHOD_NAME" value="test_Supplier2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.DistributedObjectsDemo.testBloomFilter" />
-      <item itemvalue="JUnit.DistributedObjectsDemo.testHyperLogLog" />
-      <item itemvalue="JUnit.DistributedObjectsDemo.testLongAdder" />
-      <item itemvalue="JUnit.DistributedObjectsDemo.testRateLimiter" />
-      <item itemvalue="JUnit.DistributedCollectionsDemo.testMap" />
+      <item itemvalue="JUnit.ConsumerDemo.testConsumer" />
+      <item itemvalue="JUnit.SupplierDemo.testSupplier" />
+      <item itemvalue="JUnit.SupplierDemo.testSupplier (1)" />
+      <item itemvalue="JUnit.SupplierDemo.testSupplier (2)" />
+      <item itemvalue="JUnit.SupplierDemo.test_Supplier2" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.DistributedCollectionsDemo.testMap" />
-        <item itemvalue="JUnit.DistributedObjectsDemo.testRateLimiter" />
-        <item itemvalue="JUnit.DistributedObjectsDemo.testLongAdder" />
-        <item itemvalue="JUnit.DistributedObjectsDemo.testHyperLogLog" />
-        <item itemvalue="JUnit.DistributedObjectsDemo.testBloomFilter" />
+        <item itemvalue="JUnit.SupplierDemo.test_Supplier2" />
+        <item itemvalue="JUnit.SupplierDemo.testSupplier" />
+        <item itemvalue="JUnit.SupplierDemo.testSupplier (2)" />
+        <item itemvalue="JUnit.SupplierDemo.testSupplier (1)" />
+        <item itemvalue="JUnit.ConsumerDemo.testConsumer" />
       </list>
     </recent_temporary>
   </component>
@@ -276,7 +276,10 @@
       <workItem from="1657532793330" duration="930000" />
       <workItem from="1657533778469" duration="16819000" />
       <workItem from="1657587576001" duration="15848000" />
-      <workItem from="1657675282468" duration="11847000" />
+      <workItem from="1657675282468" duration="11942000" />
+      <workItem from="1657760322241" duration="640000" />
+      <workItem from="1657791415556" duration="2759000" />
+      <workItem from="1657933720042" duration="3152000" />
     </task>
     <task id="LOCAL-00004" summary="final">
       <created>1653548216783</created>
