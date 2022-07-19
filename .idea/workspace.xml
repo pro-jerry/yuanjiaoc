@@ -5,11 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b787db2-72c4-48b1-92ff-3a56d734a981" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/java8/src/main/java/com/yuanjiaoc/feature/ConsumerDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java8/src/main/java/com/yuanjiaoc/feature/OptionalDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java8/src/main/java/com/yuanjiaoc/feature/SupplierDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java8/src/main/java/com/yuanjiaoc/feature/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java8/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/java8/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring-in-deep/dependency-injection/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring-in-deep/dependency-injection/src/main/java/com/yuanjiaoc/dependency/injection/AnnotationDependencySetterInjectionDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring-in-deep/dependency-injection/src/main/java/com/yuanjiaoc/dependency/injection/UserHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring-in-deep/dependency-injection/src/main/java/com/yuanjiaoc/dependency/injection/XmlDependencySetterInjectionDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring-in-deep/dependency-injection/src/main/resources/META-INF/dependency-setter-injection-annotation.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring-in-deep/dependency-injection/src/main/resources/META-INF/dependency-setter-injection-xml.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/spring-in-deep/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring/spring-in-deep/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +91,9 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring/spring-in-deep/spring-common/src/main/java/com/yuanjiaoc/common/annotation" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring/spring-in-deep/dependency-injection/src/main/resources/META-INF" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -106,48 +110,43 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ideaProject02\yuanjiaoc\spring\spring-in-deep\dependency-injection\src\main\resources\META-INF" />
+      <recent name="D:\ideaProject02\yuanjiaoc\spring\spring-in-deep\dependency-injection\src\main\resources" />
       <recent name="D:\ideaProject02\yuanjiaoc\spring\spring-in-deep\spring-common\src\main\java\com\yuanjiaoc\common\annotation" />
       <recent name="D:\ideaProject02\yuanjiaoc\spring\spring-in-deep\spring-dependency-lookup\src\main\resources" />
       <recent name="D:\ideaProject02\yuanjiaoc\spring\spring-in-deep\spring-common\src\main\resources\META-INF" />
-      <recent name="D:\ideaProject02\yuanjiaoc\spring\spring-in-deep\srping-bean\src\main\java\com\yuanjiaoc\bean" />
-      <recent name="D:\ideaProject02\yuanjiaoc\spring\spring-in-deep\spring-common\src\main\java\com\yuanjiaoc\common\domain" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\ideaProject02\yuanjiaoc\spring\spring-in-deep\dependency-injection\src\main\resources\META-INF" />
       <recent name="D:\ideaProject02\yuanjiaoc\spring\spring-in-deep" />
       <recent name="D:\ideaProject02\yuanjiaoc\spring" />
       <recent name="D:\ideaProject02\yuanjiaoc\spring\spring-in-deep\spring-dependency-lookup\src\main\resources\META-INF" />
       <recent name="D:\ideaProject02\yuanjiaoc" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SupplierDemo.test_Supplier2">
-    <configuration name="ConsumerDemo.testConsumer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java8" />
+  <component name="RunManager" selected="Application.XmlDependencySetterInjectionDemo">
+    <configuration name="AnnotationDependencySetterInjectionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yuanjiaoc.dependency.injection.AnnotationDependencySetterInjectionDemo" />
+      <module name="dependency-injection" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yuanjiaoc.feature.*" />
+          <option name="PATTERN" value="com.yuanjiaoc.dependency.injection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.yuanjiaoc.feature" />
-      <option name="MAIN_CLASS_NAME" value="com.yuanjiaoc.feature.ConsumerDemo" />
-      <option name="METHOD_NAME" value="testConsumer" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SupplierDemo.testSupplier (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java8" />
+    <configuration name="XmlDependencySetterInjectionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yuanjiaoc.dependency.injection.XmlDependencySetterInjectionDemo" />
+      <module name="dependency-injection" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yuanjiaoc.feature.*" />
+          <option name="PATTERN" value="com.yuanjiaoc.dependency.injection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.yuanjiaoc.feature" />
-      <option name="MAIN_CLASS_NAME" value="com.yuanjiaoc.feature.SupplierDemo" />
-      <option name="METHOD_NAME" value="testSupplier" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -201,19 +200,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.ConsumerDemo.testConsumer" />
       <item itemvalue="JUnit.SupplierDemo.testSupplier" />
-      <item itemvalue="JUnit.SupplierDemo.testSupplier (1)" />
       <item itemvalue="JUnit.SupplierDemo.testSupplier (2)" />
       <item itemvalue="JUnit.SupplierDemo.test_Supplier2" />
+      <item itemvalue="Application.XmlDependencySetterInjectionDemo" />
+      <item itemvalue="Application.AnnotationDependencySetterInjectionDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.XmlDependencySetterInjectionDemo" />
+        <item itemvalue="Application.AnnotationDependencySetterInjectionDemo" />
         <item itemvalue="JUnit.SupplierDemo.test_Supplier2" />
         <item itemvalue="JUnit.SupplierDemo.testSupplier" />
         <item itemvalue="JUnit.SupplierDemo.testSupplier (2)" />
-        <item itemvalue="JUnit.SupplierDemo.testSupplier (1)" />
-        <item itemvalue="JUnit.ConsumerDemo.testConsumer" />
       </list>
     </recent_temporary>
   </component>
@@ -280,6 +279,7 @@
       <workItem from="1657760322241" duration="640000" />
       <workItem from="1657791415556" duration="2759000" />
       <workItem from="1657933720042" duration="3152000" />
+      <workItem from="1658232767160" duration="3979000" />
     </task>
     <task id="LOCAL-00004" summary="final">
       <created>1653548216783</created>
