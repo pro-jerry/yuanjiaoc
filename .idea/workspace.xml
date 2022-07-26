@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b787db2-72c4-48b1-92ff-3a56d734a981" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/spring/spring-in-deep/dependency-injection/src/main/java/com/yuanjiaoc/dependency/injection/AutoWiringByNameDependencySetterInjectionDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring-in-deep/dependency-injection/src/main/resources/META-INF/autowiring-dependency-setter-injection-by-type.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring-in-deep/dependency-injection/src/main/java/com/yuanjiaoc/dependency/injection/XmlDependencyConstructorInjectionDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring-in-deep/dependency-injection/src/main/resources/META-INF/dependency-constructor-injection.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +22,7 @@
         <option value="package-info" />
         <option value="Enum" />
         <option value="Interface" />
+        <option value="spring-beans.schema" />
         <option value="Class" />
       </list>
     </option>
@@ -119,7 +120,7 @@
       <recent name="D:\ideaProject02\yuanjiaoc" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AutoWiringByNameDependencySetterInjectionDemo">
+  <component name="RunManager" selected="Application.XmlDependencyConstructorInjectionDemo">
     <configuration name="AnnotationDependencySetterInjectionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.yuanjiaoc.dependency.injection.AnnotationDependencySetterInjectionDemo" />
       <module name="dependency-injection" />
@@ -146,8 +147,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="XmlDependencySetterInjectionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yuanjiaoc.dependency.injection.XmlDependencySetterInjectionDemo" />
+    <configuration name="XmlDependencyConstructorInjectionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yuanjiaoc.dependency.injection.XmlDependencyConstructorInjectionDemo" />
       <module name="dependency-injection" />
       <extension name="coverage">
         <pattern>
@@ -159,18 +160,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SupplierDemo.testSupplier" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java8" />
+    <configuration name="XmlDependencySetterInjectionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yuanjiaoc.dependency.injection.XmlDependencySetterInjectionDemo" />
+      <module name="dependency-injection" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yuanjiaoc.feature.*" />
+          <option name="PATTERN" value="com.yuanjiaoc.dependency.injection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.yuanjiaoc.feature" />
-      <option name="MAIN_CLASS_NAME" value="com.yuanjiaoc.feature.SupplierDemo" />
-      <option name="METHOD_NAME" value="testSupplier" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -194,17 +192,17 @@
     <list>
       <item itemvalue="Application.XmlDependencySetterInjectionDemo" />
       <item itemvalue="Application.AnnotationDependencySetterInjectionDemo" />
-      <item itemvalue="JUnit.SupplierDemo.testSupplier" />
-      <item itemvalue="JUnit.SupplierDemo.test_Supplier2" />
       <item itemvalue="Application.AutoWiringByNameDependencySetterInjectionDemo" />
+      <item itemvalue="JUnit.SupplierDemo.test_Supplier2" />
+      <item itemvalue="Application.XmlDependencyConstructorInjectionDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.XmlDependencyConstructorInjectionDemo" />
         <item itemvalue="Application.AutoWiringByNameDependencySetterInjectionDemo" />
         <item itemvalue="Application.XmlDependencySetterInjectionDemo" />
         <item itemvalue="Application.AnnotationDependencySetterInjectionDemo" />
         <item itemvalue="JUnit.SupplierDemo.test_Supplier2" />
-        <item itemvalue="JUnit.SupplierDemo.testSupplier" />
       </list>
     </recent_temporary>
   </component>
@@ -272,7 +270,8 @@
       <workItem from="1657791415556" duration="2759000" />
       <workItem from="1657933720042" duration="3152000" />
       <workItem from="1658232767160" duration="4106000" />
-      <workItem from="1658539520559" duration="1068000" />
+      <workItem from="1658539520559" duration="3656000" />
+      <workItem from="1658839512074" duration="2114000" />
     </task>
     <task id="LOCAL-00004" summary="final">
       <created>1653548216783</created>
