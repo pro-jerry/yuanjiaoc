@@ -8,23 +8,32 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 import org.springframework.context.annotation.Bean;
 
 /**
- * 基于 Java 注解的依赖字段注入示例.
+ * 基于 Java 注解的依赖方法注入示例.
  *
  * @author 何二白
  * @version 1.0
  * @since 2022年07月29日
  */
-public class AnnotationDependencyFieldInjectionDemo {
+public class AnnotationDependencyMethodInjectionDemo {
 
-  // Autowired annotation is not supported on static fields
-  // @Autowired 会忽略掉静态字段
-  // @Autowired private static UserHolder userHolder;
+  private UserHolder userHolder;
 
-  @Autowired private UserHolder userHolder;
+  private UserHolder userHolder2;
 
-  @Autowired private UserHolder userHolder2;
+  @Autowired
+  public void init1(UserHolder userHolder) {
+    this.userHolder = userHolder;
+  }
 
-  @Resource private UserHolder userHolder3;
+  @Resource
+  public void init2(UserHolder userHolder2) {
+    this.userHolder2 = userHolder2;
+  }
+
+  @Bean
+  public UserHolder userHolder(User user) {
+    return new UserHolder(user);
+  }
 
   public static void main(String[] args) {
 
@@ -32,29 +41,26 @@ public class AnnotationDependencyFieldInjectionDemo {
     AnnotationConfigApplicationContext applicationContext =
         new AnnotationConfigApplicationContext();
     // 注册 Configuration Class（配置类） -> Spring Bean
-    applicationContext.register(AnnotationDependencyFieldInjectionDemo.class);
+    applicationContext.register(AnnotationDependencyMethodInjectionDemo.class);
+
     XmlBeanDefinitionReader beanDefinitionReader = new XmlBeanDefinitionReader(applicationContext);
-    String xmlResourcePath = "classpath:/META-INF/autowiring-dependency-field-injection.xml";
+
+    String xmlResourcePath = "classpath:/META-INF/autowiring-dependency-method-injection.xml";
     // 加载 XML 资源，解析并且生成 BeanDefinition
     beanDefinitionReader.loadBeanDefinitions(xmlResourcePath);
+
     // 启动 Spring 应用上下文
     applicationContext.refresh();
 
     // 依赖查找 AnnotationDependencyFieldInjectionDemo Bean
-    AnnotationDependencyFieldInjectionDemo demo =
-        applicationContext.getBean(AnnotationDependencyFieldInjectionDemo.class);
-    // @Autowired 字段关联
+    AnnotationDependencyMethodInjectionDemo demo =
+        applicationContext.getBean(AnnotationDependencyMethodInjectionDemo.class);
+
     System.out.println(demo.userHolder);
     System.out.println(demo.userHolder2);
-    System.out.println(demo.userHolder == demo.userHolder2); // true
-    System.out.println(demo.userHolder == demo.userHolder3); // true
+    System.out.println(demo.userHolder == demo.userHolder2);
 
     // 显示地关闭 Spring 应用上下文
     applicationContext.close();
-  }
-
-  @Bean
-  public UserHolder userHolder(User user) {
-    return new UserHolder(user);
   }
 }
