@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b787db2-72c4-48b1-92ff-3a56d734a981" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/spring/spring-in-deep/dependency-injection/src/main/java/com/yuanjiaoc/dependency/injection/XmlDependencyConstructorInjectionDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring-in-deep/dependency-injection/src/main/resources/META-INF/dependency-constructor-injection.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring-in-deep/dependency-injection/src/main/java/com/yuanjiaoc/dependency/injection/AnnotationDependencyFieldInjectionDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring-in-deep/dependency-injection/src/main/resources/META-INF/autowiring-dependency-field-injection.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,9 +120,9 @@
       <recent name="D:\ideaProject02\yuanjiaoc" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.XmlDependencyConstructorInjectionDemo">
-    <configuration name="AnnotationDependencySetterInjectionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yuanjiaoc.dependency.injection.AnnotationDependencySetterInjectionDemo" />
+  <component name="RunManager" selected="Application.AnnotationDependencyFieldInjectionDemo">
+    <configuration name="AnnotationDependencyConstructorInjectionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yuanjiaoc.dependency.injection.AnnotationDependencyConstructorInjectionDemo" />
       <module name="dependency-injection" />
       <extension name="coverage">
         <pattern>
@@ -134,8 +134,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AutoWiringByNameDependencySetterInjectionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yuanjiaoc.dependency.injection.AutoWiringByNameDependencySetterInjectionDemo" />
+    <configuration name="AnnotationDependencyFieldInjectionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yuanjiaoc.dependency.injection.AnnotationDependencyFieldInjectionDemo" />
       <module name="dependency-injection" />
       <extension name="coverage">
         <pattern>
@@ -147,8 +147,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="XmlDependencyConstructorInjectionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yuanjiaoc.dependency.injection.XmlDependencyConstructorInjectionDemo" />
+    <configuration name="ApiDependencyConstructorInjectionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yuanjiaoc.dependency.injection.ApiDependencyConstructorInjectionDemo" />
       <module name="dependency-injection" />
       <extension name="coverage">
         <pattern>
@@ -160,8 +160,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="XmlDependencySetterInjectionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yuanjiaoc.dependency.injection.XmlDependencySetterInjectionDemo" />
+    <configuration name="ApiDependencySetterInjectionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yuanjiaoc.dependency.injection.ApiDependencySetterInjectionDemo" />
       <module name="dependency-injection" />
       <extension name="coverage">
         <pattern>
@@ -173,36 +173,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SupplierDemo.test_Supplier2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java8" />
+    <configuration name="AutoWiringConstructorDependencyConstructorInjectionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yuanjiaoc.dependency.injection.AutoWiringConstructorDependencyConstructorInjectionDemo" />
+      <module name="dependency-injection" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yuanjiaoc.feature.*" />
+          <option name="PATTERN" value="com.yuanjiaoc.dependency.injection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.yuanjiaoc.feature" />
-      <option name="MAIN_CLASS_NAME" value="com.yuanjiaoc.feature.SupplierDemo" />
-      <option name="METHOD_NAME" value="test_Supplier2" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.XmlDependencySetterInjectionDemo" />
-      <item itemvalue="Application.AnnotationDependencySetterInjectionDemo" />
-      <item itemvalue="Application.AutoWiringByNameDependencySetterInjectionDemo" />
-      <item itemvalue="JUnit.SupplierDemo.test_Supplier2" />
-      <item itemvalue="Application.XmlDependencyConstructorInjectionDemo" />
+      <item itemvalue="Application.AnnotationDependencyConstructorInjectionDemo" />
+      <item itemvalue="Application.ApiDependencySetterInjectionDemo" />
+      <item itemvalue="Application.ApiDependencyConstructorInjectionDemo" />
+      <item itemvalue="Application.AutoWiringConstructorDependencyConstructorInjectionDemo" />
+      <item itemvalue="Application.AnnotationDependencyFieldInjectionDemo" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.XmlDependencyConstructorInjectionDemo" />
-        <item itemvalue="Application.AutoWiringByNameDependencySetterInjectionDemo" />
-        <item itemvalue="Application.XmlDependencySetterInjectionDemo" />
-        <item itemvalue="Application.AnnotationDependencySetterInjectionDemo" />
-        <item itemvalue="JUnit.SupplierDemo.test_Supplier2" />
+        <item itemvalue="Application.AnnotationDependencyFieldInjectionDemo" />
+        <item itemvalue="Application.AutoWiringConstructorDependencyConstructorInjectionDemo" />
+        <item itemvalue="Application.ApiDependencyConstructorInjectionDemo" />
+        <item itemvalue="Application.ApiDependencySetterInjectionDemo" />
+        <item itemvalue="Application.AnnotationDependencyConstructorInjectionDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -271,14 +268,9 @@
       <workItem from="1657933720042" duration="3152000" />
       <workItem from="1658232767160" duration="4106000" />
       <workItem from="1658539520559" duration="3656000" />
-      <workItem from="1658839512074" duration="2114000" />
-    </task>
-    <task id="LOCAL-00004" summary="final">
-      <created>1653548216783</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1653548216783</updated>
+      <workItem from="1658839512074" duration="3407000" />
+      <workItem from="1658842984618" duration="3069000" />
+      <workItem from="1659078251644" duration="2506000" />
     </task>
     <task id="LOCAL-00005" summary="thread">
       <created>1653573084155</created>
@@ -616,7 +608,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657607631148</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="构造器注入">
+      <created>1658846994110</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1658846994110</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -624,9 +623,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="迪米特法则" />
     <MESSAGE value="compositereuse" />
     <MESSAGE value="SimpleFactory" />
     <MESSAGE value="FactoryMethod" />
@@ -651,7 +650,8 @@
     <MESSAGE value="BeanFactoryPostProcessor" />
     <MESSAGE value="BeanDefinitionCreation" />
     <MESSAGE value="依赖查找" />
-    <option name="LAST_COMMIT_MESSAGE" value="依赖查找" />
+    <MESSAGE value="构造器注入" />
+    <option name="LAST_COMMIT_MESSAGE" value="构造器注入" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/yuanjiaoc$Java8Test3_test1.ic" NAME="Java8Test3.test1 Coverage Results" MODIFIED="1656555254611" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
