@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="spring5-core-principle" />
         <module name="dependency-injection" />
+        <module name="dependency-source" />
         <module name="spring-hello" />
         <module name="java8" />
         <module name="sub_maven" />
@@ -22,6 +23,7 @@
     <bytecodeTargetLevel>
       <module name="art_concurrent" target="1.8" />
       <module name="dependency-injection" target="8" />
+      <module name="dependency-source" target="8" />
       <module name="java8" target="8" />
       <module name="maven" target="8" />
       <module name="redis" target="8" />
