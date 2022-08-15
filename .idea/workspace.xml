@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b787db2-72c4-48b1-92ff-3a56d734a981" name="Changes" comment="" />
+    <list default="true" id="3b787db2-72c4-48b1-92ff-3a56d734a981" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/spring/spring-in-deep/bean-scope/src/main/java/com/yuanjiaoc/bean/scope/ThreadLocalScope.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring-in-deep/bean-scope/src/main/java/com/yuanjiaoc/bean/scope/ThreadLocalScopeDemo.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -121,20 +124,7 @@
       <recent name="com.yuanjiaoc.bean.scope" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BeanScopeDemo">
-    <configuration name="ApacheCommonTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yuanjiaoc.ApacheCommonTest" />
-      <module name="java8" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.yuanjiaoc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ThreadLocalScopeDemo">
     <configuration name="BeanScopeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.yuanjiaoc.bean.scope.BeanScopeDemo" />
       <module name="bean-scope" />
@@ -187,20 +177,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ThreadLocalScopeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yuanjiaoc.bean.scope.ThreadLocalScopeDemo" />
+      <module name="bean-scope" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yuanjiaoc.bean.scope.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.ApacheCommonTest" />
       <item itemvalue="Application.SingletonBeanRegistrationDemo" />
       <item itemvalue="Application.ResolvableDependencySourceDemo" />
       <item itemvalue="Application.ExternalConfigurationDependencySourceDemo" />
       <item itemvalue="Application.BeanScopeDemo" />
+      <item itemvalue="Application.ThreadLocalScopeDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThreadLocalScopeDemo" />
         <item itemvalue="Application.BeanScopeDemo" />
         <item itemvalue="Application.ExternalConfigurationDependencySourceDemo" />
         <item itemvalue="Application.ResolvableDependencySourceDemo" />
         <item itemvalue="Application.SingletonBeanRegistrationDemo" />
-        <item itemvalue="Application.ApacheCommonTest" />
       </list>
     </recent_temporary>
   </component>
@@ -280,7 +283,7 @@
       <workItem from="1659793062831" duration="593000" />
       <workItem from="1659921044806" duration="1979000" />
       <workItem from="1660445169811" duration="2040000" />
-      <workItem from="1660526236501" duration="9033000" />
+      <workItem from="1660526236501" duration="12398000" />
     </task>
     <task id="LOCAL-00008" summary="maven pom.xml">
       <created>1653630834552</created>
