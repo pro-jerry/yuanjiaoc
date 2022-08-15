@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/art_concurrent/art_concurrent.iml" filepath="$PROJECT_DIR$/art_concurrent/art_concurrent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring/spring-in-deep/bean-scope/bean-scope.iml" filepath="$PROJECT_DIR$/spring/spring-in-deep/bean-scope/bean-scope.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring/spring-in-deep/dependency-injection/dependency-injection.iml" filepath="$PROJECT_DIR$/spring/spring-in-deep/dependency-injection/dependency-injection.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring/spring-in-deep/dependency-source/dependency-source.iml" filepath="$PROJECT_DIR$/spring/spring-in-deep/dependency-source/dependency-source.iml" />
       <module fileurl="file://$PROJECT_DIR$/java8/java8.iml" filepath="$PROJECT_DIR$/java8/java8.iml" />

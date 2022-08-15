@@ -18,10 +18,12 @@
         <module name="spring-bean" />
         <module name="art_concurrent" />
         <module name="redis" />
+        <module name="bean-scope" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="art_concurrent" target="1.8" />
+      <module name="bean-scope" target="8" />
       <module name="dependency-injection" target="8" />
       <module name="dependency-source" target="8" />
       <module name="java8" target="8" />
