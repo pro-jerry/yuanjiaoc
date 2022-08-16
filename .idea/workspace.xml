@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b787db2-72c4-48b1-92ff-3a56d734a981" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/spring/spring-in-deep/bean-scope/src/main/java/com/yuanjiaoc/bean/scope/ThreadLocalScope.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring-in-deep/bean-scope/src/main/java/com/yuanjiaoc/bean/scope/ThreadLocalScopeDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring-in-deep/bean-lifecycle/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring-in-deep/bean-lifecycle/src/main/java/com/yuanjiaoc/bean/lifecycle/BeanMetadataConfigurationDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring-in-deep/bean-lifecycle/src/main/java/com/yuanjiaoc/bean/lifecycle/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring-in-deep/bean-lifecycle/src/main/resources/META-INF/user.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/spring-in-deep/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring/spring-in-deep/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +91,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring/spring-in-deep/bean-scope/src/main/java/com/yuanjiaoc/bean/scope" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring/spring-in-deep/bean-lifecycle/src/main/resources/META-INF" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -107,11 +110,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ideaProject02\yuanjiaoc\spring\spring-in-deep\bean-lifecycle\src\main\resources\META-INF" />
       <recent name="D:\ideaProject02\yuanjiaoc\spring\spring-in-deep\bean-scope\src\main\java\com\yuanjiaoc\bean\scope" />
       <recent name="D:\ideaProject02\yuanjiaoc\spring\spring-in-deep\dependency-source\src\main\resources\META-INF" />
       <recent name="D:\ideaProject02\yuanjiaoc\spring\spring-in-deep\dependency-injection\src\main\resources\META-INF" />
       <recent name="D:\ideaProject02\yuanjiaoc\spring\spring-in-deep\dependency-injection\src\main\resources" />
-      <recent name="D:\ideaProject02\yuanjiaoc\spring\spring-in-deep\spring-common\src\main\java\com\yuanjiaoc\common\annotation" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\ideaProject02\yuanjiaoc\spring\spring-in-deep\dependency-injection\src\main\resources\META-INF" />
@@ -121,10 +124,24 @@
       <recent name="D:\ideaProject02\yuanjiaoc" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.yuanjiaoc.bean.lifecycle" />
       <recent name="com.yuanjiaoc.bean.scope" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ThreadLocalScopeDemo">
+  <component name="RunManager" selected="Application.BeanMetadataConfigurationDemo">
+    <configuration name="BeanMetadataConfigurationDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yuanjiaoc.bean.lifecycle.BeanMetadataConfigurationDemo" />
+      <module name="bean-lifecycle" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yuanjiaoc.bean.lifecycle.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BeanScopeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.yuanjiaoc.bean.scope.BeanScopeDemo" />
       <module name="bean-scope" />
@@ -164,19 +181,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingletonBeanRegistrationDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yuanjiaoc.bean.SingletonBeanRegistrationDemo" />
-      <module name="spring-bean" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.yuanjiaoc.bean.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ThreadLocalScopeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.yuanjiaoc.bean.scope.ThreadLocalScopeDemo" />
       <module name="bean-scope" />
@@ -191,19 +195,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.SingletonBeanRegistrationDemo" />
       <item itemvalue="Application.ResolvableDependencySourceDemo" />
       <item itemvalue="Application.ExternalConfigurationDependencySourceDemo" />
       <item itemvalue="Application.BeanScopeDemo" />
       <item itemvalue="Application.ThreadLocalScopeDemo" />
+      <item itemvalue="Application.BeanMetadataConfigurationDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BeanMetadataConfigurationDemo" />
         <item itemvalue="Application.ThreadLocalScopeDemo" />
         <item itemvalue="Application.BeanScopeDemo" />
         <item itemvalue="Application.ExternalConfigurationDependencySourceDemo" />
         <item itemvalue="Application.ResolvableDependencySourceDemo" />
-        <item itemvalue="Application.SingletonBeanRegistrationDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -283,7 +287,7 @@
       <workItem from="1659793062831" duration="593000" />
       <workItem from="1659921044806" duration="1979000" />
       <workItem from="1660445169811" duration="2040000" />
-      <workItem from="1660526236501" duration="12398000" />
+      <workItem from="1660526236501" duration="16861000" />
     </task>
     <task id="LOCAL-00008" summary="maven pom.xml">
       <created>1653630834552</created>

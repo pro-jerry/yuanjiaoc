@@ -9,20 +9,22 @@
         <outputRelativeToContentRoot value="true" />
         <module name="spring5-core-principle" />
         <module name="dependency-injection" />
-        <module name="dependency-source" />
         <module name="spring-hello" />
-        <module name="java8" />
-        <module name="sub_maven" />
         <module name="spring-common" />
-        <module name="spring-dependency-lookup" />
-        <module name="spring-bean" />
         <module name="art_concurrent" />
         <module name="redis" />
+        <module name="dependency-source" />
+        <module name="java8" />
+        <module name="sub_maven" />
+        <module name="spring-dependency-lookup" />
+        <module name="spring-bean" />
+        <module name="bean-lifecycle" />
         <module name="bean-scope" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="art_concurrent" target="1.8" />
+      <module name="bean-lifecycle" target="8" />
       <module name="bean-scope" target="8" />
       <module name="dependency-injection" target="8" />
       <module name="dependency-source" target="8" />
