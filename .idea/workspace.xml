@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b787db2-72c4-48b1-92ff-3a56d734a981" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/spring/spring-in-deep/bean-lifecycle/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring-in-deep/bean-lifecycle/src/main/java/com/yuanjiaoc/bean/lifecycle/BeanMetadataConfigurationDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring-in-deep/bean-lifecycle/src/main/java/com/yuanjiaoc/bean/lifecycle/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring-in-deep/bean-lifecycle/src/main/resources/META-INF/user.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/spring-in-deep/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring/spring-in-deep/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring-in-deep/bean-lifecycle/src/main/java/com/yuanjiaoc/bean/lifecycle/AnnotatedBeanDefinitionParsingDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +124,20 @@
       <recent name="com.yuanjiaoc.bean.scope" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BeanMetadataConfigurationDemo">
+  <component name="RunManager" selected="Application.AnnotatedBeanDefinitionParsingDemo">
+    <configuration name="AnnotatedBeanDefinitionParsingDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yuanjiaoc.bean.lifecycle.AnnotatedBeanDefinitionParsingDemo" />
+      <module name="bean-lifecycle" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yuanjiaoc.bean.lifecycle.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BeanMetadataConfigurationDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.yuanjiaoc.bean.lifecycle.BeanMetadataConfigurationDemo" />
       <module name="bean-lifecycle" />
@@ -168,19 +177,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ResolvableDependencySourceDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yuanjiaoc.dependency.source.ResolvableDependencySourceDemo" />
-      <module name="dependency-source" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.yuanjiaoc.dependency.source.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ThreadLocalScopeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.yuanjiaoc.bean.scope.ThreadLocalScopeDemo" />
       <module name="bean-scope" />
@@ -195,19 +191,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ResolvableDependencySourceDemo" />
       <item itemvalue="Application.ExternalConfigurationDependencySourceDemo" />
       <item itemvalue="Application.BeanScopeDemo" />
       <item itemvalue="Application.ThreadLocalScopeDemo" />
       <item itemvalue="Application.BeanMetadataConfigurationDemo" />
+      <item itemvalue="Application.AnnotatedBeanDefinitionParsingDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AnnotatedBeanDefinitionParsingDemo" />
         <item itemvalue="Application.BeanMetadataConfigurationDemo" />
         <item itemvalue="Application.ThreadLocalScopeDemo" />
         <item itemvalue="Application.BeanScopeDemo" />
         <item itemvalue="Application.ExternalConfigurationDependencySourceDemo" />
-        <item itemvalue="Application.ResolvableDependencySourceDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -287,7 +283,8 @@
       <workItem from="1659793062831" duration="593000" />
       <workItem from="1659921044806" duration="1979000" />
       <workItem from="1660445169811" duration="2040000" />
-      <workItem from="1660526236501" duration="16861000" />
+      <workItem from="1660526236501" duration="19210000" />
+      <workItem from="1660698986699" duration="4895000" />
     </task>
     <task id="LOCAL-00008" summary="maven pom.xml">
       <created>1653630834552</created>
@@ -669,6 +666,17 @@
     <MESSAGE value="AwareInterfaceDependencyInjectionDemo" />
     <MESSAGE value="prototype" />
     <option name="LAST_COMMIT_MESSAGE" value="prototype" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.8.RELEASE/spring-beans-5.2.8.RELEASE-sources.jar!/org/springframework/beans/factory/support/BeanDefinitionReaderUtils.java</url>
+          <line>106</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/yuanjiaoc$Java8Test3_test1.ic" NAME="Java8Test3.test1 Coverage Results" MODIFIED="1656555254611" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
