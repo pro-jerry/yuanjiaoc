@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b787db2-72c4-48b1-92ff-3a56d734a981" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/spring/spring-hello/src/main/java/com/yuanjiaoc/mergeBeanDefinition/GenericBeanDefinitionDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring-hello/src/main/java/com/yuanjiaoc/mergeBeanDefinition/SuperUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring-hello/src/main/java/com/yuanjiaoc/mergeBeanDefinition/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring-hello/src/main/java/com/yuanjiaoc/beanpropertyinit/BeanPostProcessDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring-hello/src/main/java/com/yuanjiaoc/beanpropertyinit/MyInstantiationBeanPostProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring-hello/src/main/java/com/yuanjiaoc/beanpropertyinit/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,7 +126,7 @@
       <recent name="com.yuanjiaoc.bean.scope" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GenericBeanDefinitionDemo">
+  <component name="RunManager" selected="Application.BeanPostProcessDemo">
     <configuration name="AnnotatedBeanDefinitionParsingDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.yuanjiaoc.bean.lifecycle.AnnotatedBeanDefinitionParsingDemo" />
       <module name="bean-lifecycle" />
@@ -153,12 +153,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BeanScopeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yuanjiaoc.bean.scope.BeanScopeDemo" />
-      <module name="bean-scope" />
+    <configuration name="BeanPostProcessDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yuanjiaoc.beanpropertyinit.BeanPostProcessDemo" />
+      <module name="spring-hello" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yuanjiaoc.bean.scope.*" />
+          <option name="PATTERN" value="com.yuanjiaoc.beanpropertyinit.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -193,19 +193,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.BeanScopeDemo" />
       <item itemvalue="Application.ThreadLocalScopeDemo" />
       <item itemvalue="Application.BeanMetadataConfigurationDemo" />
       <item itemvalue="Application.AnnotatedBeanDefinitionParsingDemo" />
       <item itemvalue="Application.GenericBeanDefinitionDemo" />
+      <item itemvalue="Application.BeanPostProcessDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BeanPostProcessDemo" />
         <item itemvalue="Application.GenericBeanDefinitionDemo" />
         <item itemvalue="Application.AnnotatedBeanDefinitionParsingDemo" />
         <item itemvalue="Application.BeanMetadataConfigurationDemo" />
         <item itemvalue="Application.ThreadLocalScopeDemo" />
-        <item itemvalue="Application.BeanScopeDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -286,7 +286,8 @@
       <workItem from="1659921044806" duration="1979000" />
       <workItem from="1660445169811" duration="2040000" />
       <workItem from="1660526236501" duration="19210000" />
-      <workItem from="1660698986699" duration="14427000" />
+      <workItem from="1660698986699" duration="16966000" />
+      <workItem from="1660788158894" duration="2508000" />
     </task>
     <task id="LOCAL-00008" summary="maven pom.xml">
       <created>1653630834552</created>
