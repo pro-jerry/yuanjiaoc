@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b787db2-72c4-48b1-92ff-3a56d734a981" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/spring/spring-in-deep/bean-lifecycle/src/main/java/com/yuanjiaoc/bean/lifecycle/MergedBeanDefinitionDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring-in-deep/bean-lifecycle/src/main/resources/merged_bean_definition.xml" afterDir="false" />
-    </list>
+    <list default="true" id="3b787db2-72c4-48b1-92ff-3a56d734a981" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -287,7 +284,7 @@
       <workItem from="1660526236501" duration="19210000" />
       <workItem from="1660698986699" duration="16966000" />
       <workItem from="1660788158894" duration="3861000" />
-      <workItem from="1660961714765" duration="2231000" />
+      <workItem from="1660961714765" duration="2622000" />
     </task>
     <task id="LOCAL-00008" summary="maven pom.xml">
       <created>1653630834552</created>
