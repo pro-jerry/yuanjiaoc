@@ -6,20 +6,21 @@ import org.springframework.beans.factory.xml.XmlBeanDefinitionReader;
 import org.springframework.context.annotation.CommonAnnotationBeanPostProcessor;
 
 /**
- * Bean 初始化生命周期示例.
- *
  * @author 何二白
  * @version 1.0
  * @since 2022年08月26日
  */
-public class BeanInitializationLifecycleDemo {
+public class BeanLifecycleDemo {
 
-  public static void main(String[] args) {
+  public static void main(String[] args) throws InterruptedException {
     DefaultListableBeanFactory beanFactory = new DefaultListableBeanFactory();
     // 添加 BeanPostProcessor 实现 MyInstantiationAwareBeanPostProcessor
     beanFactory.addBeanPostProcessor(new MyInstantiationAwareBeanPostProcessor());
-    // 添加 CommonAnnotationBeanPostProcessor 解决 @PostConstruct
+    // 添加 MyDestructionAwareBeanPostProcessor 执行销毁前回调
+    beanFactory.addBeanPostProcessor(new MyDestructionAwareBeanPostProcessor());
+    // 添加 CommonAnnotationBeanPostProcessor 解决 @PostConstruct @PreDestroy
     beanFactory.addBeanPostProcessor(new CommonAnnotationBeanPostProcessor());
+
     XmlBeanDefinitionReader beanDefinitionReader = new XmlBeanDefinitionReader(beanFactory);
     String[] locations = {
       "META-INF/postProcessBeforeInstantiation.xml",
@@ -30,6 +31,7 @@ public class BeanInitializationLifecycleDemo {
     // 显示地执行 preInstantiateSingletons()
     // SmartInitializingSingleton 通常在 Spring ApplicationContext 场景使用
     // preInstantiateSingletons 将已注册的 BeanDefinition 初始化成 Spring Bean
+    //    beanFactory.preInstantiateSingletons();
 
     // 通过 Bean Id 和类型进行依赖查找
     User user = beanFactory.getBean("user", User.class);
@@ -43,6 +45,18 @@ public class BeanInitializationLifecycleDemo {
 
     System.out.println(userHolder);
 
-    beanFactory.preInstantiateSingletons();
+    // 执行 Bean 销毁（容器内）
+    beanFactory.destroyBean("userHolder", userHolder);
+    // Bean 销毁并不意味着 Bean 垃圾回收了
+    System.out.println(userHolder);
+
+    // 销毁 BeanFactory 中的单例 Bean
+    beanFactory.destroySingletons();
+    // 强制 GC
+    System.gc();
+    // 等待一段时间
+    Thread.sleep(1000L);
+    // 强制 GC
+    System.gc();
   }
 }

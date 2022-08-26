@@ -89,6 +89,10 @@ public class UserHolder
     System.out.println("doDestroy() = " + description);
   }
 
+  protected void finalize() throws Throwable {
+    System.out.println("The UserHolder is finalized...");
+  }
+
   public String toString() {
     return "UserHolder{"
         + "user="
