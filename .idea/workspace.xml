@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b787db2-72c4-48b1-92ff-3a56d734a981" name="Changes" comment="" />
+    <list default="true" id="3b787db2-72c4-48b1-92ff-3a56d734a981" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/spring/spring-in-deep/bean-lifecycle/src/main/java/com/yuanjiaoc/bean/lifecycle/BeanInstantiationLifecycleDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/spring-in-deep/bean-lifecycle/src/main/java/com/yuanjiaoc/bean/lifecycle/BeanInstantiationLifecycleDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/spring-in-deep/bean-lifecycle/src/main/java/com/yuanjiaoc/bean/lifecycle/MyInstantiationAwareBeanPostProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/spring-in-deep/bean-lifecycle/src/main/java/com/yuanjiaoc/bean/lifecycle/MyInstantiationAwareBeanPostProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/spring-in-deep/bean-lifecycle/src/main/java/com/yuanjiaoc/bean/lifecycle/UserHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/spring-in-deep/bean-lifecycle/src/main/java/com/yuanjiaoc/bean/lifecycle/UserHolder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/spring-in-deep/bean-lifecycle/src/main/resources/META-INF/bean-constructor-dependency-injection.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring/spring-in-deep/bean-lifecycle/src/main/resources/META-INF/bean-constructor-dependency-injection.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/spring-in-deep/bean-lifecycle/target/classes/META-INF/bean-constructor-dependency-injection.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring/spring-in-deep/bean-lifecycle/target/classes/META-INF/bean-constructor-dependency-injection.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -85,7 +91,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring/spring-in-deep/bean-lifecycle/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring/spring-in-deep/bean-lifecycle/src/main/resources/META-INF" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -104,8 +110,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\ideaProject02\yuanjiaoc\spring\spring-in-deep\bean-lifecycle\src\main\resources" />
       <recent name="D:\ideaProject02\yuanjiaoc\spring\spring-in-deep\bean-lifecycle\src\main\resources\META-INF" />
+      <recent name="D:\ideaProject02\yuanjiaoc\spring\spring-in-deep\bean-lifecycle\src\main\resources" />
       <recent name="D:\ideaProject02\yuanjiaoc\spring\spring-in-deep\bean-scope\src\main\java\com\yuanjiaoc\bean\scope" />
       <recent name="D:\ideaProject02\yuanjiaoc\spring\spring-in-deep\dependency-source\src\main\resources\META-INF" />
       <recent name="D:\ideaProject02\yuanjiaoc\spring\spring-in-deep\dependency-injection\src\main\resources\META-INF" />
@@ -122,7 +128,7 @@
       <recent name="com.yuanjiaoc.bean.scope" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MergedBeanDefinitionDemo">
+  <component name="RunManager" selected="Application.BeanInstantiationLifecycleDemo">
     <configuration name="AnnotatedBeanDefinitionParsingDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.yuanjiaoc.bean.lifecycle.AnnotatedBeanDefinitionParsingDemo" />
       <module name="bean-lifecycle" />
@@ -136,8 +142,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BeanMetadataConfigurationDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yuanjiaoc.bean.lifecycle.BeanMetadataConfigurationDemo" />
+    <configuration name="BeanInstantiationLifecycleDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yuanjiaoc.bean.lifecycle.BeanInstantiationLifecycleDemo" />
       <module name="bean-lifecycle" />
       <extension name="coverage">
         <pattern>
@@ -189,19 +195,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.BeanMetadataConfigurationDemo" />
       <item itemvalue="Application.AnnotatedBeanDefinitionParsingDemo" />
       <item itemvalue="Application.GenericBeanDefinitionDemo" />
       <item itemvalue="Application.BeanPostProcessDemo" />
       <item itemvalue="Application.MergedBeanDefinitionDemo" />
+      <item itemvalue="Application.BeanInstantiationLifecycleDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BeanInstantiationLifecycleDemo" />
         <item itemvalue="Application.MergedBeanDefinitionDemo" />
         <item itemvalue="Application.BeanPostProcessDemo" />
         <item itemvalue="Application.GenericBeanDefinitionDemo" />
         <item itemvalue="Application.AnnotatedBeanDefinitionParsingDemo" />
-        <item itemvalue="Application.BeanMetadataConfigurationDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -284,14 +290,12 @@
       <workItem from="1660526236501" duration="19210000" />
       <workItem from="1660698986699" duration="16966000" />
       <workItem from="1660788158894" duration="3861000" />
-      <workItem from="1660961714765" duration="2622000" />
-    </task>
-    <task id="LOCAL-00008" summary="maven pom.xml">
-      <created>1653630834552</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1653630834552</updated>
+      <workItem from="1660961714765" duration="4824000" />
+      <workItem from="1661071739679" duration="674000" />
+      <workItem from="1661147474099" duration="18114000" />
+      <workItem from="1661219475541" duration="7070000" />
+      <workItem from="1661432106916" duration="1381000" />
+      <workItem from="1661476142208" duration="4305000" />
     </task>
     <task id="LOCAL-00009" summary="Profiler">
       <created>1653632636677</created>
@@ -629,7 +633,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660546952041</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="Spring Bean实例化前阶段">
+      <created>1661174024621</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1661174024621</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -640,7 +651,6 @@
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="FactoryMethod" />
     <MESSAGE value="AbstractFactory" />
     <MESSAGE value="singleton lazy" />
     <MESSAGE value="Prototype" />
@@ -665,7 +675,8 @@
     <MESSAGE value="构造器注入" />
     <MESSAGE value="AwareInterfaceDependencyInjectionDemo" />
     <MESSAGE value="prototype" />
-    <option name="LAST_COMMIT_MESSAGE" value="prototype" />
+    <MESSAGE value="Spring Bean实例化前阶段" />
+    <option name="LAST_COMMIT_MESSAGE" value="Spring Bean实例化前阶段" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/yuanjiaoc$Java8Test3_test1.ic" NAME="Java8Test3.test1 Coverage Results" MODIFIED="1656555254611" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
