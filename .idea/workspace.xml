@@ -5,10 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b787db2-72c4-48b1-92ff-3a56d734a981" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/spring/spring-in-deep/bean-lifecycle/src/main/java/com/yuanjiaoc/bean/lifecycle/BeanLifecycleDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring-in-deep/bean-lifecycle/src/main/java/com/yuanjiaoc/bean/lifecycle/MyDestructionAwareBeanPostProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/spring-in-deep/bean-lifecycle/src/main/java/com/yuanjiaoc/bean/lifecycle/BeanInitializationLifecycleDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/spring-in-deep/bean-lifecycle/src/main/java/com/yuanjiaoc/bean/lifecycle/BeanInitializationLifecycleDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/spring-in-deep/bean-lifecycle/src/main/java/com/yuanjiaoc/bean/lifecycle/UserHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/spring-in-deep/bean-lifecycle/src/main/java/com/yuanjiaoc/bean/lifecycle/UserHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring-hello/src/main/java/com/yuanjiaoc/lifecycle/BeanLifeCycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring-hello/src/main/java/com/yuanjiaoc/lifecycle/MyBeanFactoryPostProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring-hello/src/main/java/com/yuanjiaoc/lifecycle/MyBeanPostProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring-hello/src/main/java/com/yuanjiaoc/lifecycle/MyInstantiationAwareBeanPostProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring-hello/src/main/java/com/yuanjiaoc/lifecycle/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring-hello/src/main/resources/beanlifecycle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/spring-hello/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring/spring-hello/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/spring-hello/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring/spring-hello/target/classes/applicationContext.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +131,7 @@
       <recent name="com.yuanjiaoc.bean.scope" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BeanLifecycleDemo">
+  <component name="RunManager" selected="Application.BeanLifeCycle">
     <configuration name="BeanInitializationLifecycleDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.yuanjiaoc.bean.lifecycle.BeanInitializationLifecycleDemo" />
       <module name="bean-lifecycle" />
@@ -154,12 +158,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BeanLifecycleDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yuanjiaoc.bean.lifecycle.BeanLifecycleDemo" />
-      <module name="bean-lifecycle" />
+    <configuration name="BeanLifeCycle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yuanjiaoc.lifecycle.BeanLifeCycle" />
+      <module name="spring-hello" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yuanjiaoc.bean.lifecycle.*" />
+          <option name="PATTERN" value="com.yuanjiaoc.lifecycle.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -167,12 +171,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BeanPostProcessDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yuanjiaoc.beanpropertyinit.BeanPostProcessDemo" />
-      <module name="spring-hello" />
+    <configuration name="BeanLifecycleDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yuanjiaoc.bean.lifecycle.BeanLifecycleDemo" />
+      <module name="bean-lifecycle" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yuanjiaoc.beanpropertyinit.*" />
+          <option name="PATTERN" value="com.yuanjiaoc.bean.lifecycle.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -194,19 +198,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.BeanPostProcessDemo" />
       <item itemvalue="Application.MergedBeanDefinitionDemo" />
       <item itemvalue="Application.BeanInstantiationLifecycleDemo" />
       <item itemvalue="Application.BeanInitializationLifecycleDemo" />
       <item itemvalue="Application.BeanLifecycleDemo" />
+      <item itemvalue="Application.BeanLifeCycle" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BeanLifeCycle" />
         <item itemvalue="Application.BeanLifecycleDemo" />
         <item itemvalue="Application.BeanInitializationLifecycleDemo" />
         <item itemvalue="Application.BeanInstantiationLifecycleDemo" />
         <item itemvalue="Application.MergedBeanDefinitionDemo" />
-        <item itemvalue="Application.BeanPostProcessDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -294,7 +298,9 @@
       <workItem from="1661147474099" duration="18114000" />
       <workItem from="1661219475541" duration="7070000" />
       <workItem from="1661432106916" duration="1381000" />
-      <workItem from="1661476142208" duration="11120000" />
+      <workItem from="1661476142208" duration="11637000" />
+      <workItem from="1661498543264" duration="8982000" />
+      <workItem from="1661737613457" duration="492000" />
     </task>
     <task id="LOCAL-00009" summary="Profiler">
       <created>1653632636677</created>
