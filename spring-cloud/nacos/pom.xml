@@ -14,13 +14,19 @@
   <packaging>pom</packaging>
   <modules>
     <module>nacos-spring-cloud-config</module>
+    <module>nacos-spring-cloud-provider</module>
+    <module>nacos-spring-cloud-consumer</module>
   </modules>
 
   <properties>
     <maven.compiler.source>8</maven.compiler.source>
     <maven.compiler.target>8</maven.compiler.target>
-    <spring-boot.version>2.0.4.RELEASE</spring-boot.version>
-    <spring-cloud.version>Finchley.RELEASE</spring-cloud.version>
+    <spring.boot.version>2.3.2.RELEASE</spring.boot.version>
+    <spring.cloud.version>Hoxton.SR8</spring.cloud.version>
+    <nacos.discovery.verison>1.4.1.RELEASE</nacos.discovery.verison>
+    <nacos.client.version>1.4.1</nacos.client.version>
+    <hibernate.validator.version>5.1.0.Final</hibernate.validator.version>
+    <spring-cloud-alibaba-dependencies.version>2.2.5.RELEASE</spring-cloud-alibaba-dependencies.version>
   </properties>
 
   <dependencyManagement>
@@ -28,16 +34,38 @@
       <dependency>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-dependencies</artifactId>
-        <version>${spring-boot.version}</version>
+        <version>${spring.boot.version}</version>
         <type>pom</type>
         <scope>import</scope>
       </dependency>
       <dependency>
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-dependencies</artifactId>
-        <version>${spring-cloud.version}</version>
+        <version>${spring.cloud.version}</version>
         <type>pom</type>
         <scope>import</scope>
+      </dependency>
+      <dependency>
+        <groupId>org.springframework.cloud</groupId>
+        <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
+        <version>${nacos.discovery.verison}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.alibaba.cloud</groupId>
+        <artifactId>spring-cloud-alibaba-dependencies</artifactId>
+        <version>${spring-cloud-alibaba-dependencies.version}</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
+      <dependency>
+        <groupId>com.alibaba.nacos</groupId>
+        <artifactId>nacos-client</artifactId>
+        <version>${nacos.client.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.hibernate</groupId>
+        <artifactId>hibernate-validator</artifactId>
+        <version>${hibernate.validator.version}</version>
       </dependency>
     </dependencies>
   </dependencyManagement>

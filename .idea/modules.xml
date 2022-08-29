@@ -9,9 +9,14 @@
       <module fileurl="file://$PROJECT_DIR$/spring/spring-in-deep/dependency-source/dependency-source.iml" filepath="$PROJECT_DIR$/spring/spring-in-deep/dependency-source/dependency-source.iml" />
       <module fileurl="file://$PROJECT_DIR$/java8/java8.iml" filepath="$PROJECT_DIR$/java8/java8.iml" />
       <module fileurl="file://$PROJECT_DIR$/maven/maven.iml" filepath="$PROJECT_DIR$/maven/maven.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud/nacos/nacos.iml" filepath="$PROJECT_DIR$/spring-cloud/nacos/nacos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud/nacos/nacos-spring-cloud-config/nacos-spring-cloud-config.iml" filepath="$PROJECT_DIR$/spring-cloud/nacos/nacos-spring-cloud-config/nacos-spring-cloud-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud/nacos/nacos-spring-cloud-consumer/nacos-spring-cloud-consumer.iml" filepath="$PROJECT_DIR$/spring-cloud/nacos/nacos-spring-cloud-consumer/nacos-spring-cloud-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud/nacos/nacos-spring-cloud-provider/nacos-spring-cloud-provider.iml" filepath="$PROJECT_DIR$/spring-cloud/nacos/nacos-spring-cloud-provider/nacos-spring-cloud-provider.iml" />
       <module fileurl="file://$PROJECT_DIR$/redis/redis.iml" filepath="$PROJECT_DIR$/redis/redis.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring/spring.iml" filepath="$PROJECT_DIR$/spring/spring.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring/spring-in-deep/spring-bean/spring-bean.iml" filepath="$PROJECT_DIR$/spring/spring-in-deep/spring-bean/spring-bean.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud/spring-cloud.iml" filepath="$PROJECT_DIR$/spring-cloud/spring-cloud.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring/spring-in-deep/spring-common/spring-common.iml" filepath="$PROJECT_DIR$/spring/spring-in-deep/spring-common/spring-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring/spring-in-deep/spring-dependency-lookup/spring-dependency-lookup.iml" filepath="$PROJECT_DIR$/spring/spring-in-deep/spring-dependency-lookup/spring-dependency-lookup.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring/spring-hello/spring-hello.iml" filepath="$PROJECT_DIR$/spring/spring-hello/spring-hello.iml" />
