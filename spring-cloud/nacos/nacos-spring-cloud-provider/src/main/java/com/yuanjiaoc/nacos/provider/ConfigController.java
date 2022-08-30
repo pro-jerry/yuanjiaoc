@@ -3,7 +3,6 @@ package com.yuanjiaoc.nacos.provider;
 import java.util.HashMap;
 import java.util.Map;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -12,7 +11,6 @@ import org.springframework.web.bind.annotation.RestController;
  * @version 1.0
  * @since 2022年08月29日
  */
-@RefreshScope
 @RestController
 public class ConfigController {
 

@@ -2,7 +2,6 @@ package com.yuanjiaoc.nacos.provider;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 /**
  * @author 何二白
@@ -10,7 +9,6 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
  * @since 2022年08月29日
  */
 @SpringBootApplication
-@EnableDiscoveryClient
 public class NacosProviderApplication {
 
   public static void main(String[] args) {
