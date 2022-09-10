@@ -15,6 +15,8 @@
         <option value="$PROJECT_DIR$/java8/pom.xml" />
         <option value="$PROJECT_DIR$/redis/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud/pom.xml" />
+        <option value="$PROJECT_DIR$/spring/spring-in-deep/configuration-metadata/pom.xml" />
+        <option value="$PROJECT_DIR$/test/pom.xml" />
       </list>
     </option>
   </component>

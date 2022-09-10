@@ -1,6 +1,7 @@
 package com.yuanjiaoc.test;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import org.apache.commons.collections4.CollectionUtils;
 import org.junit.Test;
 
@@ -13,7 +14,15 @@ import org.junit.Test;
  */
 public class CollectionUtilsTest {
 
+
     @Test
+    public void collectionsOfmin() {
+        Integer productType = Collections.min(null);
+        System.out.println(productType);
+    }
+
+    @Test
+
     public void collection() {
         ArrayList<String> listA = new ArrayList<String>() {
             {

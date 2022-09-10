@@ -5,16 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b787db2-72c4-48b1-92ff-3a56d734a981" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/spring-cloud/nacos/nacos-spring-cloud-consumer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud/nacos/nacos-spring-cloud-consumer/src/main/java/com/yuanjiaoc/nacos/consumer/NacosConsumerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud/nacos/nacos-spring-cloud-consumer/src/main/java/com/yuanjiaoc/nacos/consumer/controller/TestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud/nacos/nacos-spring-cloud-consumer/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud/nacos/nacos-spring-cloud-provider/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud/nacos/nacos-spring-cloud-provider/src/main/java/com/yuanjiaoc/nacos/provider/ConfigController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud/nacos/nacos-spring-cloud-provider/src/main/java/com/yuanjiaoc/nacos/provider/NacosProviderApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud/nacos/nacos-spring-cloud-provider/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud/nacos/nacos-spring-cloud-provider/src/main/resources/bootstrap.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud/nacos/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud/nacos/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring-hello/src/main/java/com/yuanjiaoc/test/ioc/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring-hello/src/main/java/com/yuanjiaoc/test/ioc/CombustionCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring-hello/src/main/java/com/yuanjiaoc/test/ioc/CombustionEngine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring-hello/src/main/java/com/yuanjiaoc/test/ioc/ElectricCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring-hello/src/main/java/com/yuanjiaoc/test/ioc/ElectricEngine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring-hello/src/main/java/com/yuanjiaoc/test/ioc/Engine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/src/main/java/com/yuanjiaoc/test/CollectionUtilsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/main/java/com/yuanjiaoc/test/CollectionUtilsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,8 +30,8 @@
         <option value="package-info" />
         <option value="Enum" />
         <option value="spring-beans.schema" />
-        <option value="Interface" />
         <option value="AnnotationType" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -60,8 +57,10 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.2.8.RELEASE/spring-context-5.2.8.RELEASE-sources.jar!/org/springframework/context/annotation/AnnotationConfigApplicationContext.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.2.8.RELEASE/spring-context-5.2.8.RELEASE-sources.jar!/org/springframework/validation/Validator.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.2.8.RELEASE/spring-context-5.2.8.RELEASE-sources.jar!/org/springframework/context/support/AbstractApplicationContext.java" root0="SKIP_INSPECTION" />
     <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.2.8.RELEASE/spring-context-5.2.8.RELEASE-sources.jar!/org/springframework/context/annotation/Configuration.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.8.RELEASE/spring-beans-5.2.8.RELEASE-sources.jar!/org/springframework/beans/factory/support/DefaultListableBeanFactory.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="JRebelWorkspace">
     <option name="jrebelEnabledAutocompile" value="true" />
@@ -103,7 +102,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring/spring-in-deep/bean-lifecycle/src/main/resources/META-INF" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring/spring-in-deep/configuration-metadata/src/main/resources/META-INF" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -112,25 +111,28 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
+  </component>
+  <component name="ReaderModeSettings">
+    <option name="enabled" value="false" />
   </component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ideaProject02\yuanjiaoc\spring\spring-in-deep\configuration-metadata\src\main\resources\META-INF" />
       <recent name="D:\ideaProject02\yuanjiaoc\spring\spring-in-deep\bean-lifecycle\src\main\resources\META-INF" />
       <recent name="D:\ideaProject02\yuanjiaoc\spring\spring-in-deep\bean-lifecycle\src\main\resources" />
       <recent name="D:\ideaProject02\yuanjiaoc\spring\spring-in-deep\bean-scope\src\main\java\com\yuanjiaoc\bean\scope" />
       <recent name="D:\ideaProject02\yuanjiaoc\spring\spring-in-deep\dependency-source\src\main\resources\META-INF" />
-      <recent name="D:\ideaProject02\yuanjiaoc\spring\spring-in-deep\dependency-injection\src\main\resources\META-INF" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\ideaProject02\yuanjiaoc\spring\spring-in-deep\dependency-injection\src\main\resources\META-INF" />
       <recent name="D:\ideaProject02\yuanjiaoc\spring\spring-in-deep" />
+      <recent name="D:\ideaProject02\yuanjiaoc\spring\spring-in-deep\dependency-injection\src\main\resources\META-INF" />
       <recent name="D:\ideaProject02\yuanjiaoc\spring" />
       <recent name="D:\ideaProject02\yuanjiaoc\spring\spring-in-deep\spring-dependency-lookup\src\main\resources\META-INF" />
       <recent name="D:\ideaProject02\yuanjiaoc" />
@@ -147,13 +149,26 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.NacosProviderApplication">
-    <configuration name="BeanLifeCycle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yuanjiaoc.lifecycle.BeanLifeCycle" />
+  <component name="RunManager" selected="Application.Car">
+    <configuration name="AnnotatedYamlPropertySourceDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yuanjiaoc.metadata.AnnotatedYamlPropertySourceDemo" />
+      <module name="configuration-metadata" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yuanjiaoc.metadata.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Car" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yuanjiaoc.test.ioc.Car" />
       <module name="spring-hello" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yuanjiaoc.lifecycle.*" />
+          <option name="PATTERN" value="com.yuanjiaoc.test.ioc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -161,12 +176,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BeanLifecycleDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yuanjiaoc.bean.lifecycle.BeanLifecycleDemo" />
-      <module name="bean-lifecycle" />
+    <configuration name="PropertySourceDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yuanjiaoc.metadata.PropertySourceDemo" />
+      <module name="configuration-metadata" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yuanjiaoc.bean.lifecycle.*" />
+          <option name="PATTERN" value="com.yuanjiaoc.metadata.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -174,59 +189,49 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NacosConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="nacos-spring-cloud-config" />
+    <configuration name="XmlBasedYamlPropertySourceDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yuanjiaoc.metadata.XmlBasedYamlPropertySourceDemo" />
+      <module name="configuration-metadata" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yuanjiaoc.nacos.config.*" />
+          <option name="PATTERN" value="com.yuanjiaoc.metadata.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yuanjiaoc.nacos.config.NacosConfigApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NacosConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="nacos-spring-cloud-consumer" />
+    <configuration name="CollectionUtilsTest.collectionsOfmin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yuanjiaoc.nacos.consumer.*" />
+          <option name="PATTERN" value="com.yuanjiaoc.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yuanjiaoc.nacos.consumer.NacosConsumerApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NacosProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="nacos-spring-cloud-provider" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.yuanjiaoc.nacos.provider.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yuanjiaoc.nacos.provider.NacosProviderApplication" />
+      <option name="PACKAGE_NAME" value="com.yuanjiaoc.test" />
+      <option name="MAIN_CLASS_NAME" value="com.yuanjiaoc.test.CollectionUtilsTest" />
+      <option name="METHOD_NAME" value="collectionsOfmin" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.BeanLifecycleDemo" />
-      <item itemvalue="Application.BeanLifeCycle" />
-      <item itemvalue="Spring Boot.NacosConfigApplication" />
-      <item itemvalue="Spring Boot.NacosProviderApplication" />
-      <item itemvalue="Spring Boot.NacosConsumerApplication" />
+      <item itemvalue="Application.PropertySourceDemo" />
+      <item itemvalue="Application.XmlBasedYamlPropertySourceDemo" />
+      <item itemvalue="Application.AnnotatedYamlPropertySourceDemo" />
+      <item itemvalue="JUnit.CollectionUtilsTest.collectionsOfmin" />
+      <item itemvalue="Application.Car" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.NacosProviderApplication" />
-        <item itemvalue="Spring Boot.NacosConsumerApplication" />
-        <item itemvalue="Spring Boot.NacosConfigApplication" />
-        <item itemvalue="Application.BeanLifeCycle" />
-        <item itemvalue="Application.BeanLifecycleDemo" />
+        <item itemvalue="Application.Car" />
+        <item itemvalue="JUnit.CollectionUtilsTest.collectionsOfmin" />
+        <item itemvalue="Application.AnnotatedYamlPropertySourceDemo" />
+        <item itemvalue="Application.XmlBasedYamlPropertySourceDemo" />
+        <item itemvalue="Application.PropertySourceDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -316,35 +321,16 @@
       <workItem from="1661432106916" duration="1381000" />
       <workItem from="1661476142208" duration="11637000" />
       <workItem from="1661498543264" duration="8982000" />
-      <workItem from="1661737613457" duration="16827000" />
-    </task>
-    <task id="LOCAL-00010" summary="ThreadPool">
-      <created>1653639217944</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1653639217944</updated>
-    </task>
-    <task id="LOCAL-00011" summary="同步器">
-      <created>1653645971842</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1653645971842</updated>
-    </task>
-    <task id="LOCAL-00012" summary="read write Lock">
-      <created>1653903608246</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1653903608246</updated>
-    </task>
-    <task id="LOCAL-00013" summary="ConcurrentPutHashMap">
-      <created>1653994767770</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1653994767770</updated>
+      <workItem from="1661737613457" duration="18876000" />
+      <workItem from="1661770581025" duration="2784000" />
+      <workItem from="1661822218797" duration="5329000" />
+      <workItem from="1661844357842" duration="3001000" />
+      <workItem from="1661850801052" duration="2522000" />
+      <workItem from="1661908819840" duration="9349000" />
+      <workItem from="1661936186451" duration="2482000" />
+      <workItem from="1661995303362" duration="1895000" />
+      <workItem from="1662719990167" duration="788000" />
+      <workItem from="1662778679380" duration="2185000" />
     </task>
     <task id="LOCAL-00014" summary="计数器任务">
       <created>1654062642154</created>
@@ -661,7 +647,35 @@
       <option name="project" value="LOCAL" />
       <updated>1661741931388</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="CollectionUtilsTest">
+      <created>1661851039797</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1661851039797</updated>
+    </task>
+    <task id="LOCAL-00060" summary="PropertiesBeanDefinitionReader">
+      <created>1661852507296</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1661852507296</updated>
+    </task>
+    <task id="LOCAL-00061" summary="AnnotatedSpringIoCContainerMetadataConfigurationDemo">
+      <created>1661916362704</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1661916362704</updated>
+    </task>
+    <task id="LOCAL-00062" summary="PropertySource">
+      <created>1661937128643</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1661937128643</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -672,10 +686,6 @@
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="singleton lazy" />
-    <MESSAGE value="Prototype" />
-    <MESSAGE value="proxy" />
-    <MESSAGE value="delegate" />
     <MESSAGE value="strategy" />
     <MESSAGE value="template" />
     <MESSAGE value="decorator" />
@@ -697,7 +707,11 @@
     <MESSAGE value="prototype" />
     <MESSAGE value="Spring Bean实例化前阶段" />
     <MESSAGE value="NacosConfig" />
-    <option name="LAST_COMMIT_MESSAGE" value="NacosConfig" />
+    <MESSAGE value="CollectionUtilsTest" />
+    <MESSAGE value="PropertiesBeanDefinitionReader" />
+    <MESSAGE value="AnnotatedSpringIoCContainerMetadataConfigurationDemo" />
+    <MESSAGE value="PropertySource" />
+    <option name="LAST_COMMIT_MESSAGE" value="PropertySource" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/yuanjiaoc$Java8Test3_test1.ic" NAME="Java8Test3.test1 Coverage Results" MODIFIED="1656555254611" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
