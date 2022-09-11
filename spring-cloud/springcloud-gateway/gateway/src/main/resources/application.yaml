@@ -1,0 +1,20 @@
+logging:
+  level:
+    org.springframework.cloud.gateway: DEBUG
+    reactor.netty.http.client: DEBUG
+spring:
+  cloud:
+    gateway:
+      default-filters:
+        - AddRequestHeader=gateway-env, springcloud-gateway
+      routes:
+        - id: "service02"
+          uri: "http://127.0.0.1:8082"
+          predicates:
+            - Path=/service02/**
+        - id: "service01"
+          uri: "http://127.0.0.1:8081"
+          predicates:
+            - Path=/service01/**
+  codec:
+    max-in-memory-size: 5MB  # 修复拦截POST请求后内存超出缓冲区
