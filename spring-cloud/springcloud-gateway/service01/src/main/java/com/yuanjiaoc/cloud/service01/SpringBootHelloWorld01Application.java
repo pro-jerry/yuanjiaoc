@@ -25,4 +25,9 @@ public class SpringBootHelloWorld01Application {
         return new ResponseEntity<>("hello world 01", HttpStatus.OK);
     }
 
+    @GetMapping("/mypath/hello")
+    public ResponseEntity<String> mypathHello() {
+        return new ResponseEntity<>("mypath hello world 01", HttpStatus.OK);
+    }
+
 }
