@@ -11,15 +11,17 @@ import org.springframework.web.bind.annotation.RestController;
  * @since 2022年08月29日
  */
 @RestController
-@RequestMapping("/config")
 @RefreshScope
 public class ConfigController {
 
-  @Value("${useLocalCache:false}")
-  private boolean useLocalCache;
+    @Value("${common.name}")
+    private String name;
 
-  @RequestMapping("/get")
-  public boolean get() {
-    return useLocalCache;
-  }
+    @Value("${common.name1}")
+    private String name1;
+
+    @RequestMapping("/config")
+    public String get() {
+        return name + "------" + name1;
+    }
 }
