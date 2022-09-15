@@ -2,7 +2,7 @@ package com.yuanjiaoc.nacos.consumer;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
+import org.springframework.cloud.openfeign.EnableFeignClients;
 
 /**
  * @author 何二白
@@ -10,10 +10,10 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
  * @since 2022年08月29日
  */
 @SpringBootApplication
-@EnableDiscoveryClient
+@EnableFeignClients
 public class NacosConsumerApplication {
 
-  public static void main(String[] args) {
-    SpringApplication.run(NacosConsumerApplication.class, args);
-  }
+    public static void main(String[] args) {
+        SpringApplication.run(NacosConsumerApplication.class, args);
+    }
 }

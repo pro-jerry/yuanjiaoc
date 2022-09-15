@@ -1,9 +1,9 @@
 server:
-  port: 8090
+  port: 8091
 
 spring:
   application:
-    name: nacos-provider
+    name: nacos-consumer
   cloud:
     nacos:
       config:
