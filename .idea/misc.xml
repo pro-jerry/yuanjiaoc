@@ -17,6 +17,8 @@
         <option value="$PROJECT_DIR$/spring-cloud/pom.xml" />
         <option value="$PROJECT_DIR$/spring/spring-in-deep/configuration-metadata/pom.xml" />
         <option value="$PROJECT_DIR$/test/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud/springcloud-gateway/service02/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud/nacos/nacos-spring-cloud-provider/pom.xml" />
       </list>
     </option>
   </component>

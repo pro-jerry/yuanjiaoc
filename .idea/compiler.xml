@@ -11,6 +11,7 @@
         <module name="dependency-injection" />
         <module name="test" />
         <module name="spring-hello" />
+        <module name="resource" />
         <module name="nacos-spring-cloud-config" />
         <module name="spring-common" />
         <module name="art_concurrent" />
@@ -22,9 +23,12 @@
         <module name="nacos-spring-cloud-consumer" />
         <module name="sub_maven" />
         <module name="spring-dependency-lookup" />
+        <module name="service01" />
         <module name="spring-bean" />
+        <module name="service02" />
         <module name="bean-lifecycle" />
         <module name="bean-scope" />
+        <module name="gateway" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -34,6 +38,7 @@
       <module name="configuration-metadata" target="8" />
       <module name="dependency-injection" target="8" />
       <module name="dependency-source" target="8" />
+      <module name="gateway" target="8" />
       <module name="java8" target="8" />
       <module name="maven" target="8" />
       <module name="nacos" target="8" />
@@ -41,6 +46,9 @@
       <module name="nacos-spring-cloud-consumer" target="8" />
       <module name="nacos-spring-cloud-provider" target="8" />
       <module name="redis" target="8" />
+      <module name="resource" target="8" />
+      <module name="service01" target="8" />
+      <module name="service02" target="8" />
       <module name="spring" target="8" />
       <module name="spring-bean" target="8" />
       <module name="spring-cloud" target="8" />
@@ -49,13 +57,17 @@
       <module name="spring-hello" target="8" />
       <module name="spring-in-deep" target="8" />
       <module name="spring5-core-principle" target="7" />
+      <module name="springcloud-gateway" target="8" />
       <module name="sub_maven" target="1.8" />
       <module name="test" target="8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="gateway" options="" />
+      <module name="nacos-spring-cloud-provider" options="" />
       <module name="spring5-core-principle" options="-verbose -bootclasspath $PROJECT_DIR$/../../java/jdk8/jre/lib/rt.jar" />
+      <module name="springcloud-gateway" options="" />
     </option>
   </component>
 </project>
