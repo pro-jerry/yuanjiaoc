@@ -27,6 +27,7 @@
     <module>dependency-source</module>
     <module>bean-scope</module>
     <module>bean-lifecycle</module>
+    <module>resource</module>
   </modules>
 
   <dependencyManagement>
