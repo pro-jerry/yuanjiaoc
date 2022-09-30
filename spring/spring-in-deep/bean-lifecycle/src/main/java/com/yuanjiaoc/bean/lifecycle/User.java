@@ -20,41 +20,43 @@ import org.springframework.core.io.Resource;
 @Data
 public class User implements BeanNameAware {
 
-  private Long id;
+    private Long id;
 
-  private String name;
+    private String name;
 
-  private City city;
+    private City city;
 
-  private City[] workCities;
+    private City[] workCities;
 
-  private List<City> lifeCities;
+    private List<City> lifeCities;
 
-  private Resource configFileLocation;
+    private Resource configFileLocation;
 
-  private Company company;
+    private Company company;
 
-  private Properties context;
+    private Properties context;
 
-  private String contextAsText;
+    private String contextAsText;
 
-  /** 当前 Bean 的名称 */
-  private transient String beanName;
+    /**
+     * 当前 Bean 的名称
+     */
+    private transient String beanName;
 
-  public static User createUser() {
-    User user = new User();
-    user.setId(100L);
-    user.setName("三省");
-    return user;
-  }
+    public static User createUser() {
+        User user = new User();
+        user.setId(100L);
+        user.setName("三省");
+        return user;
+    }
 
-  @PostConstruct
-  public void init() {
-    System.out.println("User Bean [" + this.beanName + "] 初始化...");
-  }
+    @PostConstruct
+    public void init() {
+        System.out.println("User Bean [" + this.beanName + "] 初始化...");
+    }
 
-  @PreDestroy
-  public void destroy() {
-    System.out.println("User Bean [" + this.beanName + "] 销毁中...");
-  }
+    @PreDestroy
+    public void destroy() {
+        System.out.println("User Bean [" + this.beanName + "] 销毁中...");
+    }
 }
