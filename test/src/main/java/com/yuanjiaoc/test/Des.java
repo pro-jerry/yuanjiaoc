@@ -7,7 +7,7 @@ import javax.crypto.spec.DESKeySpec;
 import javax.crypto.spec.IvParameterSpec;
 
 /**
- * 用户鉴权的加密解密.
+ * 加密解密.
  */
 public class Des {
 

@@ -4,7 +4,7 @@ import java.nio.charset.Charset;
 import java.nio.charset.StandardCharsets;
 
 /**
- * 用户鉴权的加密解密Utils.
+ * 加密解密Utils.
  */
 public class DesUtils {
 

@@ -32,10 +32,22 @@
     <c3p0.version>0.9.1.2</c3p0.version>
     <mysql.connector.version>5.1.44</mysql.connector.version>
     <project.version>1.0-SNAPSHOT</project.version>
+    <hibernate.validator.version>6.2.0.Final</hibernate.validator.version>
+    <apache-el.version>9.0.52</apache-el.version>
   </properties>
 
   <dependencyManagement>
     <dependencies>
+      <dependency>
+        <groupId>org.mortbay.jasper</groupId>
+        <artifactId>apache-el</artifactId>
+        <version>${apache-el.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.hibernate.validator</groupId>
+        <artifactId>hibernate-validator</artifactId>
+        <version>${hibernate.validator.version}</version>
+      </dependency>
       <dependency>
         <groupId>org.springframework</groupId>
         <artifactId>spring-core</artifactId>
