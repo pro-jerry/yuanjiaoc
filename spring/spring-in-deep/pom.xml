@@ -32,6 +32,7 @@
     <module>validation</module>
     <module>data-binding</module>
     <module>conversion</module>
+    <module>source-code-read</module>
   </modules>
 
   <dependencyManagement>
