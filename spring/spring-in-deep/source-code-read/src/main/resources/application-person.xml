@@ -12,7 +12,7 @@
 
   <!--  <bean id="person0" class="com.yuanjiaoc.sourcecoderead.Person"/>-->
 
-  <bean id="person" class="com.yuanjiaoc.sourcecoderead.Person">
+  <bean id="person" class="com.yuanjiaoc.sourcecoderead.Person" autowire="byName">
     <property name="id" value="1"/>
     <property name="name" value="三省"/>
     <property name="city" value="HANGZHOU"/>

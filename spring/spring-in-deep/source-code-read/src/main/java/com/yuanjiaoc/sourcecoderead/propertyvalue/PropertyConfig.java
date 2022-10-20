@@ -1,5 +1,9 @@
 package com.yuanjiaoc.sourcecoderead.propertyvalue;
 
+import com.yuanjiaoc.sourcecoderead.aware.MyApplicationContextAware;
+import com.yuanjiaoc.sourcecoderead.aware.MyBeanFactoryAware;
+import com.yuanjiaoc.sourcecoderead.aware.MyBeanNameAware;
+import org.springframework.beans.factory.annotation.Autowire;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.PropertySource;
@@ -16,8 +20,24 @@ import org.springframework.context.annotation.PropertySource;
 @PropertySource(value = {"classpath:config.properties"})
 public class PropertyConfig {
 
-    @Bean
+    @Bean(autowire = Autowire.BY_NAME)
     public PropertyValue propertyValue() {
         return new PropertyValue();
     }
+
+    @Bean
+    public MyBeanNameAware myBeanNameAware() {
+        return new MyBeanNameAware();
+    }
+
+    @Bean
+    public MyBeanFactoryAware myBeanFactoryAware() {
+        return new MyBeanFactoryAware();
+    }
+
+    @Bean
+    public MyApplicationContextAware myApplicationContextAware() {
+        return new MyApplicationContextAware();
+    }
+
 }
