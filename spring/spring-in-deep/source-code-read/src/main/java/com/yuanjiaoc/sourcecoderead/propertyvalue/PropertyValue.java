@@ -1,7 +1,10 @@
 package com.yuanjiaoc.sourcecoderead.propertyvalue;
 
+import javax.annotation.PostConstruct;
 import lombok.Data;
 import lombok.ToString;
+import org.springframework.beans.factory.BeanNameAware;
+import org.springframework.beans.factory.InitializingBean;
 import org.springframework.beans.factory.annotation.Value;
 
 /**
@@ -15,7 +18,7 @@ import org.springframework.beans.factory.annotation.Value;
  */
 @Data
 @ToString
-public class PropertyValue {
+public class PropertyValue implements InitializingBean, BeanNameAware {
 
     @Value("feiyue")
     private String name;
@@ -25,4 +28,23 @@ public class PropertyValue {
 
     @Value("${prop.city}")
     private String city;
+
+    @PostConstruct
+    public void postConstruct() {
+        System.out.println("propertyValue----->@PostConstruct");
+    }
+
+    @Override
+    public void afterPropertiesSet() throws Exception {
+        System.out.println("propertyValue----->afterPropertiesSet()");
+    }
+
+    @Override
+    public void setBeanName(String name) {
+        System.out.println("propertyValue--beanName--->" + name);
+    }
+    
+    public void initMethod() {
+        System.out.println("propertyValue----->initMethod()");
+    }
 }

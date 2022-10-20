@@ -1,7 +1,7 @@
 package com.yuanjiaoc.sourcecoderead.propertyvalue;
 
 import com.yuanjiaoc.sourcecoderead.Person;
-import com.yuanjiaoc.sourcecoderead.aware.MyBeanNameAware;
+import com.yuanjiaoc.sourcecoderead.aware.MyBeanAware;
 import javax.annotation.Resource;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -9,7 +9,6 @@ import org.springframework.beans.factory.BeanFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
-import org.springframework.core.env.Environment;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
@@ -35,11 +34,11 @@ public class PropertyValueTest {
     }
 
     @Test
-    public void testMyBeanNameAware() {
+    public void testMyBeanAware() {
         AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(PropertyConfig.class);
         printBeans(context);
-        MyBeanNameAware myBeanNameAware = (MyBeanNameAware) context.getBean("myBeanNameAware");
-        System.out.println(myBeanNameAware);
+        MyBeanAware myBeanAware = (MyBeanAware) context.getBean("myBeanAware");
+        System.out.println(myBeanAware);
     }
 
 
@@ -60,13 +59,13 @@ public class PropertyValueTest {
     @Test
     public void testPropertyValue() {
         AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(PropertyConfig.class);
-        printBeans(context);
+//        printBeans(context);
         PropertyValue propertyValue = (PropertyValue) context.getBean("propertyValue");
-        System.out.println(propertyValue);//PropertyValue{name='feiyue', age=25, city='Beijing'}
-        //使用
-        Environment environment = context.getEnvironment();
-        String property = environment.getProperty("prop.city");
-        System.out.println("prop.city=" + property);//Beijing
+//        System.out.println(propertyValue);//PropertyValue{name='feiyue', age=25, city='Beijing'}
+//        //使用
+//        Environment environment = context.getEnvironment();
+//        String property = environment.getProperty("prop.city");
+//        System.out.println("prop.city=" + property);//Beijing
 
         context.close();
     }
