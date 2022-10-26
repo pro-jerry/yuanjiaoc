@@ -7,27 +7,32 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="spring5-core-principle" />
+        <module name="data-binding" />
         <module name="dependency-injection" />
-        <module name="test" />
-        <module name="spring-hello" />
-        <module name="resource" />
+        <module name="source-code-read" />
         <module name="nacos-spring-cloud-config" />
-        <module name="spring-common" />
-        <module name="art_concurrent" />
         <module name="redis" />
         <module name="nacos-spring-cloud-provider" />
         <module name="configuration-metadata" />
         <module name="dependency-source" />
         <module name="java8" />
-        <module name="nacos-spring-cloud-consumer" />
         <module name="sub_maven" />
-        <module name="spring-dependency-lookup" />
         <module name="service01" />
-        <module name="spring-bean" />
         <module name="service02" />
         <module name="bean-lifecycle" />
         <module name="bean-scope" />
+        <module name="validation" />
+        <module name="conversion" />
+        <module name="spring5-core-principle" />
+        <module name="test" />
+        <module name="spring-hello" />
+        <module name="resource" />
+        <module name="spring-common" />
+        <module name="art_concurrent" />
+        <module name="i18n" />
+        <module name="nacos-spring-cloud-consumer" />
+        <module name="spring-dependency-lookup" />
+        <module name="spring-bean" />
         <module name="gateway" />
       </profile>
     </annotationProcessing>
@@ -36,9 +41,12 @@
       <module name="bean-lifecycle" target="8" />
       <module name="bean-scope" target="8" />
       <module name="configuration-metadata" target="8" />
+      <module name="conversion" target="8" />
+      <module name="data-binding" target="8" />
       <module name="dependency-injection" target="8" />
       <module name="dependency-source" target="8" />
       <module name="gateway" target="8" />
+      <module name="i18n" target="8" />
       <module name="java8" target="8" />
       <module name="maven" target="8" />
       <module name="nacos" target="8" />
@@ -49,6 +57,7 @@
       <module name="resource" target="8" />
       <module name="service01" target="8" />
       <module name="service02" target="8" />
+      <module name="source-code-read" target="8" />
       <module name="spring" target="8" />
       <module name="spring-bean" target="8" />
       <module name="spring-cloud" target="8" />
@@ -60,6 +69,7 @@
       <module name="springcloud-gateway" target="8" />
       <module name="sub_maven" target="1.8" />
       <module name="test" target="8" />
+      <module name="validation" target="8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

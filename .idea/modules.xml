@@ -6,9 +6,12 @@
       <module fileurl="file://$PROJECT_DIR$/spring/spring-in-deep/bean-lifecycle/bean-lifecycle.iml" filepath="$PROJECT_DIR$/spring/spring-in-deep/bean-lifecycle/bean-lifecycle.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring/spring-in-deep/bean-scope/bean-scope.iml" filepath="$PROJECT_DIR$/spring/spring-in-deep/bean-scope/bean-scope.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring/spring-in-deep/configuration-metadata/configuration-metadata.iml" filepath="$PROJECT_DIR$/spring/spring-in-deep/configuration-metadata/configuration-metadata.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring/spring-in-deep/conversion/conversion.iml" filepath="$PROJECT_DIR$/spring/spring-in-deep/conversion/conversion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring/spring-in-deep/data-binding/data-binding.iml" filepath="$PROJECT_DIR$/spring/spring-in-deep/data-binding/data-binding.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring/spring-in-deep/dependency-injection/dependency-injection.iml" filepath="$PROJECT_DIR$/spring/spring-in-deep/dependency-injection/dependency-injection.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring/spring-in-deep/dependency-source/dependency-source.iml" filepath="$PROJECT_DIR$/spring/spring-in-deep/dependency-source/dependency-source.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud/springcloud-gateway/gateway/gateway.iml" filepath="$PROJECT_DIR$/spring-cloud/springcloud-gateway/gateway/gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring/spring-in-deep/i18n/i18n.iml" filepath="$PROJECT_DIR$/spring/spring-in-deep/i18n/i18n.iml" />
       <module fileurl="file://$PROJECT_DIR$/java8/java8.iml" filepath="$PROJECT_DIR$/java8/java8.iml" />
       <module fileurl="file://$PROJECT_DIR$/maven/maven.iml" filepath="$PROJECT_DIR$/maven/maven.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud/nacos/nacos.iml" filepath="$PROJECT_DIR$/spring-cloud/nacos/nacos.iml" />
@@ -19,6 +22,7 @@
       <module fileurl="file://$PROJECT_DIR$/spring/spring-in-deep/resource/resource.iml" filepath="$PROJECT_DIR$/spring/spring-in-deep/resource/resource.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud/springcloud-gateway/service01/service01.iml" filepath="$PROJECT_DIR$/spring-cloud/springcloud-gateway/service01/service01.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud/springcloud-gateway/service02/service02.iml" filepath="$PROJECT_DIR$/spring-cloud/springcloud-gateway/service02/service02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring/spring-in-deep/source-code-read/source-code-read.iml" filepath="$PROJECT_DIR$/spring/spring-in-deep/source-code-read/source-code-read.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring/spring.iml" filepath="$PROJECT_DIR$/spring/spring.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring/spring-in-deep/spring-bean/spring-bean.iml" filepath="$PROJECT_DIR$/spring/spring-in-deep/spring-bean/spring-bean.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud/spring-cloud.iml" filepath="$PROJECT_DIR$/spring-cloud/spring-cloud.iml" />
@@ -30,6 +34,7 @@
       <module fileurl="file://$PROJECT_DIR$/spring-cloud/springcloud-gateway/springcloud-gateway.iml" filepath="$PROJECT_DIR$/spring-cloud/springcloud-gateway/springcloud-gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/maven/sub_maven/sub_maven.iml" filepath="$PROJECT_DIR$/maven/sub_maven/sub_maven.iml" />
       <module fileurl="file://$PROJECT_DIR$/test/test.iml" filepath="$PROJECT_DIR$/test/test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring/spring-in-deep/validation/validation.iml" filepath="$PROJECT_DIR$/spring/spring-in-deep/validation/validation.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/yuanjiaoc.iml" filepath="$PROJECT_DIR$/.idea/yuanjiaoc.iml" />
     </modules>
   </component>
