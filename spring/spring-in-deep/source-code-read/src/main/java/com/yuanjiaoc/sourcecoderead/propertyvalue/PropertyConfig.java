@@ -3,6 +3,7 @@ package com.yuanjiaoc.sourcecoderead.propertyvalue;
 import com.yuanjiaoc.sourcecoderead.aware.MyBeanAware;
 import org.springframework.beans.factory.annotation.Autowire;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.PropertySource;
 
@@ -16,6 +17,7 @@ import org.springframework.context.annotation.PropertySource;
  */
 @Configuration
 @PropertySource(value = {"classpath:config.properties"})
+@ComponentScan(basePackages = "com.yuanjiaoc.sourcecoderead.cycledependency")
 public class PropertyConfig {
 
     @Bean(autowire = Autowire.BY_NAME, initMethod = "initMethod")
@@ -23,7 +25,7 @@ public class PropertyConfig {
         return new PropertyValue();
     }
 
-    @Bean
+    //    @Bean
     public MyBeanAware myBeanAware() {
         return new MyBeanAware();
     }

@@ -2,6 +2,7 @@ package com.yuanjiaoc.sourcecoderead.propertyvalue;
 
 import com.yuanjiaoc.sourcecoderead.Person;
 import com.yuanjiaoc.sourcecoderead.aware.MyBeanAware;
+import com.yuanjiaoc.sourcecoderead.cycledependency.CircularRefA;
 import javax.annotation.Resource;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -34,11 +35,19 @@ public class PropertyValueTest {
     }
 
     @Test
-    public void testMyBeanAware() {
+    public void testCycleDependency() {
+
         AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(PropertyConfig.class);
         printBeans(context);
         MyBeanAware myBeanAware = (MyBeanAware) context.getBean("myBeanAware");
-        System.out.println(myBeanAware);
+    }
+
+    @Test
+    public void testMyBeanAware() {
+        AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(PropertyConfig.class);
+        printBeans(context);
+        CircularRefA circularRefA = (CircularRefA) context.getBean("circularRefA");
+        System.out.println(circularRefA.getCircularRefB());
     }
 
 
