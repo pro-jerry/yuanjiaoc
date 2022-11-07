@@ -2,14 +2,13 @@ package com.yuanjiaoc.sourcecoderead.cycledependency;
 
 import lombok.Data;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
 
 /**
  * @author 何二白
  * @version 1.0
  * @since 2022年10月22日
  */
-@Component
+//@Component
 @Data
 public class CircularRefA {
 

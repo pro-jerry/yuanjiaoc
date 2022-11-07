@@ -8,6 +8,7 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.BeanFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.config.BeanDefinition;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.test.context.ContextConfiguration;
@@ -33,6 +34,22 @@ public class PropertyValueTest {
         System.out.println(propertyValue);
         System.out.println(propertyConfig);
     }
+
+    @Test
+    public void testAutowiredFind() {
+
+        System.out.println(propertyValue.getAge());
+    }
+
+    @Test
+    public void testBeanDefinition() {
+        AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(PropertyConfig.class);
+        BeanDefinition propertyValue = context.getBeanDefinition("propertyValue");
+        for (String item : propertyValue.attributeNames()) {
+            System.out.println(propertyValue.getAttribute(item));
+        }
+    }
+
 
     @Test
     public void testCycleDependency() {
@@ -66,10 +83,18 @@ public class PropertyValueTest {
     }
 
     @Test
+    public void testPropertyValueScan() {
+        AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(
+                "com.yuanjiaoc.sourcecoderead.propertyvalue");
+        printBeans(context);
+    }
+
+
+    @Test
     public void testPropertyValue() {
         AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(PropertyConfig.class);
-//        printBeans(context);
-        PropertyValue propertyValue = (PropertyValue) context.getBean("propertyValue");
+        printBeans(context);
+//        PropertyValue propertyValue = (PropertyValue) context.getBean("propertyValue");
 //        System.out.println(propertyValue);//PropertyValue{name='feiyue', age=25, city='Beijing'}
 //        //使用
 //        Environment environment = context.getEnvironment();
