@@ -14,8 +14,12 @@ public class Test40 {
 
     public static void main(String[] args) throws InterruptedException {
         for (int i = 0; i < 10; i++) {
-            System.out.println(test());
+//            System.out.println(test());
         }
+
+        String str = "http://hmfpay.smart-tv.cn/paygateway/api/pay/qrcode?orderId=4391865";
+        String[] strings = str.split("=");
+        System.out.println(strings[1]);
     }
 
     private static int test() throws InterruptedException {
@@ -29,4 +33,5 @@ public class Test40 {
 
         return map.get(MyTask.KEY);
     }
+
 }

@@ -14,7 +14,7 @@ public class SignTest {
 
     private static final String noticeKey = "ccb8b984857587efbb70e9fa9156c754";
 
-    private static final String leKey = "etqygohsayyztdoyryoqlchyqluagdvk";
+    private static final String leKey = "9ishlfuxxcufiicvawgfryuwjij81mae";
 
     @Test
     public void hmfSign() {
@@ -45,10 +45,10 @@ public class SignTest {
         lData.setSkuNo("123456");
         lData.setSkuCnt("123456");
         lData.setAppKey("123456");
-        lData.setExternalOrderId("4_1035655757141381120");
-        lData.setExternalProductId("1000308111");
-        lData.setProductName("意甲赛季包");
-        lData.setPrice("1900");
+        lData.setExternalOrderId("4d1039549190767644672");
+        lData.setExternalProductId("10000044");
+        lData.setProductName("体育通月卡");
+        lData.setPrice("1");
         lData.setParamExt("123456");
         lData.setUserId("123456");
         lData.setUserName("123456");
