@@ -1,5 +1,6 @@
 package com.yuanjiaoc.test;
 
+import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Comparator;
@@ -94,6 +95,23 @@ public final class SignUtil {
         String tmp = String.join("&", keyValues);
 
         return DigestUtils.md5DigestAsHex(tmp.getBytes());
+    }
+
+
+    public static String makeApacheCommonSign(Map<String, Object> params, boolean isSort) {
+        List<String> keyValues = new ArrayList<>();
+        params.forEach(
+                (k, v) -> {
+                    if (null != v && StringUtils.isNotEmpty(String.valueOf(v))) {
+                        keyValues.add(k + "=" + v);
+                    }
+                });
+        if (isSort) {
+            keyValues.sort(Comparator.naturalOrder());
+        }
+        String tmp = String.join("&", keyValues);
+        System.out.println(tmp);
+        return org.apache.commons.codec.digest.DigestUtils.md5Hex(tmp.getBytes(StandardCharsets.UTF_8));
     }
 
     /**

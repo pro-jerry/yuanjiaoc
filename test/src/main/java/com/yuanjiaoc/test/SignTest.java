@@ -38,9 +38,9 @@ public class SignTest {
     }
 
     @Test
-    public void leTest() {
+    public void leInTest() {
 
-        LData lData = new LData();
+        InData lData = new InData();
         lData.setOrderNo("123456");
         lData.setSkuNo("123456");
         lData.setSkuCnt("123456");
@@ -61,6 +61,33 @@ public class SignTest {
 
         String sign = SignUtil.makeSign(sortMap, false);
         System.out.println(sign);
+    }
+
+    @Test
+    public void leExTest() {
+
+        ExData exData = new ExData();
+        exData.setRefundNo("123456");
+        exData.setSkuNo("123456");
+        exData.setSkuCnt("123456");
+        exData.setAppKey("123456");
+        exData.setExternalRefundNo("4d2tqPtJdYKJZ0J4t80gDWG5f");
+        exData.setExternalProductId("10000042");
+        exData.setProductName("UFC连续包月会员(仅电视端)");
+        exData.setPrice("1");
+        exData.setParamExt("123456");
+        exData.setUserId("123456");
+        exData.setUserName("123456");
+        exData.setMerchantNo("123456");
+
+        Map<String, Object> signMap = SignUtil.beanToMap(exData);
+        Map<String, Object> sortMap = SignUtil.sortMapByKey(signMap);
+        sortMap.put("key", leKey);
+        System.out.println(sortMap);
+        String sign = SignUtil.makeSign(sortMap, false);
+        System.out.println(sign);
+        String sign0 = SignUtil.makeApacheCommonSign(sortMap, false);
+        System.out.println(sign0);
     }
 
 //    public static void main(String[] args) {

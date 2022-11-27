@@ -8,7 +8,7 @@ import lombok.Data;
  * @since 2022年10月26日
  */
 @Data
-public class LData {
+public class InData {
 
     /**
      * 联运订单号.
