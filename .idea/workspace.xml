@@ -4,8 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b787db2-72c4-48b1-92ff-3a56d734a981" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/spring/spring-in-deep/source-code-read/src/main/java/com/yuanjiaoc/sourcecoderead/beanfactorypostprocessor/CustomBeanFactoryPostProcessor.java" afterDir="false" />
+    <list default="true" id="3b787db2-72c4-48b1-92ff-3a56d734a981" name="Changes" comment="annotation">
+      <change afterPath="$PROJECT_DIR$/java8/src/main/java/com/yuanjiaoc/reflect/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java8/src/main/java/com/yuanjiaoc/reflect/InvocationHandlerDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java8/src/main/java/com/yuanjiaoc/reflect/MyInvokationHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java8/src/main/java/com/yuanjiaoc/reflect/ProxyFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java8/src/main/java/com/yuanjiaoc/reflect/RealSubject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java8/src/main/java/com/yuanjiaoc/reflect/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java8/src/main/java/com/yuanjiaoc/reflect/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java8/src/main/java/com/yuanjiaoc/reflect/TaskImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java8/src/main/java/com/yuanjiaoc/reflect/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring-in-deep/source-code-read/src/main/java/com/yuanjiaoc/aop/example01/App01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring-in-deep/source-code-read/src/main/java/com/yuanjiaoc/aop/example01/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring-in-deep/source-code-read/src/main/java/com/yuanjiaoc/aop/example01/Boy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring-in-deep/source-code-read/src/main/java/com/yuanjiaoc/aop/example01/Girl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring-in-deep/source-code-read/src/main/java/com/yuanjiaoc/aop/example01/IBuy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring-in-deep/source-code-read/src/main/java/com/yuanjiaoc/sourcecoderead/dymanicproxy/staticproxy/HttpApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring-in-deep/source-code-read/src/main/java/com/yuanjiaoc/sourcecoderead/dymanicproxy/staticproxy/Proxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring-in-deep/source-code-read/src/main/java/com/yuanjiaoc/sourcecoderead/dymanicproxy/staticproxy/RealModule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring-in-deep/source-code-read/src/main/java/com/yuanjiaoc/sourcecoderead/factorybean/FactoryBeanAppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring-in-deep/source-code-read/src/main/java/com/yuanjiaoc/sourcecoderead/factorybean/FactoryBeanJavaConfigTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring-in-deep/source-code-read/src/main/java/com/yuanjiaoc/sourcecoderead/factorybean/Tool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring-in-deep/source-code-read/src/main/java/com/yuanjiaoc/sourcecoderead/factorybean/ToolFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java8/src/main/java/com/yuanjiaoc/reflect/Apple.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java8/src/main/java/com/yuanjiaoc/reflect/TestReflect.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,8 +46,8 @@
         <option value="package-info" />
         <option value="Enum" />
         <option value="spring-beans.schema" />
-        <option value="Interface" />
         <option value="AnnotationType" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -195,13 +217,13 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CustomBeanFactoryPostProcessor">
-    <configuration name="CustomBeanFactoryPostProcessor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yuanjiaoc.sourcecoderead.beanfactorypostprocessor.CustomBeanFactoryPostProcessor" />
+  <component name="RunManager" selected="Application.App01">
+    <configuration name="App01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yuanjiaoc.aop.example01.App01" />
       <module name="source-code-read" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yuanjiaoc.sourcecoderead.beanfactorypostprocessor.*" />
+          <option name="PATTERN" value="com.yuanjiaoc.aop.example01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -209,12 +231,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindFiles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yuanjiaoc.annotation.FindFiles" />
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yuanjiaoc.reflect.Client" />
       <module name="java8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yuanjiaoc.annotation.*" />
+          <option name="PATTERN" value="com.yuanjiaoc.reflect.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -222,12 +244,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetUser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yuanjiaoc.annotation.GetUser" />
+    <configuration name="ReflectMethodConstructorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yuanjiaoc.reflect.ReflectMethodConstructorDemo" />
       <module name="java8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yuanjiaoc.annotation.*" />
+          <option name="PATTERN" value="com.yuanjiaoc.reflect.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -235,12 +257,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yuanjiaoc.annotation.TestDemo" />
+    <configuration name="ReflectMethodDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yuanjiaoc.reflect.ReflectMethodDemo" />
       <module name="java8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yuanjiaoc.annotation.*" />
+          <option name="PATTERN" value="com.yuanjiaoc.reflect.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -248,12 +270,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserFactory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yuanjiaoc.annotation.UserFactory" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yuanjiaoc.reflect.Test" />
       <module name="java8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yuanjiaoc.annotation.*" />
+          <option name="PATTERN" value="com.yuanjiaoc.reflect.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -276,21 +298,21 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.FindFiles" />
-      <item itemvalue="Application.UserFactory" />
-      <item itemvalue="Application.GetUser" />
-      <item itemvalue="Application.TestDemo" />
+      <item itemvalue="Application.ReflectMethodDemo" />
+      <item itemvalue="Application.ReflectMethodConstructorDemo" />
+      <item itemvalue="Application.Client" />
+      <item itemvalue="Application.Test" />
       <item itemvalue="Spring Boot.SpringBootHelloWorld01Application" />
       <item itemvalue="Spring Boot.SpringBootHelloWorld02Application" />
-      <item itemvalue="Application.CustomBeanFactoryPostProcessor" />
+      <item itemvalue="Application.App01" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CustomBeanFactoryPostProcessor" />
-        <item itemvalue="Application.TestDemo" />
-        <item itemvalue="Application.GetUser" />
-        <item itemvalue="Application.UserFactory" />
-        <item itemvalue="Application.FindFiles" />
+        <item itemvalue="Application.App01" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.ReflectMethodConstructorDemo" />
+        <item itemvalue="Application.ReflectMethodDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -465,7 +487,12 @@
       <workItem from="1669598753675" duration="7045000" />
       <workItem from="1669638659923" duration="1271000" />
       <workItem from="1669684462912" duration="2173000" />
-      <workItem from="1669709576683" duration="1392000" />
+      <workItem from="1669709576683" duration="4820000" />
+      <workItem from="1669770239106" duration="8712000" />
+      <workItem from="1669898091360" duration="1976000" />
+      <workItem from="1669902484420" duration="1896000" />
+      <workItem from="1669985506303" duration="2436000" />
+      <workItem from="1670375095665" duration="1076000" />
     </task>
     <task id="LOCAL-00038" summary="scope">
       <created>1655968588574</created>
