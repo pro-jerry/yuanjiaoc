@@ -15,6 +15,6 @@ public class App01 {
         Boy boy = context.getBean("boy", Boy.class);
         Girl girl = (Girl) context.getBean("girl");
         boy.buy();
-        girl.buy();
+//        girl.buy();
     }
 }
