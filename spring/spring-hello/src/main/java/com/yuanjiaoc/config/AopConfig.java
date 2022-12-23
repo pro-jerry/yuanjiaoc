@@ -1,6 +1,5 @@
 package com.yuanjiaoc.config;
 
-import com.yuanjiaoc.aop.MathHandler;
 import com.yuanjiaoc.aspect.LogAspect;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -17,13 +16,8 @@ import org.springframework.context.annotation.EnableAspectJAutoProxy;
 @EnableAspectJAutoProxy
 public class AopConfig {
 
-  @Bean
-  public MathHandler mathHandler() {
-    return new MathHandler();
-  }
-
-  @Bean
-  public LogAspect logAspect() {
-    return new LogAspect();
-  }
+    @Bean
+    public LogAspect logAspect() {
+        return new LogAspect();
+    }
 }
