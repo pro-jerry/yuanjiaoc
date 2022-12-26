@@ -4,6 +4,7 @@ import java.lang.reflect.Method;
 import org.junit.Test;
 import org.springframework.cglib.proxy.Callback;
 import org.springframework.cglib.proxy.CallbackFilter;
+import org.springframework.cglib.proxy.CallbackHelper;
 import org.springframework.cglib.proxy.Enhancer;
 import org.springframework.cglib.proxy.FixedValue;
 import org.springframework.cglib.proxy.MethodInterceptor;
@@ -159,6 +160,56 @@ public class CglibTest {
         System.out.println("---------------");
         System.out.println(proxy.get2());
 
+    }
+
+    @Test
+    public void test5() {
+        Enhancer enhancer = new Enhancer();
+        //创建2个Callback
+        Callback costTimeCallback = (MethodInterceptor) (Object o, Method method, Object[] objects,
+                MethodProxy methodProxy) -> {
+            long starTime = System.nanoTime();
+            Object result = methodProxy.invokeSuper(o, objects);
+            long endTime = System.nanoTime();
+            System.out.println(method + "，耗时(纳秒):" + (endTime - starTime));
+            return result;
+        };
+        //下面这个用来拦截所有get开头的方法，返回固定值的
+        Callback fixdValueCallback = (FixedValue) () -> "路人甲Java";
+        CallbackHelper callbackHelper = new CallbackHelper(Service4.class, null) {
+            @Override
+            protected Object getCallback(Method method) {
+                return method.getName().startsWith("insert") ? costTimeCallback : fixdValueCallback;
+            }
+        };
+        enhancer.setSuperclass(Service4.class);
+        //调用enhancer的setCallbacks传递Callback数组
+        enhancer.setCallbacks(callbackHelper.getCallbacks());
+        /**
+         * 设置CallbackFilter,用来判断某个方法具体走哪个Callback
+         */
+        enhancer.setCallbackFilter(callbackHelper);
+        Service4 proxy = (Service4) enhancer.create();
+        System.out.println("---------------");
+        proxy.insert1();
+        System.out.println("---------------");
+        proxy.insert2();
+        System.out.println("---------------");
+        System.out.println(proxy.get1());
+        System.out.println("---------------");
+        System.out.println(proxy.get2());
+
+    }
+
+    @Test
+    public void test7() {
+        //创建Service1代理
+        Service1 service1 = CostTimeProxy.createProxy(new Service1());
+        service1.m1();
+
+        //创建Service3代理
+        Service3 service3 = CostTimeProxy.createProxy(new Service3());
+        System.out.println(service3.m1());
     }
 
 }
