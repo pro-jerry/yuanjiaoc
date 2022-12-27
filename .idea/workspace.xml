@@ -4,30 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b787db2-72c4-48b1-92ff-3a56d734a981" name="Changes" comment="annotation">
-      <change afterPath="$PROJECT_DIR$/java8/src/main/java/com/yuanjiaoc/reflect/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java8/src/main/java/com/yuanjiaoc/reflect/InvocationHandlerDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java8/src/main/java/com/yuanjiaoc/reflect/MyInvokationHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java8/src/main/java/com/yuanjiaoc/reflect/ProxyFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java8/src/main/java/com/yuanjiaoc/reflect/RealSubject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java8/src/main/java/com/yuanjiaoc/reflect/Subject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java8/src/main/java/com/yuanjiaoc/reflect/Task.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java8/src/main/java/com/yuanjiaoc/reflect/TaskImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java8/src/main/java/com/yuanjiaoc/reflect/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring-in-deep/source-code-read/src/main/java/com/yuanjiaoc/aop/example01/App01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring-in-deep/source-code-read/src/main/java/com/yuanjiaoc/aop/example01/AppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring-in-deep/source-code-read/src/main/java/com/yuanjiaoc/aop/example01/Boy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring-in-deep/source-code-read/src/main/java/com/yuanjiaoc/aop/example01/Girl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring-in-deep/source-code-read/src/main/java/com/yuanjiaoc/aop/example01/IBuy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring-in-deep/source-code-read/src/main/java/com/yuanjiaoc/sourcecoderead/dymanicproxy/staticproxy/HttpApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring-in-deep/source-code-read/src/main/java/com/yuanjiaoc/sourcecoderead/dymanicproxy/staticproxy/Proxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring-in-deep/source-code-read/src/main/java/com/yuanjiaoc/sourcecoderead/dymanicproxy/staticproxy/RealModule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring-in-deep/source-code-read/src/main/java/com/yuanjiaoc/sourcecoderead/factorybean/FactoryBeanAppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring-in-deep/source-code-read/src/main/java/com/yuanjiaoc/sourcecoderead/factorybean/FactoryBeanJavaConfigTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring-in-deep/source-code-read/src/main/java/com/yuanjiaoc/sourcecoderead/factorybean/Tool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring-in-deep/source-code-read/src/main/java/com/yuanjiaoc/sourcecoderead/factorybean/ToolFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java8/src/main/java/com/yuanjiaoc/reflect/Apple.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java8/src/main/java/com/yuanjiaoc/reflect/TestReflect.java" beforeDir="false" />
+    <list default="true" id="3b787db2-72c4-48b1-92ff-3a56d734a981" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/spring/spring-hello/src/main/java/com/yuanjiaoc/aop/springaop/demo01/AopTest8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring-hello/src/main/java/com/yuanjiaoc/aop/springaop/demo01/MainConfig1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring-hello/src/main/java/com/yuanjiaoc/aop/springaop/demo01/MainConfig2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring-hello/src/main/java/com/yuanjiaoc/aop/springaop/demo01/MainConfig3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring-hello/src/main/java/com/yuanjiaoc/aop/springaop/demo01/Service1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/spring-hello/src/main/java/com/yuanjiaoc/aop/springaop/demo01/AopTest7.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/spring-hello/src/main/java/com/yuanjiaoc/aop/springaop/demo01/AopTest7.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +47,9 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="ba10a090-b356-4095-8a14-88f05164e629" />
+  </component>
   <component name="GradleLocalSettings">
     <option name="projectSyncType">
       <map>
@@ -72,6 +58,7 @@
     </option>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.2.8.RELEASE/spring-aop-5.2.8.RELEASE-sources.jar!/org/springframework/aop/aspectj/MethodInvocationProceedingJoinPoint.java" root0="SKIP_INSPECTION" />
     <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.8.RELEASE/spring-beans-5.2.8.RELEASE-sources.jar!/org/springframework/beans/factory/xml/NamespaceHandler.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="jar://$PROJECT_DIR$/../../java/jdk8/src.zip!/java/util/LinkedList.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.8.RELEASE/spring-beans-5.2.8.RELEASE-sources.jar!/org/springframework/beans/factory/xml/BeanDefinitionParserDelegate.java" root0="FORCE_HIGHLIGHTING" />
@@ -80,7 +67,9 @@
     <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.2.8.RELEASE/spring-context-5.2.8.RELEASE-sources.jar!/org/springframework/context/support/ClassPathXmlApplicationContext.java" root0="SKIP_INSPECTION" />
     <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.2.8.RELEASE/spring-context-5.2.8.RELEASE-sources.jar!/org/springframework/context/support/AbstractXmlApplicationContext.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.8.RELEASE/spring-beans-5.2.8.RELEASE-sources.jar!/org/springframework/beans/factory/xml/XmlBeanDefinitionReader.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar://$PROJECT_DIR$/../../java/jdk8/src.zip!/java/lang/reflect/Proxy.java" root0="SKIP_INSPECTION" />
     <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.8.RELEASE/spring-beans-5.2.8.RELEASE-sources.jar!/org/springframework/beans/factory/xml/NamespaceHandlerSupport.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar://$PROJECT_DIR$/../../java/jdk8/src.zip!/java/lang/reflect/InvocationHandler.java" root0="SKIP_INSPECTION" />
     <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.2.8.RELEASE/spring-context-5.2.8.RELEASE-sources.jar!/org/springframework/context/support/GenericApplicationContext.java" root0="SKIP_INSPECTION" />
     <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.2.8.RELEASE/spring-context-5.2.8.RELEASE-sources.jar!/org/springframework/context/annotation/ConfigurationClassPostProcessor.java" root0="SKIP_INSPECTION" />
     <setting file="jar://$PROJECT_DIR$/../../java/jdk8/src.zip!/java/lang/annotation/ElementType.java" root0="SKIP_INSPECTION" />
@@ -97,12 +86,14 @@
     <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.8.RELEASE/spring-beans-5.2.8.RELEASE-sources.jar!/org/springframework/beans/factory/annotation/AutowiredAnnotationBeanPostProcessor.java" root0="SKIP_INSPECTION" />
     <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.8.RELEASE/spring-beans-5.2.8.RELEASE-sources.jar!/org/springframework/beans/BeanUtils.java" root0="SKIP_INSPECTION" />
     <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.8.RELEASE/spring-beans-5.2.8.RELEASE-sources.jar!/org/springframework/beans/factory/support/InstantiationStrategy.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/org/aspectj/aspectjweaver/1.9.5/aspectjweaver-1.9.5.jar!/org/aspectj/lang/ProceedingJoinPoint.class" root0="SKIP_INSPECTION" />
     <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.2.8.RELEASE/spring-context-5.2.8.RELEASE-sources.jar!/org/springframework/context/support/AbstractRefreshableConfigApplicationContext.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.8.RELEASE/spring-beans-5.2.8.RELEASE-sources.jar!/org/springframework/beans/factory/support/PropertiesBeanDefinitionReader.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.8.RELEASE/spring-beans-5.2.8.RELEASE-sources.jar!/org/springframework/beans/factory/support/DefaultSingletonBeanRegistry.java" root0="SKIP_INSPECTION" />
     <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.8.RELEASE/spring-beans-5.2.8.RELEASE-sources.jar!/org/springframework/beans/factory/support/BeanDefinitionRegistry.java" root0="SKIP_INSPECTION" />
     <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.2.8.RELEASE/spring-context-5.2.8.RELEASE-sources.jar!/org/springframework/context/annotation/AnnotationConfigApplicationContext.java" root0="SKIP_INSPECTION" />
     <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.8.RELEASE/spring-beans-5.2.8.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractBeanFactory.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.2.8.RELEASE/spring-aop-5.2.8.RELEASE-sources.jar!/org/aopalliance/intercept/Joinpoint.java" root0="SKIP_INSPECTION" />
     <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.8.RELEASE/spring-beans-5.2.8.RELEASE-sources.jar!/org/springframework/beans/factory/support/BeanDefinitionRegistryPostProcessor.java" root0="SKIP_INSPECTION" />
     <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.8.RELEASE/spring-beans-5.2.8.RELEASE-sources.jar!/org/springframework/beans/factory/support/SimpleInstantiationStrategy.java" root0="SKIP_INSPECTION" />
     <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.8.RELEASE/spring-beans-5.2.8.RELEASE-sources.jar!/org/springframework/beans/factory/BeanFactoryUtils.java" root0="SKIP_INSPECTION" />
@@ -118,6 +109,7 @@
     <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.8.RELEASE/spring-beans-5.2.8.RELEASE-sources.jar!/org/springframework/beans/factory/BeanFactory.java" root0="SKIP_INSPECTION" />
     <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.2.8.RELEASE/spring-core-5.2.8.RELEASE-sources.jar!/org/springframework/util/ClassUtils.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="jar://$PROJECT_DIR$/../../java/jdk8/src.zip!/org/w3c/dom/Node.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.2.8.RELEASE/spring-aop-5.2.8.RELEASE-sources.jar!/org/springframework/aop/framework/CglibAopProxy.java" root0="SKIP_INSPECTION" />
     <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.2.8.RELEASE/spring-context-5.2.8.RELEASE-sources.jar!/org/springframework/context/annotation/Configuration.java" root0="SKIP_INSPECTION" />
     <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.2.8.RELEASE/spring-context-5.2.8.RELEASE-sources.jar!/org/springframework/stereotype/Service.java" root0="SKIP_INSPECTION" />
     <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.8.RELEASE/spring-beans-5.2.8.RELEASE-sources.jar!/org/springframework/beans/factory/config/BeanFactoryPostProcessor.java" root0="SKIP_INSPECTION" />
@@ -145,9 +137,6 @@
   <component name="MavenRunner">
     <option name="skipTests" value="true" />
   </component>
-  <component name="ProblemsViewState">
-    <option name="selectedIndex" value="1" />
-  </component>
   <component name="ProjectId" id="29PLjhP5BBqMabKWfg2w7ESCYMo" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -170,7 +159,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="$PROJECT_DIR$/shell/221124.log" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/shell/log.221124" />
+    <property name="last_opened_file_path" value="$MAVEN_REPOSITORY$/org/aspectj/aspectjweaver/1.9.6/aspectjweaver-1.9.6-sources.jar" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -179,7 +168,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="cn.yiiguxing.plugin.translate" />
     <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/shell/log.221124" />
   </component>
   <component name="ReactorSettings">
@@ -190,11 +179,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ideaProject02\yuanjiaoc\spring\spring-hello\src\main\java\com\yuanjiaoc\annotation" />
+      <recent name="D:\ideaProject02\yuanjiaoc\test\src\main\java\com\yuanjiaoc\test0" />
       <recent name="D:\ideaProject02\yuanjiaoc\test\src\main\java\com\yuanjiaoc\test" />
       <recent name="D:\ideaProject02\yuanjiaoc\spring\spring-in-deep\source-code-read\src\main\resources" />
       <recent name="D:\ideaProject02\yuanjiaoc\spring\spring-in-deep\source-code-read\src\main\java\com\yuanjiaoc\sourcecoderead" />
-      <recent name="D:\ideaProject02\yuanjiaoc\spring\spring-in-deep\i18n\src\main\resources\WEB-INF" />
-      <recent name="D:\ideaProject02\yuanjiaoc\spring\spring-in-deep\i18n\src\main\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\ideaProject02\yuanjiaoc\spring\spring-in-deep\conversion\src\main\resources\META-INF" />
@@ -217,13 +206,13 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.App01">
-    <configuration name="App01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yuanjiaoc.aop.example01.App01" />
-      <module name="source-code-read" />
+  <component name="RunManager" selected="JUnit.AopTest8.test3">
+    <configuration name="AopTest8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yuanjiaoc.aop.springaop.demo01.AopTest8" />
+      <module name="spring-hello" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yuanjiaoc.aop.example01.*" />
+          <option name="PATTERN" value="com.yuanjiaoc.aop.springaop.demo01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -231,54 +220,66 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yuanjiaoc.reflect.Client" />
-      <module name="java8" />
+    <configuration name="AopTest7.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-hello" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yuanjiaoc.reflect.*" />
+          <option name="PATTERN" value="com.yuanjiaoc.aop.springaop.demo01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.yuanjiaoc.aop.springaop.demo01" />
+      <option name="MAIN_CLASS_NAME" value="com.yuanjiaoc.aop.springaop.demo01.AopTest7" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReflectMethodConstructorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yuanjiaoc.reflect.ReflectMethodConstructorDemo" />
-      <module name="java8" />
+    <configuration name="AopTest8.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-hello" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yuanjiaoc.reflect.*" />
+          <option name="PATTERN" value="com.yuanjiaoc.aop.springaop.demo01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.yuanjiaoc.aop.springaop.demo01" />
+      <option name="MAIN_CLASS_NAME" value="com.yuanjiaoc.aop.springaop.demo01.AopTest8" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReflectMethodDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yuanjiaoc.reflect.ReflectMethodDemo" />
-      <module name="java8" />
+    <configuration name="AopTest8.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-hello" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yuanjiaoc.reflect.*" />
+          <option name="PATTERN" value="com.yuanjiaoc.aop.springaop.demo01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.yuanjiaoc.aop.springaop.demo01" />
+      <option name="MAIN_CLASS_NAME" value="com.yuanjiaoc.aop.springaop.demo01.AopTest8" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yuanjiaoc.reflect.Test" />
-      <module name="java8" />
+    <configuration name="AopTest8.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-hello" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yuanjiaoc.reflect.*" />
+          <option name="PATTERN" value="com.yuanjiaoc.aop.springaop.demo01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.yuanjiaoc.aop.springaop.demo01" />
+      <option name="MAIN_CLASS_NAME" value="com.yuanjiaoc.aop.springaop.demo01.AopTest8" />
+      <option name="METHOD_NAME" value="test3" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -298,21 +299,21 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ReflectMethodDemo" />
-      <item itemvalue="Application.ReflectMethodConstructorDemo" />
-      <item itemvalue="Application.Client" />
-      <item itemvalue="Application.Test" />
       <item itemvalue="Spring Boot.SpringBootHelloWorld01Application" />
       <item itemvalue="Spring Boot.SpringBootHelloWorld02Application" />
-      <item itemvalue="Application.App01" />
+      <item itemvalue="JUnit.AopTest7.test1" />
+      <item itemvalue="Application.AopTest8" />
+      <item itemvalue="JUnit.AopTest8.test1" />
+      <item itemvalue="JUnit.AopTest8.test2" />
+      <item itemvalue="JUnit.AopTest8.test3" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.App01" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.Client" />
-        <item itemvalue="Application.ReflectMethodConstructorDemo" />
-        <item itemvalue="Application.ReflectMethodDemo" />
+        <item itemvalue="JUnit.AopTest8.test3" />
+        <item itemvalue="JUnit.AopTest8.test2" />
+        <item itemvalue="JUnit.AopTest8.test1" />
+        <item itemvalue="Application.AopTest8" />
+        <item itemvalue="JUnit.AopTest7.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -492,56 +493,20 @@
       <workItem from="1669898091360" duration="1976000" />
       <workItem from="1669902484420" duration="1896000" />
       <workItem from="1669985506303" duration="2436000" />
-      <workItem from="1670375095665" duration="1076000" />
-    </task>
-    <task id="LOCAL-00038" summary="scope">
-      <created>1655968588574</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1655968588574</updated>
-    </task>
-    <task id="LOCAL-00039" summary="@import">
-      <created>1655975105622</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1655975105622</updated>
-    </task>
-    <task id="LOCAL-00040" summary="selector">
-      <created>1655977681792</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1655977681792</updated>
-    </task>
-    <task id="LOCAL-00041" summary="selector">
-      <created>1655996929202</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1655996929202</updated>
-    </task>
-    <task id="LOCAL-00042" summary=" InitializingBean, DisposableBean">
-      <created>1656052579456</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1656052579456</updated>
-    </task>
-    <task id="LOCAL-00043" summary="@resource">
-      <created>1656315992616</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1656315992616</updated>
-    </task>
-    <task id="LOCAL-00044" summary="@resource">
-      <created>1656422167945</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1656422167945</updated>
+      <workItem from="1670375095665" duration="15068000" />
+      <workItem from="1670398406738" duration="5677000" />
+      <workItem from="1670404226534" duration="397000" />
+      <workItem from="1670404685687" duration="3233000" />
+      <workItem from="1670462486521" duration="8076000" />
+      <workItem from="1670597606924" duration="111000" />
+      <workItem from="1670597764141" duration="752000" />
+      <workItem from="1670598562203" duration="2461000" />
+      <workItem from="1670757690672" duration="1187000" />
+      <workItem from="1671001642854" duration="2184000" />
+      <workItem from="1671671734573" duration="11067000" />
+      <workItem from="1671759670141" duration="18201000" />
+      <workItem from="1672021614625" duration="19921000" />
+      <workItem from="1672104304619" duration="10544000" />
     </task>
     <task id="LOCAL-00045" summary="Java8Test0">
       <created>1656496451419</created>
@@ -837,7 +802,56 @@
       <option name="project" value="LOCAL" />
       <updated>1669629309843</updated>
     </task>
-    <option name="localTasksCounter" value="87" />
+    <task id="LOCAL-00087" summary="aspectJ pointcut">
+      <created>1670401077266</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1670401077266</updated>
+    </task>
+    <task id="LOCAL-00088" summary="aspectJ pointcut">
+      <created>1670598177028</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1670598177029</updated>
+    </task>
+    <task id="LOCAL-00089" summary="aspectJ pointcut">
+      <created>1671800821384</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1671800821384</updated>
+    </task>
+    <task id="LOCAL-00090" summary="proxy">
+      <created>1672043847018</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1672043847018</updated>
+    </task>
+    <task id="LOCAL-00091" summary="cglib">
+      <created>1672046252300</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1672046252300</updated>
+    </task>
+    <task id="LOCAL-00092" summary="cglib">
+      <created>1672058794848</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1672058794848</updated>
+    </task>
+    <task id="LOCAL-00093" summary="aop">
+      <created>1672107215765</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1672107215765</updated>
+    </task>
+    <option name="localTasksCounter" value="94" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -848,9 +862,6 @@
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="依赖查找" />
-    <MESSAGE value="构造器注入" />
-    <MESSAGE value="AwareInterfaceDependencyInjectionDemo" />
     <MESSAGE value="prototype" />
     <MESSAGE value="Spring Bean实例化前阶段" />
     <MESSAGE value="NacosConfig" />
@@ -861,7 +872,6 @@
     <MESSAGE value="gateway" />
     <MESSAGE value="nacos config" />
     <MESSAGE value="nacos provider consumer" />
-    <MESSAGE value="cglib" />
     <MESSAGE value="ConcurrentHashMap" />
     <MESSAGE value="DateFormatUtils" />
     <MESSAGE value="PathMatcher" />
@@ -873,7 +883,11 @@
     <MESSAGE value="event" />
     <MESSAGE value="classloader" />
     <MESSAGE value="annotation" />
-    <option name="LAST_COMMIT_MESSAGE" value="annotation" />
+    <MESSAGE value="aspectJ pointcut" />
+    <MESSAGE value="proxy" />
+    <MESSAGE value="cglib" />
+    <MESSAGE value="aop" />
+    <option name="LAST_COMMIT_MESSAGE" value="aop" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>

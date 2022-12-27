@@ -74,6 +74,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="configuration-metadata" options="" />
       <module name="gateway" options="" />
       <module name="nacos-spring-cloud-provider" options="" />
       <module name="spring5-core-principle" options="-verbose -bootclasspath $PROJECT_DIR$/../../java/jdk8/jre/lib/rt.jar" />

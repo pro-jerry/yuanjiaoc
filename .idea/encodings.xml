@@ -17,5 +17,16 @@
     <file url="file://$PROJECT_DIR$/spring-cloud/springcloud-gateway/service01/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud/springcloud-gateway/service02/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud/springcloud-gateway/service02/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring/spring-hello/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring/spring-hello/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring/spring-in-deep/bean-scope/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring/spring-in-deep/bean-scope/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring/spring-in-deep/configuration-metadata/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring/spring-in-deep/resource/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring/spring-in-deep/resource/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring/spring-in-deep/spring-bean/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring/spring-in-deep/spring-bean/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring/spring-in-deep/validation/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring/spring-in-deep/validation/src/main/resources" charset="UTF-8" />
   </component>
 </project>
