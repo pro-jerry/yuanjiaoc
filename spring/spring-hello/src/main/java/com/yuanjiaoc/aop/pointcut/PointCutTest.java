@@ -81,4 +81,52 @@ public class PointCutTest {
         S9 proxy = proxyFactory.getProxy();
         proxy.m1();
     }
+
+    @Test
+    public void test10() {
+        S10 target = new S10();
+        AspectJProxyFactory proxyFactory = new AspectJProxyFactory();
+        proxyFactory.setTarget(target);
+        proxyFactory.addAspect(AspectTest10.class);
+        S10 proxy = proxyFactory.getProxy();
+        proxy.m1();
+        proxy.m2();
+        proxy.m3();
+    }
+
+    @Test
+    public void test11() {
+        S11 target = new S11();
+        AspectJProxyFactory proxyFactory = new AspectJProxyFactory();
+        proxyFactory.setTarget(target);
+        proxyFactory.addAspect(AspectTest11.class);
+        S11 proxy = proxyFactory.getProxy();
+        proxy.m1();
+        proxy.m2();
+        proxy.m3();
+    }
+
+    @Test
+    public void test7() {
+        S7 target = new S7();
+        AspectJProxyFactory proxyFactory = new AspectJProxyFactory();
+        proxyFactory.setTarget(target);
+        proxyFactory.addAspect(AspectTest7.class);
+        S7 proxy = proxyFactory.getProxy();
+        proxy.m1();
+        System.out.println("目标类上是否有 @Ann7 注解：" + (target.getClass().getAnnotation(Ann7.class) != null));
+    }
+
+    @Test
+    public void test12() {
+        S12 target = new S12();
+        AspectJProxyFactory proxyFactory = new AspectJProxyFactory();
+        proxyFactory.setTarget(target);
+        proxyFactory.addAspect(AspectTest12.class);
+        S12 proxy = proxyFactory.getProxy();
+        proxy.m1();
+        proxy.m2();
+        proxy.m3();
+        proxy.m4();
+    }
 }
