@@ -27,7 +27,9 @@ public class AopTest7 {
                 Object result = invocation.proceed();
                 long endTime = System.nanoTime();
                 System.out.println(
-                        String.format("%s方法耗时(纳秒):%s", invocation.getMethod().getName(), endTime - startTime));
+                        String.format("%s方法耗时(纳秒):%s",
+                                invocation.getMethod().getName(),
+                                endTime - startTime));
                 return result;
             }
         });
