@@ -48,4 +48,13 @@ public class AspectTest11 {
         Service4 service4 = context.getBean(Service4.class);
         System.out.println(service4.say("路人"));
     }
+
+    @Test
+    public void test2() {
+        AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext();
+        context.register(MainConfig2.class);
+        context.refresh();
+        Service2 service2 = context.getBean(Service2.class);
+        System.out.println(service2.say("路人"));
+    }
 }
