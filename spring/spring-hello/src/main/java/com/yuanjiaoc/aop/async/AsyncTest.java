@@ -66,4 +66,39 @@ public class AsyncTest {
         //休眠一下，防止@Test退出
         TimeUnit.SECONDS.sleep(3);
     }
+
+    @Test
+    public void test5() throws InterruptedException {
+        AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext();
+        context.register(MainConfig1.class);
+        context.refresh();
+        LogService logService = context.getBean(LogService.class);
+        try {
+            Future<String> future = logService.mockException();
+            System.out.println(future.get());
+        } catch (ExecutionException e) {
+            System.out.println("捕获 ExecutionException 异常");
+            //通过e.getCause获取实际的异常信息
+            e.getCause().printStackTrace();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        //休眠一下，防止@Test退出
+        TimeUnit.SECONDS.sleep(3);
+    }
+
+    @Test
+    public void test7() throws InterruptedException {
+        AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext();
+        context.register(MainConfig5.class);
+        context.refresh();
+
+        RechargeService rechargeService = context.getBean(RechargeService.class);
+        rechargeService.recharge();
+        CashOutService cashOutService = context.getBean(CashOutService.class);
+        cashOutService.cashOut();
+
+        //休眠一下，防止@Test退出
+        TimeUnit.SECONDS.sleep(3);
+    }
 }

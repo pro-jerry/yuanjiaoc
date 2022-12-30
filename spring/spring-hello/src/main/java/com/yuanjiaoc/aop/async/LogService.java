@@ -1,5 +1,6 @@
 package com.yuanjiaoc.aop.async;
 
+import java.util.concurrent.Future;
 import java.util.concurrent.TimeUnit;
 import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Component;
@@ -19,5 +20,11 @@ public class LogService {
         TimeUnit.SECONDS.sleep(2);
         System.out.println("------------>>:" + msg);
         System.out.println(Thread.currentThread() + "日志记录完毕," + System.currentTimeMillis());
+    }
+
+    @Async
+    public Future<String> mockException() {
+        //模拟抛出一个异常
+        throw new IllegalArgumentException("参数有误!");
     }
 }
