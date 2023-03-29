@@ -11,7 +11,7 @@ spring:
         - id: url-proxy-1
           uri: https://blog.csdn.net
           predicates:
-            - Path = /csdn
+            - Path=/csdn
   codec:
     max-in-memory-size: 5MB  # 修复拦截POST请求后内存超出缓冲区
 
