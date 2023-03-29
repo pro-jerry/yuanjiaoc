@@ -4,6 +4,7 @@ import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
+import org.junit.Test;
 
 /**
  * @author 何二白
@@ -11,6 +12,14 @@ import java.util.concurrent.TimeUnit;
  * @since 2022年11月02日
  */
 public class Test40 {
+
+    @Test
+    public void test01() {
+        String s = "updateTime";
+        String ups;
+        ups = s.toUpperCase();
+        System.out.println(ups);
+    }
 
     public static void main(String[] args) throws InterruptedException {
         for (int i = 0; i < 10; i++) {
@@ -33,5 +42,6 @@ public class Test40 {
 
         return map.get(MyTask.KEY);
     }
+
 
 }

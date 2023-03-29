@@ -1,42 +1,21 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /
+spring:
+  application:
+    name: gateway
+  cloud:
+    gateway:
+      routes:
+        - id: url-proxy-1
+          uri: https://blog.csdn.net
+          predicates:
+            - Path = /csdn
+  codec:
+    max-in-memory-size: 5MB  # 修复拦截POST请求后内存超出缓冲区
+
 logging:
   level:
     org.springframework.cloud.gateway: DEBUG
     reactor.netty.http.client: DEBUG
-spring:
-  cloud:
-    gateway:
-      #      default-filters:
-      #        - AddRequestHeader=gateway-env, springcloud-gateway
-      routes:
-        - id: "service02"
-          uri: "http://127.0.0.1:8082"
-          predicates:
-            - Path=/service02/**
-        - id: "service01"
-          uri: "http://127.0.0.1:8081"
-          predicates:
-            - Path=/service01/**
-        - id: "csdn"
-          uri: "https://www.csdn.net/"
-          predicates: #curl -X GET 172.22.64.1:8080?keep=pub -H "X-Request-Id:88" -H "Host: www.baidu.com" --cookie "sessionId=test"
-            #            - Query=keep,pu.
-            #            - Header=X-Request-Id, \d+
-            #            - Cookie=sessionId, test
-            #            - Host=**.baidu.com
-            #            - Method=GET
-            - Path=/foo/{segment}
-            #            - RemoteAddr=172.22.64.1
-        - id: "prefixPath"
-          uri: "http://127.0.0.1:8081"
-          predicates:
-            - Path=/{segment}
-          filters:
-            - SetPath=/service01/mypath/{segment}
-  codec:
-    max-in-memory-size: 5MB  # 修复拦截POST请求后内存超出缓冲区
-  application:
-    name: gateway
-server:
-  servlet:
-    context-path: /
-  port: 8080
