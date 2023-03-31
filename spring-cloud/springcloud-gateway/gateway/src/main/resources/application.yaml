@@ -9,9 +9,21 @@ spring:
     gateway:
       routes:
         - id: url-proxy-1
-          uri: https://blog.csdn.net
+          uri: https://www.baidu.com
           predicates:
-            - Path=/csdn
+            - Path=/baidu
+        - id: service01
+          uri: http://localhost:8081
+          predicates:
+            - Path=/service01/**
+            - Method=GET,POST
+          filters:
+          # - PrefixPath=/app
+          # - RedirectTo=302, https://github.com/
+          # - RemoveRequestHeader=name
+          # - RemoveResponseHeader=Date
+          # - RewritePath=/where(?<segment>/?.*), /service01(?<segment>/?.*)
+
   codec:
     max-in-memory-size: 5MB  # 修复拦截POST请求后内存超出缓冲区
 

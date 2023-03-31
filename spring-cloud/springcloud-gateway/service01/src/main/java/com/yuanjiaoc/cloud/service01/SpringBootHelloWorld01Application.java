@@ -1,10 +1,12 @@
 package com.yuanjiaoc.cloud.service01;
 
+import javax.servlet.http.HttpServletRequest;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestHeader;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
@@ -20,14 +22,16 @@ public class SpringBootHelloWorld01Application {
         SpringApplication.run(SpringBootHelloWorld01Application.class, args);
     }
 
-    @GetMapping("/hello")
-    public ResponseEntity<String> hello() {
-        return new ResponseEntity<>("hello world 01", HttpStatus.OK);
+    @GetMapping("/gate/hello")
+    public ResponseEntity<String> hello(HttpServletRequest request,
+            @RequestHeader("Content-Length") String contentLength) {
+        String date = request.getHeader("name");
+        return new ResponseEntity<>("gate hello world", HttpStatus.OK);
     }
 
-    @GetMapping("/mypath/hello")
+    @GetMapping("/rule/hello")
     public ResponseEntity<String> mypathHello() {
-        return new ResponseEntity<>("mypath hello world 01", HttpStatus.OK);
+        return new ResponseEntity<>("rule hello world", HttpStatus.OK);
     }
 
 }

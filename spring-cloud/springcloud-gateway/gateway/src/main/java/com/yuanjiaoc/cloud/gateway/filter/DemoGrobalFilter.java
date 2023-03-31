@@ -16,8 +16,6 @@ public class DemoGrobalFilter implements GlobalFilter {
 
     @Override
     public Mono<Void> filter(ServerWebExchange exchange, GatewayFilterChain chain) {
-        System.out.println("--------------");
-        System.out.println(exchange.toString());
         return chain.filter(exchange);
     }
 }
