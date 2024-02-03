@@ -11,6 +11,7 @@
   <modules>
     <module>nacos</module>
     <module>springcloud-gateway</module>
+      <module>propagation</module>
   </modules>
 
   <properties>
