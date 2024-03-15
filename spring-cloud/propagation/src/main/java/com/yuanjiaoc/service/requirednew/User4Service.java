@@ -24,4 +24,9 @@ public class User4Service {
         userMapper.insertUser(user);
         throw new RuntimeException();
     }
+
+    @Transactional(propagation = Propagation.REQUIRED)
+    public void addRequired(User user){
+        userMapper.insertUser(user);
+    }
 }

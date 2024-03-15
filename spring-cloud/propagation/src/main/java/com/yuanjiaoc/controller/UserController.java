@@ -17,8 +17,8 @@ public class UserController {
 
     @PostMapping("user/insert")
     public Response insertUser(@RequestBody User user) {
-        int result = userService.insertUser(user);
-        return Response.success(result);
+        userService.insertUser(user);
+        return Response.success(0);
     }
 
     @PostMapping("user/getByUserNameAndPassword")
